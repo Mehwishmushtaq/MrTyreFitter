@@ -34,11 +34,11 @@ const Footer = () => {
                <div className="col-md-3 my-2">
                 <h4>Useful links</h4>
                 <ul className='d-flex flex-column'>
-                    <Link to="/" className='footer-link'>Link</Link>
-                    <Link to="/" className='footer-link'>Link</Link>
-                    <Link to="/" className='footer-link'>Link</Link>
-                    <Link to="/" className='footer-link'>Link</Link>
-                    <Link to="/" className='footer-link'>Link</Link>
+                    <Link to="/" className='footer-link'>Home</Link>
+                    <Link to="/about" className='footer-link'>About</Link>
+                    <Link to="/blogs" className='footer-link'>Blog</Link>
+                    <Link to="/services/mobile-tyre-fitting" className='footer-link'>Services</Link>
+                    <Link to="/contact" className='footer-link'>Contact</Link>
                 </ul>
                </div>
                {/* 3 */}
