@@ -1,22 +1,53 @@
-import React from 'react'
-import { NavLink, Link } from 'react-router-dom';
+import React from 'react';
+import Carousel from 'react-bootstrap/Carousel';
+import img1 from '../assets/images/img1.jpg';
+import img2 from '../assets/images/img2.jpg';
+import img3 from '../assets/images/img3.jpg';
 
-const Carousel = () => {
+function CarouselPage() {
   return (
     <>
-    <section className='ts-heading hero__section'>
-      <div className="d-sm-flex align-items-center justify-content-between w-100" style={{ height: '82vh' }}>
-        <div className="col-md-4 mx-auto mb-4 mb-sm-0 headline container">
-          <span className="text-secondary text-uppercase" data-aos="flip-up">Subheadline</span>
-          <h1 className="display-4 my-4 font-weight-bold" data-aos="zoom-out-up">Enter Your <span className='text-success'>Headline Here</span></h1>
-          <Link to="/contact" className="btn btn-success px-5 py-3 text-white mt-3 mt-sm-0" data-aos="fade-right">Contact Us</Link>
-        </div>
-        {/* in mobile remove the clippath */}
-        <div className="col-md-8 h-100 clipped" data-aos="fade-left" style={{ minHeight: '350px', backgroundImage: 'url(images/hero.jpg)', backgroundPosition: 'center', backgroundSize: 'cover' }}></div>
-      </div>
-    </section>
-    </>
+    <Carousel>
+    <Carousel.Item>
+      <img style={{height:'90vh'}}
+        className="d-block w-100"
+        src={img1}
+        alt="First slide"
+      />
+      <Carousel.Caption>
+        <h3>First slide label</h3>
+        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+      </Carousel.Caption>
+    </Carousel.Item>
+    <Carousel.Item>
+      <img style={{height:'90vh'}}
+        className="d-block w-100"
+        src={img2}
+        alt="Second slide"
+      />
+
+      <Carousel.Caption>
+        <h3>Second slide label</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </Carousel.Caption>
+    </Carousel.Item>
+    <Carousel.Item>
+      <img style={{height:'90vh'}}
+        className="d-block w-100"
+        src={img3}
+        alt="Third slide"
+      />
+
+      <Carousel.Caption>
+        <h3>Third slide label</h3>
+        <p>
+          Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+        </p>
+      </Carousel.Caption>
+    </Carousel.Item>
+  </Carousel>
+  </>
   )
 }
 
-export default Carousel
+export default CarouselPage
