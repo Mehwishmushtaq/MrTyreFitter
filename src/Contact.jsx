@@ -7,19 +7,19 @@ function ContactPage() {
         <div>
             {/* Banner Section */}
             <header className='headerStyle'>
-                <h1 data-aos='fade-right'>Contact Us</h1>
-                <h5 data-aos='fade-left'><Link to="/" className="linkStyle"><i class="fa-solid fa-house"></i> Home </Link> | Contact</h5>
+                <h1>Contact Us</h1>
+                <h5><Link to="/" className="linkStyle"><i class="fa-solid fa-house"></i> Home </Link> | Contact</h5>
             </header>
             
             <div className='mt-4'>
-            <Row className="text-center justify-content-center" data-aos='fade-right'>
+            <Row className="text-center justify-content-center">
                 <div className="col-md-11 col-lg-9 col-xl-7 mb-2">
                     <div className="section-title">
                         <h2 className="sec-title">The Heading Goes Here</h2>
                     </div>
                 </div>
             </Row>
-            <div className='w-75 mx-auto' data-aos='fade-left'><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit fermentum justo. Vestibulum feugiat vehicula elit, at congue orci venenatis nec. Morbi hendrerit mauris vel arcu hendrerit, nec tristique purus auctor. Nullam euismod nunc nec dictum tempus. Integer malesuada felis vel justo aliquet, a tincidunt arcu vulputate. Quisque suscipit, ligula eu pharetra scelerisque, tortor ligula aliquam felis, sit amet fringilla odio lectus nec nunc. Ut auctor velit sit amet tortor efficitur, vel tincidunt purus pellentesque. Nunc quis odio sit amet velit ullamcorper rhoncus. Vivamus nec purus in elit hendrerit tincidunt. Proin a urna vel sapien vestibulum feugiat. Curabitur nec justo et justo tincidunt tincidunt. Integer in ultricies erat. Vestibulum ac eros eu turpis convallis bibendum ut non quam.</p></div>
+            <div className='w-75 mx-auto'><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit fermentum justo. Vestibulum feugiat vehicula elit, at congue orci venenatis nec. Morbi hendrerit mauris vel arcu hendrerit, nec tristique purus auctor. Nullam euismod nunc nec dictum tempus. Integer malesuada felis vel justo aliquet, a tincidunt arcu vulputate. Quisque suscipit, ligula eu pharetra scelerisque, tortor ligula aliquam felis, sit amet fringilla odio lectus nec nunc. Ut auctor velit sit amet tortor efficitur, vel tincidunt purus pellentesque. Nunc quis odio sit amet velit ullamcorper rhoncus. Vivamus nec purus in elit hendrerit tincidunt. Proin a urna vel sapien vestibulum feugiat. Curabitur nec justo et justo tincidunt tincidunt. Integer in ultricies erat. Vestibulum ac eros eu turpis convallis bibendum ut non quam.</p></div>
             </div>
             
             <Container>
@@ -53,9 +53,9 @@ function ContactPage() {
             <Container className="py-5">
                 <Row>
                     <Col lg={6}>
-                        <h1 data-aos='fade-right'>Contact Us</h1>
-                        <p data-aos='fade-right'>Have a question or want to get in touch? Fill out the form below:</p>
-                        <Form data-aos='fade-right'>
+                        <h1>Contact Us</h1>
+                        <p>Have a question or want to get in touch? Fill out the form below:</p>
+                        <Form>
                             <Form.Group controlId="formName">
                                 <Form.Label>Name</Form.Label>
                                 <Form.Control type="text" placeholder="Enter your name" />
@@ -73,13 +73,13 @@ function ContactPage() {
                             </Button>
                         </Form>
                     </Col>
-                    <Col lg={6} data-aos='fade-left' className="d-flex align-items-center justify-content-center mt-2">
+                    <Col lg={6} className="d-flex align-items-center justify-content-center mt-2">
                         <img src={"images/img-12.jpg"} alt="Contact" className='rounded' style={{ maxWidth: '100%', maxHeight: '100%' }} />
                     </Col>
                 </Row>
                 <Row>
                     <Col md={12} className='mt-5'>
-                    <div className='row text-center justify-content-center' data-aos='fade-right'>
+                    <div className='row text-center justify-content-center'>
                         <div className="col-md-11 col-lg-9 col-xl-7 mb-2">
                             <div className="section-title">
                                 <h2 className="sec-title">Our Location</h2>
@@ -89,7 +89,6 @@ function ContactPage() {
                         <div style={{ width: '100%', height: '300px', border: '1px solid #ddd' }}>
                             <iframe
                                 title="Google Map"
-                                data-aos="flip-up"
                                 width="100%"
                                 height="100%"
                                 frameBorder="0"

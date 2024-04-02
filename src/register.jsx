@@ -11,8 +11,8 @@ const RegisterPage = () => {
 
   return (
     <div className="container" style={{marginTop:'10em', marginBottom:'10em'}}>
-      <h2 className="mb-4" data-aos="fade-up">Register</h2>
-      <Form data-aos="fade-up">
+      <h2 className="mb-4">Register</h2>
+      <Form>
         <Form.Group controlId="formBasicName">
           <Form.Label>Name</Form.Label>
           <Form.Control type="text" placeholder="Enter your name" />
