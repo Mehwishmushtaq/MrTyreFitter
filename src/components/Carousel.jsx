@@ -1,53 +1,64 @@
-import React from 'react';
-import Carousel from 'react-bootstrap/Carousel';
+import React, { useState } from 'react';
 import img1 from '../assets/images/img1.jpg';
-import img2 from '../assets/images/img2.jpg';
-import img3 from '../assets/images/img3.jpg';
 
-function CarouselPage() {
+function HeroSection() {
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    message: '',
+  });
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData((prevData) => ({
+      ...prevData,
+      [name]: value,
+    }));
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    // Add your form submission logic here
+    console.log(formData);
+    setFormData({ name: '', email: '', message: '' });
+  };
+
   return (
-    <>
-    <Carousel>
-    <Carousel.Item>
-      <img style={{height:'90vh'}}
-        className="d-block w-100"
+    <div className="hero-section" style={{ position: 'relative' }}>
+      <img
+        style={{ height: '100vh', width: '100%', objectFit: 'cover' }}
         src={img1}
-        alt="First slide"
+        alt="Hero Image"
       />
-      <Carousel.Caption>
-        <h3>First slide label</h3>
-        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-      </Carousel.Caption>
-    </Carousel.Item>
-    <Carousel.Item>
-      <img style={{height:'90vh'}}
-        className="d-block w-100"
-        src={img2}
-        alt="Second slide"
-      />
-
-      <Carousel.Caption>
-        <h3>Second slide label</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      </Carousel.Caption>
-    </Carousel.Item>
-    <Carousel.Item>
-      <img style={{height:'90vh'}}
-        className="d-block w-100"
-        src={img3}
-        alt="Third slide"
-      />
-
-      <Carousel.Caption>
-        <h3>Third slide label</h3>
-        <p>
-          Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-        </p>
-      </Carousel.Caption>
-    </Carousel.Item>
-  </Carousel>
-  </>
-  )
+      <div className="form-overlay" style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', background: 'rgba(255, 255, 255, 0.8)', padding: '20px', borderRadius: '8px' }}>
+        <h1>Welcome to Your Website</h1>
+        <p>This is the hero section of your website.</p>
+        <form onSubmit={handleSubmit}>
+          <input
+            type="text"
+            name="name"
+            placeholder="Your Name"
+            value={formData.name}
+            onChange={handleChange}
+          />
+          <input
+            type="email"
+            name="email"
+            placeholder="Your Email"
+            value={formData.email}
+            onChange={handleChange}
+          />
+          <textarea
+            name="message"
+            placeholder="Your Message"
+            value={formData.message}
+            onChange={handleChange}
+          ></textarea>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+  );
 }
 
-export default CarouselPage
+export default HeroSection;
