@@ -47,19 +47,19 @@ function BlogPage() {
     <div>
       {/* Banner Section */}
       <header className='headerStyle'>
-        <h1 data-aos="fade-right">Blogs</h1>
-        <h5 data-aos="fade-left"><Link to="/" className="linkStyle"><i class="fa-solid fa-house"></i> Home </Link> | Blogs</h5>
+        <h1>Blogs</h1>
+        <h5><Link to="/" className="linkStyle"><i class="fa-solid fa-house"></i> Home </Link> | Blogs</h5>
       </header>
 
       <div className='mt-4'>
-        <Row className="text-center justify-content-center" data-aos="fade-right">
+        <Row className="text-center justify-content-center">
             <div className="col-md-11 col-lg-9 col-xl-7 mb-2">
                 <div className="section-title">
                     <h2 className="sec-title">The Heading Goes Here</h2>
                 </div>
             </div>
         </Row>
-        <div className='w-75 mx-auto' data-aos="fade-left"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit fermentum justo. Vestibulum feugiat vehicula elit, at congue orci venenatis nec. Morbi hendrerit mauris vel arcu hendrerit, nec tristique purus auctor. Nullam euismod nunc nec dictum tempus. Integer malesuada felis vel justo aliquet, a tincidunt arcu vulputate. Quisque suscipit, ligula eu pharetra scelerisque, tortor ligula aliquam felis.</p></div>
+        <div className='w-75 mx-auto'><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit fermentum justo. Vestibulum feugiat vehicula elit, at congue orci venenatis nec. Morbi hendrerit mauris vel arcu hendrerit, nec tristique purus auctor. Nullam euismod nunc nec dictum tempus. Integer malesuada felis vel justo aliquet, a tincidunt arcu vulputate. Quisque suscipit, ligula eu pharetra scelerisque, tortor ligula aliquam felis.</p></div>
      </div>
      
      <Container>
@@ -89,10 +89,10 @@ function BlogPage() {
       <Container className="py-5">
         {posts.map(post => (
           <Row key={post.id} className="mt-5">
-            <Col lg={6} data-aos="fade-right" className='d-flex justify-content-center'>
+            <Col lg={6} className='d-flex justify-content-center'>
               <img src={post.imageUrl} alt={post.title} className="img-fluid mb-3 rounded" />
             </Col>
-            <Col lg={6} data-aos="fade-left">
+            <Col lg={6}>
               <div className='mt-5'>
                 <h2 className='text-center'>{post.title}</h2>
                 <p className='text-center'>{post.content.slice(0, 150)}...</p>
