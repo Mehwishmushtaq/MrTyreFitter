@@ -1,15 +1,13 @@
 import React from 'react';
-import Hero from './components/Carousel';
+import Hero from './components/HeroSection';
 import { Container, Row, Col } from 'react-bootstrap';
 import Cards from './components/Cards';
+import FastDelivery from './components/FastDelivery';
 import Testimonial from './components/Testimonial';
 import Banner from './components/Banner';
 import HowSection from './components/HowSection';
 import { Link } from 'react-router-dom';
 import Newsletter from './components/Newsletter';
-import aos from 'aos';
-import 'aos/dist/aos.css'; 
-
 
 const Home = () => {
     
@@ -105,6 +103,7 @@ const Home = () => {
           </Col>
         </Row>
       </section>
+      <FastDelivery/>
 
      <Testimonial/>
      
