@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from './components/Navbar';
 import Home from './Home';
 import About from './About';
+import GuaranteeSection from './components/Guarantee'
 import BlogPage from './blogs';
 import ContactPage from './Contact';
 import Footer from './components/Footer';
@@ -39,6 +40,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home/>} />
         <Route path="/about" element={<About/>} />
+        <Route path="/guarantee" element={<GuaranteeSection/>} />
         <Route path="/blogs" element={<BlogPage/>} />
         <Route path="/contact" element={<ContactPage/>} />
         <Route path="/services/mobile-tyre-fitting" element={<MobileTyreFitting/>} />
