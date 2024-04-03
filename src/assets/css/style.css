@@ -789,3 +789,10 @@ body{
         justify-content: center;
         align-items: center;
     }
+
+    @media (max-width:767px){
+        .small-screen-form{
+            display: flex;
+            gap: 2px;
+        }
+    }

@@ -36,26 +36,34 @@ function HeroSection() {
         <h2>Welcome to Our Website</h2>
         <p>This is the hero section of your website.</p>
         {/* Form */}
-        <div className="hero-form">
-        <Form onSubmit={handleSubmit}>
-          <Form.Group className="mb-3" controlId="formBasicEmail">
-            <Form.Label>Your Name</Form.Label>
-            <Form.Control type="text" placeholder="Enter Your Name" value={formData.name} onChange={handleChange}/>
-          </Form.Group>
+        <div className="hero-form row">
+          <Form onSubmit={handleSubmit}>
+            
+            <div className="small-screen-form">
+              <div className='col-6 col-md-12'>
+              <Form.Group className="mb-3" controlId="formBasicEmail">
+                <Form.Label>Your Name</Form.Label>
+                <Form.Control type="text" placeholder="Enter Your Name" value={formData.name} onChange={handleChange}/>
+              </Form.Group>
+              </div>
 
-          <Form.Group className="mb-3" controlId="formBasicPassword">
-            <Form.Label> Your Email</Form.Label>
-            <Form.Control type="email" placeholder="Enter Your Email" value={formData.email} onChange={handleChange}/>
-          </Form.Group>
-          
-          <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-            <Form.Label>Message</Form.Label>
-            <Form.Control as="textarea" rows={3} value={formData.message} onChange={handleChange} />
-          </Form.Group>
+              <div className="col-6 col-md-12">
+              <Form.Group className="mb-3" controlId="formBasicPassword">
+                <Form.Label>Your Email</Form.Label>
+                <Form.Control type="email" placeholder="Enter Your Email" value={formData.email} onChange={handleChange}/>
+              </Form.Group>
+              </div>
+            </div>
+            
+            <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+              <Form.Label>Message</Form.Label>
+              <Form.Control as="textarea" rows={3} value={formData.message} onChange={handleChange} />
+            </Form.Group>
 
-          <Button variant="success" type="submit">Send Message</Button>
-        </Form>
+            <Button variant="success" type="submit" className="d-block d-md-inline-block">Send Message</Button>
+          </Form>
         </div>
+
         {/* Form */}
       </div>
     </div>
