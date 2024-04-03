@@ -796,3 +796,10 @@ body{
             gap: 2px;
         }
     }
+
+    .background-image{
+        background-image: url('../images/mob-tyre-1.webp');
+        padding: 20px;
+        border-radius: 10px;
+    }
+    
