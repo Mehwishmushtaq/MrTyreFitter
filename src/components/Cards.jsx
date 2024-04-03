@@ -48,7 +48,7 @@ const Cards = () => {
         <div className="carousel-inner">
           {cardData.map((card, index) => (
             <div key={index} className={`carousel-item ${index === 0 ? 'active' : ''}`}>
-              <div className="card" data-aos="zoom-in">
+              <div className="card">
                 <div className="img-wrapper">
                   <img src={card.image} alt="card" />
                 </div>

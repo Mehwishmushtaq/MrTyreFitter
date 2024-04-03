@@ -15,14 +15,14 @@ const Testimonial = () => {
       <MDBRow className="d-flex justify-content-center">
         <MDBCol md="10" xl="8" className="text-center">
           <div className='mt-4'>
-            <div className="row text-center justify-content-center" data-aos="zoom-in-up">
+            <div className="row text-center justify-content-center">
                 <div className="col-md-11 col-lg-9 col-xl-7 mb-2">
                     <div className="section-title">
                         <h2 className="sec-title">The Heading Goes Here</h2>
                     </div>
                 </div>
             </div>
-            <div className='w-75 mx-auto' data-aos="zoom-in-up"><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus eveniet, praesentium consectetur, temporibus assumenda.</p></div>
+            <div className='w-75 mx-auto'><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus eveniet, praesentium consectetur, temporibus assumenda.</p></div>
         </div>
         </MDBCol>
       </MDBRow>
