@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import Cards from './components/Cards';
+import FormSelect from './components/FormSelect';
 import Newsletter from './components/Newsletter';
 
 function About() {
@@ -62,8 +63,10 @@ function About() {
       </Row>
       
      </Container>
-     {/* New Section */}
 
+     
+     {/* New Section */}
+      <FormSelect/>
       <Container className="py-5">
         <Row style={{ marginTop: '4rem' }}>
           <Col lg={6}>
