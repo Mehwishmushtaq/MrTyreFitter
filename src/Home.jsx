@@ -2,7 +2,6 @@ import React from 'react';
 import Hero from './components/HeroSection';
 import { Container, Row, Col } from 'react-bootstrap';
 import Cards from './components/Cards';
-import FastDelivery from './components/FastDelivery';
 import Testimonial from './components/Testimonial';
 import Banner from './components/Banner';
 import HowSection from './components/HowSection';
@@ -92,7 +91,6 @@ const Home = () => {
           </Col>
         </Row>
       </section>
-      <FastDelivery/>
 
       <Container className="mt-4">
       <Row className="brands-section">
