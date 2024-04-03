@@ -4,7 +4,7 @@ import Form from 'react-bootstrap/Form';
 function FormSelect() {
   return (
     <>
-      <div className='container text-white  background-image mt-5'>
+      <div className='container text-white background-image mt-5'>
         <h5 className='text-center'><strong>Car Selector</strong></h5>
         <h6 className='text-center'>Brand:</h6>
         <Form.Select>
