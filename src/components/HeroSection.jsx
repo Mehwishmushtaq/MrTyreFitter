@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import img1 from '../assets/images/img1.jpg';
+import Button from 'react-bootstrap/Button';
+import Form from 'react-bootstrap/Form';
 
 function HeroSection() {
   const [formData, setFormData] = useState({
@@ -24,38 +26,37 @@ function HeroSection() {
   };
 
   return (
-    <div className="hero-section" style={{ position: 'relative' }}>
+    <div className="hero__section" style={{ position: 'relative' }}>
       <img
         style={{ height: '100vh', width: '100%', objectFit: 'cover' }}
         src={img1}
         alt="Hero Image"
       />
       <div className="form-overlay" style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', background: 'rgba(255, 255, 255, 0.8)', padding: '20px', borderRadius: '8px' }}>
-        <h1>Welcome to Your Website</h1>
+        <h2>Welcome to Our Website</h2>
         <p>This is the hero section of your website.</p>
-        <form onSubmit={handleSubmit}>
-          <input
-            type="text"
-            name="name"
-            placeholder="Your Name"
-            value={formData.name}
-            onChange={handleChange}
-          />
-          <input
-            type="email"
-            name="email"
-            placeholder="Your Email"
-            value={formData.email}
-            onChange={handleChange}
-          />
-          <textarea
-            name="message"
-            placeholder="Your Message"
-            value={formData.message}
-            onChange={handleChange}
-          ></textarea>
-          <button type="submit">Submit</button>
-        </form>
+        {/* Form */}
+        <div className="hero-form">
+        <Form onSubmit={handleSubmit}>
+          <Form.Group className="mb-3" controlId="formBasicEmail">
+            <Form.Label>Your Name</Form.Label>
+            <Form.Control type="text" placeholder="Enter Your Name" value={formData.name} onChange={handleChange}/>
+          </Form.Group>
+
+          <Form.Group className="mb-3" controlId="formBasicPassword">
+            <Form.Label> Your Email</Form.Label>
+            <Form.Control type="email" placeholder="Enter Your Email" value={formData.email} onChange={handleChange}/>
+          </Form.Group>
+          
+          <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+            <Form.Label>Message</Form.Label>
+            <Form.Control as="textarea" rows={3} value={formData.message} onChange={handleChange} />
+          </Form.Group>
+
+          <Button variant="success" type="submit">Send Message</Button>
+        </Form>
+        </div>
+        {/* Form */}
       </div>
     </div>
   );
