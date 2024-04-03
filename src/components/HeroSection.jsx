@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import img1 from '../assets/images/img1.jpg';
+import img1 from '../assets/images/mob-tyre-1.webp';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 
