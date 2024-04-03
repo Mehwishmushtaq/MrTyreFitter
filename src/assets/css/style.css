@@ -787,11 +787,11 @@ body{
     }
 
     .background-image {
-        background-image: url('../images/mob-tyre-1.webp');
+        background-image: url('../images/mob-tyre-2.webp');
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
-        color: white; 
+        /* color: white;  */
       }
       
       &::before {
