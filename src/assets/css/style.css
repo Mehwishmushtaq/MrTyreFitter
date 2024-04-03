@@ -9,7 +9,7 @@
 }
 
 .text-success{
-    color: var(--bs-success);
+    color: var(--bs-success) !important;
 }
 
 html, body{
