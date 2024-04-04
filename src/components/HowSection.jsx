@@ -13,19 +13,19 @@ const HowSection = () => {
         </div>
     </div>
     <div className="row justify-content-between">
-        <div className="col-md-6 col-xl-auto process-box mb-10" data-aos="zoom-in">
+        <div className="col-md-6 col-xl-auto process-box mb-10">
             <span className="process-number">01</span> <span className="process-icon"><i className="fa-solid fa-headphones"></i></span>
             <h3 className="h4 font-theme process-title mb-2">Call Us</h3>
         </div>
-        <div className="col-md-6 col-xl-auto process-box mb-10" data-aos="zoom-in">
+        <div className="col-md-6 col-xl-auto process-box mb-10">
             <span className="process-number">02</span> <span className="process-icon"><i className="fa-solid fa-user"></i></span>
             <h3 className="h4 font-theme process-title mb-2">Get The Expert</h3>
         </div>
-        <div className="col-md-6 col-xl-auto process-box mb-10" data-aos="zoom-in">
+        <div className="col-md-6 col-xl-auto process-box mb-10">
             <span className="process-number">03</span> <span className="process-icon"><i className="fa-solid fa-arrow-rotate-left"></i></span>
             <h3 className="h4 font-theme process-title mb-2">Get Tyre Fixed</h3>
         </div>
-        <div className="col-md-6 col-xl-auto process-box mb-10" data-aos="zoom-in">
+        <div className="col-md-6 col-xl-auto process-box mb-10">
             <span className="process-number">04</span> <span className="process-icon"><i className="fa-solid fa-hand-holding-dollar"></i></span>
             <h3 className="h4 font-theme process-title mb-2">Payment</h3>
         </div>
