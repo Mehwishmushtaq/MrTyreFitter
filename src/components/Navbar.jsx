@@ -31,6 +31,7 @@ function Navbar() {
               <NavLink to="/about" className="nav-item nav-link" activeClassName="active">About</NavLink>
               <NavLink to="/blogs" className="nav-item nav-link" activeClassName="active">Blog</NavLink>
               <NavLink to="/contact" className="nav-item nav-link" activeClassName="active">Contact</NavLink>
+              <NavLink to="/faqs" className="nav-item nav-link" activeClassName="active">Faq</NavLink>
             </div>
           </div>
         </nav>
@@ -83,6 +84,7 @@ function Navbar() {
                     </div>
                   </div>
                   <NavLink to="/contact" className="nav-item nav-link" activeClassName="active">Contact</NavLink>
+                  <NavLink to="/faqs" className="nav-item nav-link" activeClassName="active">Faq</NavLink>
                 </div>
               </div>
             </div>

@@ -2,8 +2,8 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import { Row, Col } from 'react-bootstrap';
 import HowSection from './components/HowSection';
-import Guarantee from './components/Guarantee'
-import DualBanners from './components/DualBanners'
+import Guarantee from './components/Guarantee';
+import DualBanners from './components/DualBanners';
 import Newsletter from './components/Newsletter';
 
 const ServicePage = ({pageTitle, ...otherProps}) => {

@@ -1,3 +1,4 @@
+
 import React from 'react';
 import Hero from './components/HeroSection';
 import { Container, Row, Col } from 'react-bootstrap';
@@ -7,6 +8,7 @@ import Banner from './components/Banner';
 import HowSection from './components/HowSection';
 import { Link } from 'react-router-dom';
 import Newsletter from './components/Newsletter';
+import SingleBanner from './components/SingleBanner';
 
 const Home = () => {
     
@@ -104,6 +106,8 @@ const Home = () => {
      </Container>
 
      <Testimonial/>
+
+     <SingleBanner/>
      
       <HowSection/>
       <Newsletter/>
