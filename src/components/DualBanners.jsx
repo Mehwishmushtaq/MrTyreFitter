@@ -1,5 +1,5 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
 import { MDBBtn } from 'mdb-react-ui-kit';
 
 const SectionWithBanners = () => {
@@ -8,7 +8,7 @@ const SectionWithBanners = () => {
     return (
         <div>
             {/* Section 5 */}
-            <section className="container" style={{ marginTop: '8rem' }}>
+            <section className="container" style={{ marginTop: '3rem', marginBottom: '3rem' }}>
                 {/* Single Row */}
                 <div className="row about-row text-center">
                     <div className="col-md-6 bg-secondary text-light p-4 font-monospace" style={{ height: '20rem' }}>
