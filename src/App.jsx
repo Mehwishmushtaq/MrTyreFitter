@@ -3,7 +3,6 @@ import './assets/bootstrap/css/bootstrap.min.css';
 import './assets/css/style.css';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from './components/Navbar';
-import DualBanners from './components/DualBanners'
 import Home from './Home';
 import About from './About';
 import GuaranteeSection from './components/Guarantee'
@@ -54,7 +53,6 @@ const App = () => {
         <Route path="/services/locknut-wheel-removal" element={<LocknutWheel/>} />
         <Route path="/services/mobile-breakdown" element={<MobileBreakdown/>} />
         <Route path="/services/register" element={<RegisterPage/>} />
-        <Route path="dual-banners" element={<DualBanners/>} />
       </Routes>
       <Footer/>
     </Router>

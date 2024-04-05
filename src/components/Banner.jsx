@@ -8,7 +8,7 @@ const Banner = () => {
       <div className="container mx-auto py-3">
         <div className="row">
           {/* 1 */}
-          <div className="col-lg-6">
+          <div className="col-lg-6" data-aos='fade-right'>
             <h2 className="text-white"><b>Now we have <span className="text-red">2000</span> Locations</b></h2>
             <div>
               <p className="text-white">Labore dolore magna aliqua ipsum veniam quis nostrud exercitation voluptate eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed eiusmod.</p>
@@ -39,7 +39,7 @@ const Banner = () => {
             {/* Banner Icons Box */}
           </div>
           {/* 2 */}
-          <div className="col-lg-6 mt-3">
+          <div className="col-lg-6 mt-3" data-aos='fade-left'>
             <div>
               <img src={'images/map.png'} alt="map" className="img-fluid" />
               {/* Numbers */}

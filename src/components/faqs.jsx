@@ -1,3 +1,4 @@
+
 import React from "react";
 import {
   MDBBtn,
@@ -11,13 +12,14 @@ import { Link } from "react-router-dom";
 
 export default function WithContactForm() {
   return (
+
     <>
     {/* Banner Section */}
     <header className='headerStyle'>
         <h1>Faq Page</h1>
-        <h5><Link to="/" className="linkStyle"><i class="fa-solid fa-house"></i> Home </Link> | FAQ</h5>
+        <h5><Link to="/" className="linkStyle"><i class="fa-solid fa-house"></i> Home </Link> | Faq</h5>
       </header>
-    <MDBContainer className="mt-5" style={{maxWidth: '1000px'}}>
+    <MDBContainer style={{maxWidth: '1000px'}}>
       {/* <h2 className='text-center' style={{fontSize:'50px'}}><strong>Frequently Asked Question</strong></h2> */}
       <section className="mt-5">
         <MDBRow>

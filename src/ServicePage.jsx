@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import { Row, Col } from 'react-bootstrap';
 import HowSection from './components/HowSection';
 import Guarantee from './components/Guarantee'
-import DualBanners from './components/DualBanners'
 import Newsletter from './components/Newsletter';
 
 const ServicePage = ({pageTitle, ...otherProps}) => {
@@ -120,7 +119,6 @@ const ServicePage = ({pageTitle, ...otherProps}) => {
             </div>
         <div className='w-75 mx-auto'><p>{paraFour}</p></div>
     </div>
-    <DualBanners/>
     <Guarantee/>
     
     {/* Image and text */}

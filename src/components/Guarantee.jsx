@@ -23,7 +23,7 @@ const WhyChooseUs = () => {
     return (
         <div>
             <Container>
-                <section className="guarantee-section mt-5 ">
+                <section className="guarantee-section">
 
                     <Row>
                         <Col className="text-center mb-4">

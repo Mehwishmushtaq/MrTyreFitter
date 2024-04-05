@@ -1,3 +1,4 @@
+
 import React from 'react'
 
 const HowSection = () => {
@@ -30,6 +31,9 @@ const HowSection = () => {
             <h3 className="h4 font-theme process-title mb-2">Payment</h3>
         </div>
     </div>
+    <p className="mt-5">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores minus suscipit odit modi itaque expedita ipsam autem, quasi quam ratione eos aperiam ex harum sed est quia et voluptates quaerat rerum perspiciatis mollitia. Ratione qui dolore iste in!
+    </p>
     </div>
     </>
   )
