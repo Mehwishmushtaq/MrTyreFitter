@@ -7,11 +7,18 @@ import {
   MDBRow,
   MDBTextArea,
 } from "mdb-react-ui-kit";
+import { Link } from "react-router-dom";
 
 export default function WithContactForm() {
   return (
-    <MDBContainer style={{maxWidth: '1000px', marginTop:'30vh'}}>
-      <h2 className='text-center' style={{fontSize:'50px'}}><strong>Frequently Asked Question</strong></h2>
+    <>
+    {/* Banner Section */}
+    <header className='headerStyle'>
+        <h1>Faq Page</h1>
+        <h5><Link to="/" className="linkStyle"><i class="fa-solid fa-house"></i> Home </Link> | FAQ</h5>
+      </header>
+    <MDBContainer className="mt-5" style={{maxWidth: '1000px'}}>
+      {/* <h2 className='text-center' style={{fontSize:'50px'}}><strong>Frequently Asked Question</strong></h2> */}
       <section className="mt-5">
         <MDBRow>
           <MDBCol lg="6" md="12" className="mb-4">
@@ -96,5 +103,6 @@ export default function WithContactForm() {
         </MDBRow>
       </section>
     </MDBContainer>
+    </>
   );
 }
