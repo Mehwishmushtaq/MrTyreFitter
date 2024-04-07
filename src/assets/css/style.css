@@ -2,6 +2,16 @@
     --bs-success: #18bd9d;
 }
 
+h1{
+    font-size: 35px !important;
+}
+h2{
+    font-size: 31px !important;
+}
+h3{
+    font-size: 25px !important;
+}
+
 .bg-success, .btn-success{
     background-color: var(--bs-success) !important;
     outline: none;
