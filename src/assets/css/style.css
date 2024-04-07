@@ -819,7 +819,19 @@ body{
     }
 
     .hero-form{
-        width: 50%;
+        width: 30%;
+    }
+    
+    @media (max-width: 575px){
+        .first-section-margin{
+            margin-top: -140px !important;
+        }
+    }
+
+    @media (max-width: 1030px){
+        .hero-form{
+            width: 50%;
+        }
     }
 
     @media (max-width:768px) {
