@@ -26,7 +26,7 @@ const Home = () => {
                 </div>
             </Col>
         </Row>
-        <div className='w-75 mx-auto'><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod quibusdam magni similique explicabo quisquam maxime ad autem quaerat aliquam fugit. Aperiam cupiditate perferendis eius officiis nemo? Quam pariatur aliquid harum laboriosam ad officia perferendis quidem similique? Neque officiis dignissimos quod accusamus facilis minima maxime doloremque, necessitatibus distinctio, voluptas tempora eum!</p></div>
+        <div className='para-width mx-auto'><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod quibusdam magni similique explicabo quisquam maxime ad autem quaerat aliquam fugit. Aperiam cupiditate perferendis eius officiis nemo? Quam pariatur aliquid harum laboriosam ad officia perferendis quidem similique? Neque officiis dignissimos quod accusamus facilis minima maxime doloremque, necessitatibus distinctio, voluptas tempora eum!</p></div>
      </div>
 
      <DualBanners/>
@@ -52,7 +52,7 @@ const Home = () => {
                 </div>
             </div>
         </div>
-        <div className='w-75 mx-auto'><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus eveniet, praesentium consectetur, temporibus assumenda.</p></div>
+        <div className='para-width mx-auto'><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus eveniet, praesentium consectetur, temporibus assumenda.</p></div>
      </div>
      
      <section className='container'><Cards/></section>

@@ -42,7 +42,7 @@ const ServicePage = ({pageTitle, ...otherProps}) => {
                     </div>
                 </div>
             </div>
-        <div className='w-75 mx-auto'><p>{paraOne}</p></div>
+        <div className='para-width mx-auto'><p>{paraOne}</p></div>
     </div>
 
     {/* Image and Text */}
@@ -69,7 +69,7 @@ const ServicePage = ({pageTitle, ...otherProps}) => {
                         </div>
                     </div>
                 </div>
-            <div className='w-75 mx-auto'><p>{paraThree}</p></div>
+            <div className='para-width mx-auto'><p>{paraThree}</p></div>
         </div>
         <div className="row">
             {/* 1 */}
@@ -118,7 +118,7 @@ const ServicePage = ({pageTitle, ...otherProps}) => {
                     </div>
                 </div>
             </div>
-        <div className='w-75 mx-auto'><p>{paraFour}</p></div>
+        <div className='para-width mx-auto'><p>{paraFour}</p></div>
     </div>
     <DualBanners/>
     <Guarantee/>

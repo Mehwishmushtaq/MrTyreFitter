@@ -1,13 +1,18 @@
 import React from 'react';
+import { Row, Col } from 'react-bootstrap';
 
 const HowSection = () => {
   return (
     <div className="container mt-4">
-      <div className="row text-center">
-        <div className="col">
-          <h2 className="sec-title">How It Works</h2>
-        </div>
-      </div>
+      <Row className="text-center justify-content-center">
+            <Col className="col-md-11 col-lg-9 col-xl-7 mb-2">
+                <div className="section-title">
+                    <h2 className="sec-title">How it works</h2>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ipsum recusandae distinctio reiciendis, eaque a?</p>
+            </Col>
+        </Row>
+
       <div className="row justify-content-around">
         <div className="col-md-3 mb-4">
           <div className="process-box" style={{ border: '2px solid #18bd9d', borderRadius: '10px', padding: '20px' }}>
