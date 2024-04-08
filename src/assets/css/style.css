@@ -2,15 +2,54 @@
     --bs-success: #18bd9d;
 }
 
-h1{
-    font-size: 35px !important;
-}
-h2{
-    font-size: 31px !important;
-}
-h3{
-    font-size: 25px !important;
-}
+h1 {
+    font-size: 3em !important;
+  }
+  
+  h2 {
+    font-size: 2.5em !important;
+  }
+  
+  h3 {
+    font-size: 2em !important;
+  }
+  
+  h4 {
+    font-size: 1.5em !important;
+  }
+  
+  h5 {
+    font-size: 1.2em !important;
+  }
+  
+  h6 {
+    font-size: 1em !important;
+  }
+  
+  p {
+    font-size: 1em !important;
+  }
+  
+  @media (max-width: 768px) {
+    h1 { font-size: 2.5em !important; }
+    h2 { font-size: 2em !important; }
+    h3 { font-size: 1.8em !important; }
+    h4 { font-size: 1.5em !important; }
+    h5 { font-size: 1.2em !important; }
+    h6 { font-size: 1em !important; }
+    p { font-size: 0.9em !important; }
+  }
+  
+  @media (max-width: 576px) {
+    h1 { font-size: 2em !important; }
+    h2 { font-size: 1.8em !important; }
+    h3 { font-size: 1.6em !important; }
+    h4 { font-size: 1.3em !important; }
+    h5 { font-size: 1.1em !important; }
+    h6 { font-size: 1em !important; }
+    p { font-size: 0.9em !important; }
+  }
+  
 
 .bg-success, .btn-success{
     background-color: var(--bs-success) !important;
@@ -836,4 +875,16 @@ body{
         .hero-form{
             width: 100%;
         }
+    }
+
+    /* Dual Banner image I use 600x480px*/
+    .dual-banner-imageOne{
+        background-image: url('images/dual-1.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .dual-banner-imageTwo{
+        background-image: url('images/img-11.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
     }

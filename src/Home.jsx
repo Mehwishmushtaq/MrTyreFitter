@@ -97,11 +97,10 @@ const Home = () => {
             </Row>
         </Container>
 
-     <Testimonial/>
-
      <SingleBanner/>
      
       <HowSection/>
+      <Testimonial/>
       <Newsletter/>
     </>
     

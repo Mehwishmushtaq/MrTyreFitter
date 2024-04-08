@@ -5,23 +5,23 @@ const Newsletter = () => {
   return (
     <>
      <section className="newsletter p-5 mt-3">
-      <Container>
+     <Container>
         <Row className='text-white d-flex justify-content-center align-items-center'>
             <Col sm={12}>
                 <div className="content">
                     <form>
-                        <h2>SUBSCRIBE TO OUR NEWSLETTER</h2>
+                        <h2 className="text-center">SUBSCRIBE TO OUR NEWSLETTER</h2>
                         <div className="input-group">
-                        <input type="email" class="form-control" placeholder="Enter your email"/>
-                        <span className="input-group-btn">
-                            <button className="btn" type="submit">Subscribe Now</button>
-                        </span>
+                            <input type="email" className="form-control mb-2" placeholder="Enter your email"/>
+                            <div className="text-center">
+                                <button className="btn btn-primary" type="submit">Subscribe Now</button>
+                            </div>
                         </div>
                     </form>
                 </div>
             </Col>
         </Row>
-      </Container>
+    </Container>
     </section>  
     </>
   )

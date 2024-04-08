@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import $ from 'jquery';
+import { MDBBtn } from 'mdb-react-ui-kit';
+import { Link } from 'react-router-dom';
 
 const Cards = () => {
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -62,9 +64,12 @@ const Cards = () => {
                 <div className="card-body">
                   <h5 className="card-title">{card.title}</h5>
                   <p className="card-text">{card.text}</p>
-                  <a href="/services/mobile-tyre-fitting" className="btn btn-success">
-                    Learn More
-                  </a>
+                
+                  <Link to="/services/mobile-tyre-fitting">
+                  <MDBBtn color='light' rippleColor='dark' className='border border-success'>
+                     Learn More
+                  </MDBBtn>
+                  </Link>
                 </div>
               </div>
             </div>
