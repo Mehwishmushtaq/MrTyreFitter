@@ -2,6 +2,16 @@
     --bs-success: #18bd9d;
 }
 
+h1{
+    font-size: 35px !important;
+}
+h2{
+    font-size: 31px !important;
+}
+h3{
+    font-size: 25px !important;
+}
+
 .bg-success, .btn-success{
     background-color: var(--bs-success) !important;
     outline: none;
@@ -707,24 +717,6 @@ body{
     color: var(--bs-success);
   }
 
-  /* brands */
-  .brands-section img{
-    width: 90%;
-  }
-
-  /* Two Images */
-  .image-container {
-    position: relative;
-  }
-  
-  .text-container {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    text-align: center;
-  }
   /* About */
   .about-circle{
     position: absolute;
@@ -819,11 +811,29 @@ body{
     }
 
     .hero-form{
-        width: 50%;
+        width: 30%;
+    }
+    
+    @media (max-width: 575px){
+        .first-section-margin{
+            margin-top: -140px !important;
+        }
+    }
+
+    @media (max-width: 1030px){
+        .hero-form{
+            width: 50%;
+        }
     }
 
     @media (max-width:768px) {
         .hero-form{
             width: 80%;
+        }
+    }
+
+    @media (max-width:369px) {
+        .hero-form{
+            width: 100%;
         }
     }

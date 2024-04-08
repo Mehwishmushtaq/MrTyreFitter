@@ -30,6 +30,20 @@ function Navbar() {
               <NavLink to="/" className="nav-item nav-link" activeClassName="active" exact>Home</NavLink>
               <NavLink to="/about" className="nav-item nav-link" activeClassName="active">About</NavLink>
               <NavLink to="/blogs" className="nav-item nav-link" activeClassName="active">Blog</NavLink>
+              <div className="nav-item dropdown">
+                    <Link to="/services/ServicePage" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</Link>
+                    <div className="dropdown-menu m-0">
+                      <Link to="/services/mobile-tyre-fitting" className="dropdown-item">Mobile Tyre Fitting</Link>
+                      <Link to="/services/mobile-tyre-repair" className="dropdown-item">Mobile Tyre Repair</Link>
+                      <Link to="/services/tyre-replacement" className="dropdown-item">Tyre Replacement</Link>
+                      <Link to="/services/flat-tyre" className="dropdown-item">Flat Tyre</Link>
+                      <Link to="/services/burst-tyre" className="dropdown-item">Burst Tyre</Link>
+                      <Link to="/services/part-worn-tyre" className="dropdown-item">Part Worn Tyre</Link>
+                      <Link to="/services/jumpstart" className="dropdown-item">Jumpstart</Link>
+                      <Link to="/services/locknut-wheel-removal" className="dropdown-item">Locknut Wheel Removal</Link>
+                      <Link to="/services/mobile-breakdown" className="dropdown-item">Mobile Breakdown</Link>
+                    </div>
+                </div>
               <NavLink to="/contact" className="nav-item nav-link" activeClassName="active">Contact</NavLink>
               <NavLink to="/faqs" className="nav-item nav-link" activeClassName="active">Faq</NavLink>
             </div>

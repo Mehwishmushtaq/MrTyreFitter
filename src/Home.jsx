@@ -6,9 +6,10 @@ import Cards from './components/Cards';
 import Testimonial from './components/Testimonial';
 import Banner from './components/Banner';
 import HowSection from './components/HowSection';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import Newsletter from './components/Newsletter';
 import SingleBanner from './components/SingleBanner';
+import DualBanners from './components/DualBanners';
 
 const Home = () => {
     
@@ -17,7 +18,7 @@ const Home = () => {
 
      <Hero/>
 
-     <div className='mt-4'>
+     <div className='mt-4 first-section-margin'>
         <Row className="text-center justify-content-center">
             <Col className="col-md-11 col-lg-9 col-xl-7 mb-2">
                 <div className="section-title">
@@ -25,31 +26,10 @@ const Home = () => {
                 </div>
             </Col>
         </Row>
-        <div className='w-75 mx-auto'><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit fermentum justo. Vestibulum feugiat vehicula elit, at congue orci venenatis nec. Morbi hendrerit mauris vel arcu hendrerit, nec tristique purus auctor. Nullam euismod nunc nec dictum tempus. Integer malesuada felis vel justo aliquet, a tincidunt arcu vulputate. Quisque suscipit, ligula eu pharetra scelerisque, tortor ligula aliquam felis, sit amet fringilla odio lectus nec nunc. Ut auctor velit sit amet tortor efficitur, vel tincidunt purus pellentesque. Nunc quis odio sit amet velit ullamcorper rhoncus. Vivamus nec purus in elit hendrerit tincidunt. Proin a urna vel sapien vestibulum feugiat. Curabitur nec justo et justo tincidunt tincidunt. Integer in ultricies erat. Vestibulum ac eros eu turpis convallis bibendum ut non quam.</p></div>
+        <div className='w-75 mx-auto'><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod quibusdam magni similique explicabo quisquam maxime ad autem quaerat aliquam fugit. Aperiam cupiditate perferendis eius officiis nemo? Quam pariatur aliquid harum laboriosam ad officia perferendis quidem similique? Neque officiis dignissimos quod accusamus facilis minima maxime doloremque, necessitatibus distinctio, voluptas tempora eum!</p></div>
      </div>
 
-     <Container>
-      <Row>
-        <Col lg={6} className="image-container">
-          <img src="images/img-11.jpg" alt="img" className="two-image" />
-          <div className="text-container">
-            <h4>Heading Goes Here</h4>
-            <p>some kind of subheading</p>
-            <Link to="/" className='btn btn-success'>Read More</Link>
-          </div>
-        </Col>
-
-        <Col lg={6} className="image-container mt-3">
-          <img src="images/img-11.jpg" alt="img" className="two-image" />
-          <div className="text-container">
-            <h4>Heading Goes Here</h4>
-            <p>some kind of subheading</p>
-            <Link to="/" className='btn btn-success'>Read More</Link>
-          </div>
-        </Col>
-      
-      </Row>
-     </Container> 
+     <DualBanners/>
 
       <Container>
         <Row style={{ marginTop: '4rem' }}>
@@ -94,16 +74,28 @@ const Home = () => {
         </Row>
       </section>
 
-      <Container className="mt-4">
-      <Row className="brands-section">
-        <Col md={2}><img src={"images/brands/jaguar.png"} alt="brand" /></Col>
-        <Col md={2}><img src={"images/brands/kia.png"} alt="brand" /></Col>
-        <Col md={2}><img src={"images/brands/dodge.png"} alt="brand" /></Col>
-        <Col md={2}><img src={"images/brands/toyota.png"} alt="brand" /></Col>
-        <Col md={2}><img src={"images/brands/hyundai.png"} alt="brand" /></Col>
-        <Col md={2}><img src={"images/brands/subaru.png"} alt="brand" /></Col>
-      </Row>
-     </Container>
+      <Container className="mt-4 brands-section">
+            <Row style={{ marginTop: '6rem' }}>
+                <Col xs={6} sm={5} md={4} lg={3} xl={2}>
+                    <div><img className='img-fluid' src={"images/brands/jaguar.png"} alt="brand" /></div>
+                </Col>
+                <Col xs={6} sm={5} md={4} lg={3} xl={2}>
+                    <div><img className='img-fluid' src={"images/brands/kia.png"} alt="brand" /></div>
+                </Col>
+                <Col xs={6} sm={5} md={4} lg={3} xl={2}>
+                    <div><img className='img-fluid' src={"images/brands/dodge.png"} alt="brand" /></div>
+                </Col>
+                <Col xs={6} sm={5} md={4} lg={3} xl={2}>
+                    <div><img className='img-fluid' src={"images/brands/toyota.png"} alt="brand" /></div>
+                </Col>
+                <Col xs={6} sm={5} md={4} lg={3} xl={2}>
+                    <div><img className='img-fluid' src={"images/brands/hyundai.png"} alt="brand" /></div>
+                </Col>
+                <Col xs={6} sm={5} md={4} lg={3} xl={2}>
+                    <div><img className='img-fluid' src={"images/brands/subaru.png"} alt="brand" /></div>
+                </Col>
+            </Row>
+        </Container>
 
      <Testimonial/>
 

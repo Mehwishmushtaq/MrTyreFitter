@@ -42,6 +42,19 @@ function HeroSection() {
         <div className='d-flex justify-content-center mt-5'>
           <img src={img1} alt="tyre" />
         </div>
+        
+        <Row className='mt-4 justify-content-center'>
+          <Col sm={12} className='w-75'>
+            <h5 className='text-center'>Car Model</h5>
+            <Form.Select aria-label="Default select example">
+              <option>Car Name</option>
+              <option>Car Name</option>
+              <option>Car Name</option>
+            </Form.Select>
+          </Col>
+        </Row>
+
+        
         <Button variant="success mt-3 px-4 w-100">Search for tyre</Button>
       </Container>
       
