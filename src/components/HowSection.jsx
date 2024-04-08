@@ -13,7 +13,7 @@ const HowSection = () => {
           </div>
         </div>
         <div className="row align-items-center justify-content-around">
-          <div className="col-auto process-box mb-10">
+          <div className="col-auto process-box mb-10" style={{ border: '2px solid #18bd9d', borderRadius: '10px', padding: '10px' }}>
             <div className="row align-items-center">
               <div className="col-auto">
                 <span className="process-icon" style={{ fontSize: '36px', color: '#18bd9d' }}><i className="fa-solid fa-headphones"></i></span>
@@ -24,7 +24,7 @@ const HowSection = () => {
               </div>
             </div>
           </div>
-          <div className="col-auto process-box mb-10">
+          <div className="col-auto process-box mb-10" style={{ border: '2px solid #18bd9d', borderRadius: '10px', padding: '10px' }}>
             <div className="row align-items-center">
               <div className="col-auto">
                 <span className="process-icon" style={{ fontSize: '36px', color: '#18bd9d' }}><i className="fa-solid fa-user"></i></span>
@@ -35,7 +35,7 @@ const HowSection = () => {
               </div>
             </div>
           </div>
-          <div className="col-auto process-box mb-10">
+          <div className="col-auto process-box mb-10" style={{ border: '2px solid #18bd9d', borderRadius: '10px', padding: '10px' }}>
             <div className="row align-items-center">
               <div className="col-auto">
                 <span className="process-icon" style={{ fontSize: '36px', color: '#18bd9d' }}><i className="fa-solid fa-arrow-rotate-left"></i></span>
@@ -46,7 +46,7 @@ const HowSection = () => {
               </div>
             </div>
           </div>
-          <div className="col-auto process-box mb-10">
+          <div className="col-auto process-box mb-10" style={{ border: '2px solid #18bd9d', borderRadius: '10px', padding: '10px' }}>
             <div className="row align-items-center">
               <div className="col-auto">
                 <span className="process-icon" style={{ fontSize: '36px', color: '#18bd9d' }}><i className="fa-solid fa-hand-holding-dollar"></i></span>
