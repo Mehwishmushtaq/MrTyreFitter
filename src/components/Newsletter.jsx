@@ -11,12 +11,18 @@ const Newsletter = () => {
                 <div className="content">
                     <form>
                         <h2 className="text-center">SUBSCRIBE TO OUR NEWSLETTER</h2>
-                        <div className="input-group">
-                            <input type="email" className="form-control mb-2" placeholder="Enter your email"/>
-                            <div className="text-center">
-                                <button className="btn btn-primary" type="submit">Subscribe Now</button>
-                            </div>
-                        </div>
+                        <Container>
+                            <Row>
+                                <Col sm={12} md={9}>
+                                <input type="email" className="form-control mb-2" placeholder="Enter your email"/>
+                                </Col>
+                                <Col sm={12} md={3}>
+                                <div className="text-center">
+                                    <button className="btn btn-primary" type="submit">Subscribe Now</button>
+                                </div>
+                                </Col>
+                            </Row>
+                        </Container>
                     </form>
                 </div>
             </Col>

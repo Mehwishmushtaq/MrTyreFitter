@@ -89,7 +89,7 @@ export default function WithContactForm() {
               </p>
             </div>
           </MDBCol>
-          <MDBCol lg="6" md="12" className="text-center">
+          <MDBCol lg="6" md="12" className="text-center mb-3">
             <p>
               <span class="fw-bold">
                 Still have any questions? Contact us to get your answer!

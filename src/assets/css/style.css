@@ -830,6 +830,11 @@ body{
         }
     }
 
+    /* Heading goes here para width */
+    .para-width{
+        width: 90% !important;
+    }
+
     /* Dual Banner image I use 600x480px*/
     .dual-banner-imageOne{
         background-image: url('images/dual-1.jpg');
@@ -840,9 +845,4 @@ body{
         background-image: url('images/img-11.jpg');
         background-repeat: no-repeat;
         background-size: cover;
-    }
-
-    /* Heading goes here para width */
-    .para-width{
-        width: 90% !important;
     }

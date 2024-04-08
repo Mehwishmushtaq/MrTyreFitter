@@ -6,7 +6,7 @@ import Navbar from './components/Navbar';
 import Home from './Home';
 import About from './About';
 import GuaranteeSection from './components/Guarantee'
-import FAQS from './components/faqs'
+import FAQS from './faqs'
 import BlogPage from './blogs';
 import ContactPage from './Contact';
 import Footer from './components/Footer';
