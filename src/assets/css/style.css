@@ -2,17 +2,9 @@
     --bs-success: #18bd9d;
 }
 
-h1 {
-    font-size: 3em !important;
-  }
-  
-  h2 {
-    font-size: 2.5em !important;
-  }
-  
-  h3 {
-    font-size: 2em !important;
-  }
+h1 {font-size: 3em !important;}
+h2 {font-size: 2.5em !important;}
+h3 {font-size: 2em !important;}
   
   h4 {
     font-size: 1.5em !important;
