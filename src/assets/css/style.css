@@ -717,24 +717,6 @@ body{
     color: var(--bs-success);
   }
 
-  /* brands */
-  .brands-section img{
-    width: 90%;
-  }
-
-  /* Two Images */
-  .image-container {
-    position: relative;
-  }
-  
-  .text-container {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    text-align: center;
-  }
   /* About */
   .about-circle{
     position: absolute;
@@ -847,5 +829,11 @@ body{
     @media (max-width:768px) {
         .hero-form{
             width: 80%;
+        }
+    }
+
+    @media (max-width:369px) {
+        .hero-form{
+            width: 100%;
         }
     }
