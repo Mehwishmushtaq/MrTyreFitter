@@ -20,7 +20,7 @@ function Navbar() {
       <div className="container-fluid main-nav-bar p-0">
         <nav className="navbar navbar-expand-lg navbar-light bg-dark px-4 px-lg-5 py-2 py-lg-0">
           <Link to="/" className="navbar-brand p-0">
-            <h1 className="m-0">Mr. Tyre Fitter</h1>
+            <h3 className="m-0 text-white">Mr. Tyre Fitter</h3>
           </Link>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span className="fa fa-bars"></span>
@@ -72,14 +72,14 @@ function Navbar() {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarCollapse">
                   <div className="navbar-nav ms-auto py-0">
-                    <NavLink to="/" className="nav-item nav-link" activeClassName="active" exact>Home</NavLink>
+                    <NavLink to="/" className="nav-item nav-link" activeClassName="active">Home</NavLink>
                     <NavLink to="/about" className="nav-item nav-link" activeClassName="active">About</NavLink>
                     <NavLink to="/blogs" className="nav-item nav-link" activeClassName="active">Blog</NavLink>
                   </div>
                 </div>
               </div>
               <Link to="/" className="navbar-brand p-0 d-flex align-items-center">
-                <h1 className="m-0">Mr. Tyre Fitter</h1>
+                <h3 className="m-0 text-white">Mr. Tyre Fitter</h3>
               </Link>
               <div>
                 <div className="navbar-nav ms-auto py-0">

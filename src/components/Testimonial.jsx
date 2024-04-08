@@ -22,7 +22,7 @@ const Testimonial = () => {
                     </div>
                 </div>
             </div>
-            <div className='w-75 mx-auto'><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus eveniet, praesentium consectetur, temporibus assumenda.</p></div>
+            <div className='para-width mx-auto'><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus eveniet, praesentium consectetur, temporibus assumenda.</p></div>
         </div>
         </MDBCol>
       </MDBRow>

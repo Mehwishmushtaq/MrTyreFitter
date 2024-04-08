@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import { Row, Col } from 'react-bootstrap';
+import { MDBBtn } from 'mdb-react-ui-kit';
 import HowSection from './components/HowSection';
 import Guarantee from './components/Guarantee';
 import DualBanners from './components/DualBanners';
@@ -42,7 +43,7 @@ const ServicePage = ({pageTitle, ...otherProps}) => {
                     </div>
                 </div>
             </div>
-        <div className='w-75 mx-auto'><p>{paraOne}</p></div>
+        <div className='para-width mx-auto'><p>{paraOne}</p></div>
     </div>
 
     {/* Image and Text */}
@@ -54,7 +55,9 @@ const ServicePage = ({pageTitle, ...otherProps}) => {
             <Col lg={6}>
                 <h2>{headingTwo}</h2>
                 <p>{paraTwo}</p>
-                <a href="" className="btn btn-success rounded-pill py-2 px-4">Contact Us</a>
+                <MDBBtn color='light' rippleColor='dark' className='border border-success rounded-pill'>
+                     Contact Us
+                </MDBBtn>
             </Col>
         </Row>
     </div>
@@ -69,7 +72,7 @@ const ServicePage = ({pageTitle, ...otherProps}) => {
                         </div>
                     </div>
                 </div>
-            <div className='w-75 mx-auto'><p>{paraThree}</p></div>
+            <div className='para-width mx-auto'><p>{paraThree}</p></div>
         </div>
         <div className="row">
             {/* 1 */}
@@ -118,7 +121,7 @@ const ServicePage = ({pageTitle, ...otherProps}) => {
                     </div>
                 </div>
             </div>
-        <div className='w-75 mx-auto'><p>{paraFour}</p></div>
+        <div className='para-width mx-auto'><p>{paraFour}</p></div>
     </div>
     <DualBanners/>
     <Guarantee/>
@@ -130,7 +133,13 @@ const ServicePage = ({pageTitle, ...otherProps}) => {
                 <img src={imgFive} alt="Mission" className="img-fluid rounded" />
             </Col>
             <Col lg={6} className='order-1'>
-                <h2>{headingFive}</h2>
+            <div className="row text-center justify-content-center">
+                <div className="col-md-11 col-lg-9 col-xl-7 mb-2">
+                    <div className="section-title">
+                        <h2 className="sec-title">{headingFive}</h2>
+                    </div>
+                </div>
+            </div>
                 <p>{paraFive}</p>
             </Col>
         </Row>
