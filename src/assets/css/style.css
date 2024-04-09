@@ -846,3 +846,9 @@ body{
         background-repeat: no-repeat;
         background-size: cover;
     }
+
+    .single-banner-image{
+        background-image: url('images/banner.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
