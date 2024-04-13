@@ -837,18 +837,18 @@ body{
 
     /* Dual Banner image I use 600x480px*/
     .dual-banner-imageOne{
-        background-image: url('images/dual-1.jpg');
+        background-image: url('/images/dual-1.jpg');
         background-repeat: no-repeat;
         background-size: cover;
     }
     .dual-banner-imageTwo{
-        background-image: url('images/img-11.jpg');
+        background-image: url('/images/img-11.jpg');
         background-repeat: no-repeat;
         background-size: cover;
     }
 
     .single-banner-image{
-        background-image: url('images/banner.jpg');
+        background-image: url('/images/banner.jpg');
         background-repeat: no-repeat;
         background-size: cover;
     }
