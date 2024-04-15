@@ -27,7 +27,7 @@ function Navbar() {
               <Link to="/" className="p-0 m-0">
               <div className="ts-logo-mobile container p-0 m-0"><img src={logo} alt="logo" /></div>
               </Link>
-              <button className="navbar-toggler" type="button" data-bs-toggle="collapse" onClick={handleNavCollapse} aria-expanded={!isNavCollapsed}>
+              <button className="navbar-toggler" type="button" data-bs-toggle="collapse" onClick={handleNavCollapse} aria-expanded={!isNavCollapsed} style={{ border: 'none', outline: 'none' }}>
                 <span className="fa fa-bars"></span>
               </button>
             </section>
@@ -38,17 +38,17 @@ function Navbar() {
                 <NavLink to="/about" className="nav-item nav-link" activeClassName="active" onClick={handleNavCollapse}>About</NavLink>
                 <NavLink to="/blogs" className="nav-item nav-link" activeClassName="active" onClick={handleNavCollapse}>Blog</NavLink>
               <div className="nav-item dropdown">
-                    <Link to="/services/ServicePage" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</Link>
+                    <Link to="/services/mobile-tyre-fitting" className="nav-link dropdown-toggle" data-bs-toggle="dropdown" onClick={handleNavCollapse}>Services</Link>
                     <div className="dropdown-menu m-0">
-                      <Link to="/services/mobile-tyre-fitting" className="dropdown-item">Mobile Tyre Fitting</Link>
-                      <Link to="/services/mobile-tyre-repair" className="dropdown-item">Mobile Tyre Repair</Link>
-                      <Link to="/services/tyre-replacement" className="dropdown-item">Tyre Replacement</Link>
-                      <Link to="/services/flat-tyre" className="dropdown-item">Flat Tyre</Link>
-                      <Link to="/services/burst-tyre" className="dropdown-item">Burst Tyre</Link>
-                      <Link to="/services/part-worn-tyre" className="dropdown-item">Part Worn Tyre</Link>
-                      <Link to="/services/jumpstart" className="dropdown-item">Jumpstart</Link>
-                      <Link to="/services/locknut-wheel-removal" className="dropdown-item">Locknut Wheel Removal</Link>
-                      <Link to="/services/mobile-breakdown" className="dropdown-item">Mobile Breakdown</Link>
+                      <Link to="/services/mobile-tyre-fitting" className="dropdown-item" onClick={handleNavCollapse}>Mobile Tyre Fitting</Link>
+                      <Link to="/services/mobile-tyre-repair" className="dropdown-item" onClick={handleNavCollapse}>Mobile Tyre Repair</Link>
+                      <Link to="/services/tyre-replacement" className="dropdown-item" onClick={handleNavCollapse}>Tyre Replacement</Link>
+                      <Link to="/services/flat-tyre" className="dropdown-item" onClick={handleNavCollapse}>Flat Tyre</Link>
+                      <Link to="/services/burst-tyre" className="dropdown-item" onClick={handleNavCollapse}>Burst Tyre</Link>
+                      <Link to="/services/part-worn-tyre" className="dropdown-item" onClick={handleNavCollapse}>Part Worn Tyre</Link>
+                      <Link to="/services/jumpstart" className="dropdown-item" onClick={handleNavCollapse}>Jumpstart</Link>
+                      <Link to="/services/locknut-wheel-removal" className="dropdown-item" onClick={handleNavCollapse}>Locknut Wheel Removal</Link>
+                      <Link to="/services/mobile-breakdown" className="dropdown-item" onClick={handleNavCollapse}>Mobile Breakdown</Link>
                     </div>
                 </div>
               <NavLink to="/contact" className="nav-item nav-link" activeClassName="active">Contact</NavLink>
@@ -87,7 +87,7 @@ function Navbar() {
               <div>
                 <div className="navbar-nav ms-auto py-0">
                   <div className="nav-item dropdown">
-                    <Link to="/services/ServicePage" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</Link>
+                    <Link to="/services/mobile-tyre-fitting" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</Link>
                     <div className="dropdown-menu m-0">
                       <Link to="/services/mobile-tyre-fitting" className="dropdown-item">Mobile Tyre Fitting</Link>
                       <Link to="/services/mobile-tyre-repair" className="dropdown-item">Mobile Tyre Repair</Link>
