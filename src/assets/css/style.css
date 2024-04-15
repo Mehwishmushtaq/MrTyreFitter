@@ -871,6 +871,7 @@ body{
     .ts-logo img{
         width: 16%;
         height: auto;
+        margin-top: 15px;
     }
 
     @media (max-width: 991px){
@@ -881,5 +882,6 @@ body{
         .ts-logo-mobile img{
             width: 30%;
             height: auto;
+            margin-top: 0;
         }   
     }
