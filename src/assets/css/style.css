@@ -860,6 +860,10 @@ body{
             padding: 10px;
             gap: 4px;
         }
+
+        .about-row > div{
+            border-radius: 10px;
+        }
     }
 
     /* Logo */
