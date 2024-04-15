@@ -10,8 +10,6 @@ import {
 const Testimonial = () => {
   return (
     <>
-
-<MDBContainer className="py-5">
       <MDBRow className="d-flex justify-content-center">
         <MDBCol md="10" xl="8" className="text-center">
           <div className='mt-4'>
@@ -26,6 +24,7 @@ const Testimonial = () => {
         </div>
         </MDBCol>
       </MDBRow>
+<MDBContainer className="py-5">
       <MDBRow className="text-center">
         <MDBCol md="4" className="mb-5 mb-md-0">
           <div className="d-flex justify-content-center mb-4">
