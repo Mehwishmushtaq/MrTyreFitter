@@ -66,7 +66,7 @@ function Navbar() {
     <Topheader/>
 
       <div className="container-fluid main-nav-bar p-0">
-      <nav className="navbar navbar-expand-lg navbar-light" style={{ backgroundColor: 'rgba(0, 0, 0, 0.9)', padding: '0.5rem 2rem' }}>
+      <nav className="navbar navbar-expand-lg navbar-light py-0" style={{ backgroundColor: 'rgba(0, 0, 0, 0.705)', padding: '0.5rem 2rem' }}>
           <div className="container">
             <div className="d-flex justify-content-between w-100">
               <div className="d-flex align-items-center">
