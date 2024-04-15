@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import $ from 'jquery';
-import { MDBBtn } from 'mdb-react-ui-kit';
+import Button from 'react-bootstrap/Button';
 import { Link } from 'react-router-dom';
 
 const Cards = () => {
@@ -66,9 +66,7 @@ const Cards = () => {
                   <p className="card-text">{card.text}</p>
                 
                   <Link to="/services/mobile-tyre-fitting">
-                  <MDBBtn color='light' rippleColor='dark' className='border border-success'>
-                     Learn More
-                  </MDBBtn>
+                   <Button variant="success mt-3 px-4">Learn More</Button>
                   </Link>
                 </div>
               </div>
