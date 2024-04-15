@@ -11,7 +11,6 @@ function Navbar() {
     return (
       <>
       <Helmet>
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
       </Helmet>
     
@@ -20,7 +19,7 @@ function Navbar() {
       <div className="container-fluid main-nav-bar p-0">
         <nav className="navbar navbar-expand-lg navbar-light bg-dark px-4 px-lg-5 py-2 py-lg-0">
           <Link to="/" className="navbar-brand p-0">
-            <h3 className="m-0 text-white">Mr. Tyre Fitter</h3>
+            <h3 className="m-0 text-white">Pro Tyre Fitters</h3>
           </Link>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span className="fa fa-bars"></span>
@@ -55,11 +54,7 @@ function Navbar() {
   } else {
     return (
       <>
-      <Helmet>
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-      </Helmet>
-    
+
     <Topheader/>
 
       <div className="container-fluid main-nav-bar p-0">
@@ -79,7 +74,7 @@ function Navbar() {
                 </div>
               </div>
               <Link to="/" className="navbar-brand p-0 d-flex align-items-center">
-                <h3 className="m-0 text-white">Mr. Tyre Fitter</h3>
+                <h3 className="m-0 text-white">Pro Tyre Fitters</h3>
               </Link>
               <div>
                 <div className="navbar-nav ms-auto py-0">
