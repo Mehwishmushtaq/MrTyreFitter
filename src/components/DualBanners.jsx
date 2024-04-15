@@ -1,6 +1,5 @@
 import React from 'react';
-// import 'bootstrap/dist/css/bootstrap.min.css';
-import { MDBBtn } from 'mdb-react-ui-kit';
+import Button from 'react-bootstrap/Button';
 
 const SectionWithBanners = () => {
 
@@ -18,9 +17,7 @@ const SectionWithBanners = () => {
                         <h4 className="text-white">
                             GET 30% OFF
                         </h4>
-                        <MDBBtn color='light' rippleColor='dark' className='border border-success'>
-                            Shop Now
-                        </MDBBtn>
+                        <Button variant="success mt-3 px-4">Shop Now</Button>
                     </div>
 
                     <div className="col-md-6 dual-banner-imageTwo text-light p-4 font-monospace" style={{ height: '20rem' }}>
@@ -30,9 +27,7 @@ const SectionWithBanners = () => {
                         <h4 className="text-white">
                             GET 30% OFF
                         </h4>
-                        <MDBBtn color='light' rippleColor='dark' className='border border-success'>
-                            Shop Now
-                        </MDBBtn>
+                        <Button variant="success mt-3 px-4">Shop Now</Button>
                     </div>                
                     </div>
             </section>
