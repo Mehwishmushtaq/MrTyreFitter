@@ -821,7 +821,9 @@ body{
     @media (max-width:768px) {
         .hero-form{
             width: 80%;
+            margin-top: 30px;
         }
+        
     }
 
     @media (max-width:369px) {
@@ -853,9 +855,31 @@ body{
         background-size: cover;
     }
 
-@media (max-width: 768px){
+    @media (max-width: 768px){
         .about-row{
             padding: 10px;
             gap: 4px;
         }
+    }
+
+    /* Logo */
+    .ts-logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .ts-logo img{
+        width: 16%;
+        height: auto;
+    }
+
+    @media (max-width: 991px){
+        .ts-logo-container{
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .ts-logo-mobile img{
+            width: 30%;
+            height: auto;
+        }   
     }
