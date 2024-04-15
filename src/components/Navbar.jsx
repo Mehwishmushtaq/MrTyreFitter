@@ -1,34 +1,38 @@
-import React from 'react'
+import React, { useState } from 'react';
 import { Helmet } from 'react-helmet';
 import Topheader from './Topheader';
 import { NavLink, Link } from 'react-router-dom';
 
 function Navbar() {
+  const [isNavCollapsed, setIsNavCollapsed] = useState(true);
+
+  const handleNavCollapse = () => setIsNavCollapsed(!isNavCollapsed);
+
   const screenWidth = window.innerWidth;
 
   // Conditionally render the appropriate navbar based on screen width
   if (screenWidth <= 992) {
     return (
       <>
-      <Helmet>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-      </Helmet>
+        <Helmet>
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        </Helmet>
     
-    <Topheader/>
+        <Topheader/>
 
-      <div className="container-fluid main-nav-bar p-0">
-        <nav className="navbar navbar-expand-lg navbar-light bg-dark px-4 px-lg-5 py-2 py-lg-0">
-          <Link to="/" className="navbar-brand p-0">
-            <h3 className="m-0 text-white">Pro Tyre Fitters</h3>
-          </Link>
-          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-            <span className="fa fa-bars"></span>
-          </button>
-          <div className="collapse navbar-collapse" id="navbarCollapse">
-            <div className="navbar-nav ms-auto py-0">
-              <NavLink to="/" className="nav-item nav-link" activeClassName="active" exact>Home</NavLink>
-              <NavLink to="/about" className="nav-item nav-link" activeClassName="active">About</NavLink>
-              <NavLink to="/blogs" className="nav-item nav-link" activeClassName="active">Blog</NavLink>
+        <div className="container-fluid main-nav-bar p-0">
+          <nav className="navbar navbar-expand-lg navbar-light bg-dark px-4 px-lg-5 py-2 py-lg-0">
+            <Link to="/" className="navbar-brand p-0">
+              <h3 className="m-0 text-white">Pro Tyre Fitters</h3>
+            </Link>
+            <button className="navbar-toggler" type="button" data-bs-toggle="collapse" onClick={handleNavCollapse} aria-expanded={!isNavCollapsed}>
+              <span className="fa fa-bars"></span>
+            </button>
+            <div className={`${isNavCollapsed ? 'collapse' : ''} navbar-collapse`} id="navbarCollapse">
+              <div className="navbar-nav ms-auto py-0">
+                <NavLink to="/" className="nav-item nav-link" activeClassName="active" exact onClick={handleNavCollapse}>Home</NavLink>
+                <NavLink to="/about" className="nav-item nav-link" activeClassName="active" onClick={handleNavCollapse}>About</NavLink>
+                <NavLink to="/blogs" className="nav-item nav-link" activeClassName="active" onClick={handleNavCollapse}>Blog</NavLink>
               <div className="nav-item dropdown">
                     <Link to="/services/ServicePage" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</Link>
                     <div className="dropdown-menu m-0">
