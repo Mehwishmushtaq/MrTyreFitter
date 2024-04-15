@@ -143,7 +143,7 @@ body{
 }
 
 .hero__section{
-    margin-top: 157px !important;
+    margin-top: 142px !important;
 }
 
 @media (max-width: 991px){
@@ -666,7 +666,7 @@ body{
   }
 
   .headerStyle{
-    margin-top: 95px;
+    margin-top: 142px;
     background-image: url('/images/banner.jpg');
     background-size: cover;
     background-position: center;
@@ -679,7 +679,7 @@ body{
   }
 
   .bannerStyle{
-    margin-top: 95px;
+    margin-top: 142px;
     background-image: url('/images/banner.jpg');
     background-size: cover;
     background-position: center;
@@ -889,3 +889,4 @@ body{
             margin-top: 0;
         }   
     }
+    
