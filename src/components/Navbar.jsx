@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Helmet } from 'react-helmet';
 import Topheader from './Topheader';
 import { NavLink, Link } from 'react-router-dom';
+import logo from '../assets/images/logo.jpg';
 
 function Navbar() {
   const [isNavCollapsed, setIsNavCollapsed] = useState(true);
@@ -22,12 +23,14 @@ function Navbar() {
 
         <div className="container-fluid main-nav-bar p-0">
           <nav className="navbar navbar-expand-lg navbar-light bg-dark px-4 px-lg-5 py-2 py-lg-0">
-            <Link to="/" className="navbar-brand p-0">
-              <h3 className="m-0 text-white">Pro Tyre Fitters</h3>
-            </Link>
-            <button className="navbar-toggler" type="button" data-bs-toggle="collapse" onClick={handleNavCollapse} aria-expanded={!isNavCollapsed}>
-              <span className="fa fa-bars"></span>
-            </button>
+            <section className='ts-logo-container'>
+              <Link to="/" className="p-0 m-0">
+              <div className="ts-logo-mobile container p-0 m-0"><img src={logo} alt="logo" /></div>
+              </Link>
+              <button className="navbar-toggler" type="button" data-bs-toggle="collapse" onClick={handleNavCollapse} aria-expanded={!isNavCollapsed}>
+                <span className="fa fa-bars"></span>
+              </button>
+            </section>
             <div className={`${isNavCollapsed ? 'collapse' : ''} navbar-collapse`} id="navbarCollapse">
               <div className="navbar-nav ms-auto py-0">
                 <NavLink to="/" className="nav-item nav-link" activeClassName="active" exact onClick={handleNavCollapse}>Home</NavLink>
@@ -77,8 +80,8 @@ function Navbar() {
                   </div>
                 </div>
               </div>
-              <Link to="/" className="navbar-brand p-0 d-flex align-items-center">
-                <h3 className="m-0 text-white">Pro Tyre Fitters</h3>
+              <Link to="/">
+                <div className="ts-logo container p-0 m-0"><img src={logo} alt="logo" /></div>
               </Link>
               <div>
                 <div className="navbar-nav ms-auto py-0">
