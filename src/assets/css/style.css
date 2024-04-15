@@ -852,3 +852,10 @@ body{
         background-repeat: no-repeat;
         background-size: cover;
     }
+
+@media (max-width: 768px){
+        .about-row{
+            padding: 10px;
+            gap: 4px;
+        }
+    }
