@@ -1,11 +1,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import { Row, Col } from 'react-bootstrap';
-import { MDBBtn } from 'mdb-react-ui-kit';
 import HowSection from './components/HowSection';
 import Guarantee from './components/Guarantee';
 import DualBanners from './components/DualBanners';
 import Newsletter from './components/Newsletter';
+import Button from 'react-bootstrap/Button';
 
 const ServicePage = ({pageTitle, ...otherProps}) => {
     const { 
@@ -55,9 +55,7 @@ const ServicePage = ({pageTitle, ...otherProps}) => {
             <Col lg={6}>
                 <h2>{headingTwo}</h2>
                 <p>{paraTwo}</p>
-                <MDBBtn color='light' rippleColor='dark' className='border border-success rounded-pill'>
-                     Contact Us
-                </MDBBtn>
+                <Button variant="success mt-3 px-4">Contact Us</Button>
             </Col>
         </Row>
     </div>
