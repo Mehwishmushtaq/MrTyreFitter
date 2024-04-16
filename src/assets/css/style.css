@@ -158,11 +158,6 @@ body{
     }
 }
 
-@media (max-width: 575px){
-    .hero__section{
-        margin-top: 55px !important;
-    }
-}
 
 /*** Topbar Start ***/
 .fixed-top .container {
@@ -878,15 +873,30 @@ body{
         margin-top: 15px;
     }
 
-    @media (max-width: 991px){
+    @media (max-width: 768px){
         .ts-logo-container{
             display: flex;
             justify-content: space-evenly;
         }
         .ts-logo-mobile img{
-            width: 30%;
+            width: 15%;
             height: auto;
             margin-top: 0;
         }   
     }
-    
+   
+    @media (max-width: 425px){
+        .ts-logo-mobile img{
+            width: 25%;
+            height: auto;
+            margin-top: 0;
+        }   
+
+        .hero__section{
+            margin-top: 84px !important;
+        }
+
+        .hero-form{
+            margin-top: 60px;
+        }
+    }
