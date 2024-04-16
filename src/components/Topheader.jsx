@@ -15,8 +15,8 @@ const topheader = () => {
         </div>
         <div className="col-lg-4 text-center text-lg-end">
         <div className="d-inline-flex align-items-center" style={{ height: '45px' }}>
-            <a href="#"><small className="me-3 text-light"><i className="fa fa-user me-2"></i>Register</small></a>
-            <a href="#"><small className="me-3 text-light"><i className="fa fa-sign-in-alt me-2"></i>Login</small></a>
+            <small className="me-3 text-light"><i className="fa-solid fa-map me-2"></i>If you see us, we cover your area</small>
+            <small className="me-3 text-light"><i className="fa-solid fa-phone me-2"></i>+44 2033939474</small>
         </div>
         </div>
     </div>
