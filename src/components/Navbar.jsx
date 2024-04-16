@@ -38,7 +38,9 @@ function Navbar() {
                 <NavLink to="/about" className="nav-item nav-link" activeClassName="active" onClick={handleNavCollapse}>About</NavLink>
                 <NavLink to="/blogs" className="nav-item nav-link" activeClassName="active" onClick={handleNavCollapse}>Blog</NavLink>
               <div className="nav-item dropdown">
-                    <Link to="/services/mobile-tyre-fitting" className="nav-link dropdown-toggle" data-bs-toggle="dropdown" onClick={handleNavCollapse}>Services</Link>
+              <button class="btn dropdown-toggle text-white px-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Services
+              </button>
                     <div className="dropdown-menu m-0">
                       <Link to="/services/mobile-tyre-fitting" className="dropdown-item" onClick={handleNavCollapse}>Mobile Tyre Fitting</Link>
                       <Link to="/services/mobile-tyre-repair" className="dropdown-item" onClick={handleNavCollapse}>Mobile Tyre Repair</Link>
