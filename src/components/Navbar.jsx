@@ -92,21 +92,21 @@ function Navbar() {
                   <div class="dropdown-menu new-dropdown-menu m-0">
                       <div class="row">
                           <div class="col">
-                              <Link to="/services/mobile-tyre-fitting" className="dropdown-item">Mobile Tyre Fitting</Link>
-                              <Link to="/services/mobile-tyre-repair" className="dropdown-item">Mobile Tyre Repair</Link>
-                              <Link to="/services/tyre-replacement" className="dropdown-item">Tyre Replacement</Link>
-                              <Link to="/services/flat-tyre" className="dropdown-item">Flat Tyre</Link>
+                              <Link to="/services/mobile-tyre-fitting" className="dropdown-item"><img src={'../../public/images/1.png'} className='tyre-icons' alt="1" /> Mobile Tyre Fitting</Link>
+                              <Link to="/services/mobile-tyre-repair" className="dropdown-item"><img src={'../../public/images/1.png'} className='tyre-icons' alt="1" /> Mobile Tyre Repair</Link>
+                              <Link to="/services/tyre-replacement" className="dropdown-item"><img src={'../../public/images/1.png'} className='tyre-icons' alt="1" /> Tyre Replacement</Link>
+                              <Link to="/services/flat-tyre" className="dropdown-item"><img src={'../../public/images/1.png'} className='tyre-icons' alt="1" /> Flat Tyre</Link>
                           </div>
                           <div class="col">
-                              <Link to="/services/burst-tyre" className="dropdown-item">Burst Tyre</Link>
-                              <Link to="/services/part-worn-tyre" className="dropdown-item">Part Worn Tyre</Link>
-                              <Link to="/services/jumpstart" className="dropdown-item">Jumpstart</Link>
-                              <Link to="/services/locknut-wheel-removal" className="dropdown-item">Locknut Wheel Removal</Link>
+                              <Link to="/services/burst-tyre" className="dropdown-item"><img src={'../../public/images/1.png'} className='tyre-icons' alt="1" /> Burst Tyre</Link>
+                              <Link to="/services/part-worn-tyre" className="dropdown-item"><img src={'../../public/images/1.png'} className='tyre-icons' alt="1" /> Part Worn Tyre</Link>
+                              <Link to="/services/jumpstart" className="dropdown-item"><img src={'../../public/images/1.png'} className='tyre-icons' alt="1" /> Jumpstart</Link>
+                              <Link to="/services/locknut-wheel-removal" className="dropdown-item"><img src={'../../public/images/1.png'} className='tyre-icons' alt="1" /> Locknut Wheel Removal</Link>
                           </div>
                       </div>
                       <div class="row">
                           <div class="col">
-                              <Link to="/services/mobile-breakdown" className="dropdown-item">Mobile Breakdown</Link>
+                              <Link to="/services/mobile-breakdown" className="dropdown-item"><img src={'../../public/images/1.png'} className='tyre-icons' alt="1" /> Mobile Breakdown</Link>
                           </div>
                       </div>
                   </div>
