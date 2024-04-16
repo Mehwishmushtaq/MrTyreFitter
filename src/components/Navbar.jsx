@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { Helmet } from 'react-helmet';
 import Topheader from './Topheader';
 import { NavLink, Link } from 'react-router-dom';
 import logo from '../assets/images/logo2.png';
@@ -15,9 +14,6 @@ function Navbar() {
   if (screenWidth <= 992) {
     return (
       <>
-        <Helmet>
-          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-        </Helmet>
     
         <Topheader/>
 
