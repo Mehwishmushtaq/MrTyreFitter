@@ -3,6 +3,11 @@ import { Helmet } from 'react-helmet';
 import Topheader from './Topheader';
 import { NavLink, Link } from 'react-router-dom';
 import logo from '../assets/images/logo2.png';
+import two from '../assets/images/2.png';
+import three from '../assets/images/3.png';
+import four from '../assets/images/4.png';
+import five from '../assets/images/5.png';
+import six from '../assets/images/6.png';
 
 function Navbar() {
   const [isNavCollapsed, setIsNavCollapsed] = useState(true);
@@ -92,21 +97,21 @@ function Navbar() {
                   <div class="dropdown-menu new-dropdown-menu m-0">
                       <div class="row">
                           <div class="col">
-                              <Link to="/services/mobile-tyre-fitting" className="dropdown-item"><img src={'../../public/images/1.png'} className='tyre-icons' alt="1" /> Mobile Tyre Fitting</Link>
-                              <Link to="/services/mobile-tyre-repair" className="dropdown-item"><img src={'../../public/images/1.png'} className='tyre-icons' alt="1" /> Mobile Tyre Repair</Link>
-                              <Link to="/services/tyre-replacement" className="dropdown-item"><img src={'../../public/images/1.png'} className='tyre-icons' alt="1" /> Tyre Replacement</Link>
-                              <Link to="/services/flat-tyre" className="dropdown-item"><img src={'../../public/images/1.png'} className='tyre-icons' alt="1" /> Flat Tyre</Link>
+                              <Link to="/services/mobile-tyre-fitting" className="dropdown-item"><img src={six} className='tyre-icons' alt="1" /> Mobile Tyre Fitting</Link>
+                              <Link to="/services/mobile-tyre-repair" className="dropdown-item"><img src={two} className='tyre-icons' alt="1" /> Mobile Tyre Repair</Link>
+                              <Link to="/services/tyre-replacement" className="dropdown-item"><img src={three} className='tyre-icons' alt="1" /> Tyre Replacement</Link>
+                              <Link to="/services/flat-tyre" className="dropdown-item"><img src={four} className='tyre-icons' alt="1" /> Flat Tyre</Link>
                           </div>
                           <div class="col">
-                              <Link to="/services/burst-tyre" className="dropdown-item"><img src={'../../public/images/1.png'} className='tyre-icons' alt="1" /> Burst Tyre</Link>
-                              <Link to="/services/part-worn-tyre" className="dropdown-item"><img src={'../../public/images/1.png'} className='tyre-icons' alt="1" /> Part Worn Tyre</Link>
-                              <Link to="/services/jumpstart" className="dropdown-item"><img src={'../../public/images/1.png'} className='tyre-icons' alt="1" /> Jumpstart</Link>
-                              <Link to="/services/locknut-wheel-removal" className="dropdown-item"><img src={'../../public/images/1.png'} className='tyre-icons' alt="1" /> Locknut Wheel Removal</Link>
+                              <Link to="/services/burst-tyre" className="dropdown-item"><img src={five} className='tyre-icons' alt="1" /> Burst Tyre</Link>
+                              <Link to="/services/part-worn-tyre" className="dropdown-item"><img src={six} className='tyre-icons' alt="1" /> Part Worn Tyre</Link>
+                              <Link to="/services/jumpstart" className="dropdown-item"><img src={four} className='tyre-icons' alt="1" /> Jumpstart</Link>
+                              <Link to="/services/locknut-wheel-removal" className="dropdown-item"><img src={five} className='tyre-icons' alt="1" /> Locknut Wheel Removal</Link>
                           </div>
                       </div>
                       <div class="row">
                           <div class="col">
-                              <Link to="/services/mobile-breakdown" className="dropdown-item"><img src={'../../public/images/1.png'} className='tyre-icons' alt="1" /> Mobile Breakdown</Link>
+                              <Link to="/services/mobile-breakdown" className="dropdown-item"><img src={six} className='tyre-icons' alt="1" /> Mobile Breakdown</Link>
                           </div>
                       </div>
                   </div>
