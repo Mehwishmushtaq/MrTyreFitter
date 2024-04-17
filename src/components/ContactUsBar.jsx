@@ -22,7 +22,7 @@ const ContactUsBar = () => {
                         <i class="fa-solid fa-envelope fa-2xl"></i>
                         <h5 className='mt-3 text-success'>Get in Touch</h5>
                         <p className='text-center'>
-                            <b>+44 1234 567758</b> <br />
+                            <b>+44 2033939474</b> <br />
                             person@company.com <br />
                             person@company.com
                         </p>
