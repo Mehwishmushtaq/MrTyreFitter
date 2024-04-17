@@ -14,20 +14,22 @@ const MobileBreakdown = () => {
         imgFive="/images/img-11.jpg"
         // Text
         pageTitle="Mobile Breakdown"
-        headingOne="heading one goes here"
-        headingTwo="heading two goes here"
-        headingThree="heading three goes here"
-        headingFour="heading four goes here"
-        headingFive="heading five goes here"
-        paraOne="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit fermentum justo. Vestibulum feugiat vehicula elit, at congue orci venenatis nec. Morbi hendrerit mauris vel arcu hendrerit, nec tristique purus auctor. Nullam euismod nunc nec dictum tempus. Integer malesuada felis vel justo aliquet, a tincidunt arcu vulputate. Quisque suscipit, ligula eu pharetra scelerisque, tortor ligula aliquam felis, sit amet fringilla odio lectus nec nunc. Ut auctor velit sit amet tortor efficitur, vel tincidunt purus pellentesque. Nunc quis odio sit amet velit ullamcorper rhoncus. Vivamus nec purus in elit hendrerit tincidunt. Proin a urna vel sapien vestibulum feugiat. Curabitur nec justo et justo tincidunt tincidunt. Integer in ultricies erat. Vestibulum ac eros eu turpis convallis bibendum ut non quam."
-        paraTwo="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus eveniet, praesentium consectetur, temporibus assumenda eius maiores possimus explicabo quos officiis dolorum quod? Vitae harum delectus porro perspiciatis architecto ipsum sed.
-        Suscipit architecto rem voluptatibus quibusdam provident. Error excepturi sunt perspiciatis earum accusantium, cum blanditiis eius similique vero pariatur. Ea debitis explicabo accusamus molestiae ullam unde sunt provident saepe voluptatum animi?
-        Et nulla saepe quis esse ad ut, ea quod earum illum labore sint dolor velit reiciendis voluptatum, nihil quia corrupti, explicabo sit ex rem suscipit! Mollitia voluptatibus iste ab ex."
-        paraThree="Lorem ipsumi dolor sit amet, consectetur adipiscing elit. Sed blandit fermentum justo. Vestibulum feugiat vehicula elit, at congue orci venenatis nec. Morbi hendrerit mauris vel arcu hendrerit, nec tristique purus auctor. Nullam euismod nunc nec dictum tempus. Integer malesuada felis vel justo aliquet, a tincidunt arcu vulputate."
-        paraFour="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit fermentum justo. Vestibulum feugiat vehicula elit, at congue orci venenatis nec. Morbi hendrerit mauris vel arcu hendrerit, nec tristique purus auctor. Nullam euismod nunc nec dictum tempus. Integer malesuada felis vel justo aliquet, a tincidunt arcu vulputate."
-        paraFive="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus eveniet, praesentium consectetur, temporibus assumenda eius maiores possimus explicabo quos officiis dolorum quod? Vitae harum delectus porro perspiciatis architecto ipsum sed.
-        Suscipit architecto rem voluptatibus quibusdam provident. Error excepturi sunt perspiciatis earum accusantium, cum blanditiis eius similique vero pariatur. Ea debitis explicabo accusamus molestiae ullam unde sunt provident saepe voluptatum animi?
-        Et nulla saepe quis esse ad ut, ea quod earum illum labore sint dolor velit reiciendis voluptatum, nihil quia corrupti, explicabo sit ex rem suscipit! Mollitia voluptatibus iste ab ex. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, mollitia."
+        headingOne="Breakdown recovery service anywhere, anytime"
+        headingTwo="Immediate breakdown recovery near me"
+        headingThree="Resume your journey with a recovery breakdown."
+        headingFour="Expeditious local breakdown recovery service"
+        headingFive="24/7 breakdown recovery service for emergencies"
+        paraOne="When your car gets stuck on the road, it can be stressful. We understand that the sudden stop of the vehicle can be physically, mentally, and financially burdensome. Pro Tyre Fitters is a platform that takes care of the needs of every traveller and provides the best vehicle services. We offer a breakdown recovery service that resolves your vehicle-related issues and helps you resume your journey towards your destination. Our goal is to make your travel easy and memorable."
+        paraTwo="Breakdown recovery service is required in the event of a flat tyre, mechanical failure, battery problems, overheating, brake failure and running out of fuel. Most of the issues appear on the side of the road, causing unexpected stress and causing an unpleasant incident. It creates safety concerns for you and your vehicle. All you need is a breakdown recovery near me that provides you with prompt service on the spot and helps you get out of the situation safely."
+        paraThree="We understand that a stranded vehicle can cause you to arrive late at your destination, and sometimes, you miss an essential part of the event. We offer you a recovery breakdown service that fixes your vehicle problem efficiently and ensures that your journey is smooth. We provide you with the best professionals who are well-trained in their work and know all vehicle-related problems and their solutions. They arrive at your location with a complete toolkit and the necessary equipment to solve the problem that stands between you and your destination."
+        paraFour="Towing the stuck car to the garage is a challenging task for you, and you cannot handle the emergency alone. To reduce your physical and mental stress, we bring you a local breakdown recovery service at your place. Our professionals arrive at your location to deal with the problem, resolve it quickly, and guide you to ensure that the incident never happens again. They arrive without time and place restrictions, no matter where you are stuck and when you need help. They come in the middle of the night and bad weather."
+        paraFive="A 24-hour breakdown recovery service manages emergencies and ensures you are safe. Our professionals are always ready to help you; they are well-trained in dealing with emergencies and finding solutions. We provide you services on a pocket-friendly budget, which reduces your financial stress. Our experts are always ready to help you at the roadside and your workplace. We aim to provide you with the best service at an affordable price that saves you time, energy and money."
+        scardparaOne="Our professionals are available 24/7 to handle vehicle-related emergencies, ensure your safety, and resolve the issue to resume your journey to your destination."
+        scardparaTwo="We provide you with professionals who serve at your desired location, be it a side of the road or an office location. They reach your location irrespective of time and place."
+        scardparaThree="A sudden car-related problem can be expensive, but we provide you with the best services to solve the problem at your location and reduce your stress at very affordable rates."
+        scardOne="24/7 available to serve you"
+        scardTwo="Serve at your directed location"
+        scardThree="Highly affordable"
      /> 
     </>
   )
