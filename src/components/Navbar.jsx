@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Helmet } from 'react-helmet';
+import { NavLink, Link, useLocation } from 'react-router-dom';
 import Topheader from './Topheader';
-import { NavLink, Link } from 'react-router-dom';
 import logo from '../assets/images/logo2.png';
 import two from '../assets/images/2.png';
 import three from '../assets/images/3.png';
@@ -11,8 +11,13 @@ import six from '../assets/images/6.png';
 
 function Navbar() {
   const [isNavCollapsed, setIsNavCollapsed] = useState(true);
+  const location = useLocation();
 
   const handleNavCollapse = () => setIsNavCollapsed(!isNavCollapsed);
+
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scroll to the top when the route changes
+  }, [location.pathname]); // Listen for changes to the pathname
 
   const screenWidth = window.innerWidth;
 
