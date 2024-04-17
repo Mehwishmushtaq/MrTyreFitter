@@ -1,8 +1,8 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import Cards from './components/Cards';
-import FormSelect from './components/FormSelect';
+// import Cards from './components/Cards';
+// import FormSelect from './components/FormSelect';
 import Newsletter from './components/Newsletter';
 
 function About() {
@@ -27,7 +27,7 @@ function About() {
      </div>
 
      {/* New Section */}
-     <Container>
+     {/* <Container>
       <Row>
         <Col lg={6} className='d-flex align-items-center mt-2'>
           <div className='about-circle'><i class="fa-solid fa-check fa-2xl"></i></div>
@@ -62,11 +62,11 @@ function About() {
         </Col>
       </Row>
       
-     </Container>
+     </Container> */}
 
      
      {/* New Section */}
-      <FormSelect/>
+      {/* <FormSelect/> */}
       <Container className="py-5">
         <Row style={{ marginTop: '4rem' }}>
           <Col lg={6}>
@@ -78,18 +78,8 @@ function About() {
           </Col>
         </Row>
 
-        <div className='mt-4'>
-        <Row className="text-center justify-content-center">
-            <div className="col-md-11 col-lg-9 col-xl-7 mb-2">
-                <div className="section-title">
-                    <h2 className="sec-title">The Heading Goes Here</h2>
-                </div>
-            </div>
-        </Row>
-        <div className='para-width mx-auto'><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit fermentum justo. Vestibulum feugiat vehicula elit, at congue orci venenatis nec. Morbi hendrerit mauris vel arcu hendrerit, nec tristique purus auctor. Nullam euismod nunc nec dictum tempus. Integer malesuada felis vel justo aliquet, a tincidunt arcu vulputate. Quisque suscipit, ligula eu pharetra scelerisque, tortor ligula aliquam felis.</p></div>
-        </div>
         
-        <Cards/>
+        {/* <Cards/> */}
 
         <Row style={{ marginTop: '4rem' }}>
           <Col lg={6} className='order-2'>
@@ -117,10 +107,7 @@ function About() {
               <li>Service specialists manage emergencies.</li>
             </ul>
           </Col>
-          <Col lg={6}>
-            <h2>Our Values</h2>
-            <p>At Mobile Fit Tyres, we prioritize integrity, reliability, and safety in everything we do. We strive to build lasting relationships with our customers based on trust and transparency.</p>
-          </Col>
+          
         </Row>
       </Container>
       <Newsletter/>
