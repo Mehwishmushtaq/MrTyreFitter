@@ -59,7 +59,7 @@ const ServicePage = ({pageTitle, ...otherProps}) => {
                 <img src={imgOne} alt="Mission" className="img-fluid rounded" />
             </Col>
             <Col lg={6}>
-                <h2>{headingTwo}</h2>
+                <h2 className='text-success'>{headingTwo}</h2>
                 <p>{paraTwo}</p>
                 <Button variant="success mt-3 px-4">Contact Us</Button>
             </Col>
@@ -69,13 +69,7 @@ const ServicePage = ({pageTitle, ...otherProps}) => {
     {/* Image overlay */}
     <section className='container mt-4'>
         <div className='mt-4'>
-                <div className="row text-center justify-content-center">
-                    <div className="col-md-11 col-lg-9 col-xl-7 mb-2">
-                        <div className="section-title">
-                            <h2 className="sec-title">{headingThree}</h2>
-                        </div>
-                    </div>
-                </div>
+            <h2 className="text-success text-center">{headingThree}</h2>
             <div className='para-width mx-auto'><p>{paraThree}</p></div>
         </div>
         <div className="row">
@@ -137,13 +131,7 @@ const ServicePage = ({pageTitle, ...otherProps}) => {
                 <img src={imgFive} alt="Mission" className="img-fluid rounded" />
             </Col>
             <Col lg={6} className='order-1'>
-            <div className="row text-center justify-content-center">
-                <div className="col-md-11 col-lg-9 col-xl-7 mb-2">
-                    <div className="section-title">
-                        <h2 className="sec-title">{headingFive}</h2>
-                    </div>
-                </div>
-            </div>
+                <h2 className='text-success'>{headingFive}</h2>
                 <p>{paraFive}</p>
             </Col>
         </Row>
