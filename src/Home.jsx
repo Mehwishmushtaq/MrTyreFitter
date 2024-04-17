@@ -22,11 +22,11 @@ const Home = () => {
         <Row className="text-center justify-content-center">
             <Col className="col-md-11 col-lg-9 col-xl-7 mb-2">
                 <div className="section-title">
-                    <h2 className="sec-title">The Heading Goes Here</h2>
+                    <h2 className="sec-title">Experience our excellent mobile tyre fitting in London</h2>
                 </div>
             </Col>
         </Row>
-        <div className='para-width mx-auto'><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod quibusdam magni similique explicabo quisquam maxime ad autem quaerat aliquam fugit. Aperiam cupiditate perferendis eius officiis nemo? Quam pariatur aliquid harum laboriosam ad officia perferendis quidem similique? Neque officiis dignissimos quod accusamus facilis minima maxime doloremque, necessitatibus distinctio, voluptas tempora eum!</p></div>
+        <div className='para-width mx-auto'><p>Welcome to the hub of the best tyres and best tyre services that solve all your tyre-related problems. Pro Tyre Fitters is a platform that provides you with the best tyre-related service to ensure your journey is smooth and easy. Tyre-related issues can occur anywhere at any time that can disrupt your travel schedule. It disrupts your daily travel, office work schedule, and even travel for a specific reason. This causes you to arrive late at your destination or miss an essential part of the event.</p></div>
      </div>
 
      <DualBanners/>
@@ -34,9 +34,8 @@ const Home = () => {
       <Container>
         <Row style={{ marginTop: '4rem' }}>
           <Col lg={6}>
-            <h2>Heading</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus eveniet, praesentium consectetur, temporibus assumenda eius maiores possimus explicabo quos officiis dolorum quod? Vitae harum delectus porro perspiciatis architecto ipsum sed.
-            Suscipit architecto rem voluptatibus quibusdam provident. sint dolor velit reiciendis voluptatum, nihil quia corrupti</p>
+            <h2 className='text-success'>Simplify your journey with Mobile tyre fitting</h2>
+            <p>Mobile Tyre Fittings London manages a wide range of tyre-related issues, covering emergencies and providing you with services from tyre repairs to tyre replacements. We provide mobile tyre fitting services at your designated location for your convenience. Our trained professionals know all tyre-related problems, handle emergencies easily and know possible solutions. They ensure your safety first and then implement the best possible solution to prevent the problem from happening again.</p>
           </Col>
           <Col lg={6} className='order-small-1 d-flex justify-content-center'>
             <img src={"images/img-10.jpg"} alt="Mission" className="img-fluid rounded" />
@@ -48,11 +47,11 @@ const Home = () => {
         <div className="row text-center justify-content-center">
             <div className="col-md-11 col-lg-9 col-xl-7 mb-2">
                 <div className="section-title">
-                    <h2 className="sec-title">The Heading Goes Here</h2>
+                    <h2 className="sec-title">Nimble mobile tyre service near me</h2>
                 </div>
             </div>
         </div>
-        <div className='para-width mx-auto'><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus eveniet, praesentium consectetur, temporibus assumenda.</p></div>
+        <div className='para-width mx-auto'><p>A tyre-related problem can lead to unpleasant incidents that cause trouble for you and your vehicle. To save you from the damage, we offer you seamless service of a mobile tyre fitting near me that serves you at your directed location. Our professionals are available 24/7 to serve you on a single call, no matter where you are and when you need help. They reach the location as per your instruction without time and space restrictions.</p></div>
      </div>
      
      <section className='container'><Cards/></section>
@@ -63,10 +62,7 @@ const Home = () => {
         <Row style={{ marginTop: '6rem' }}>
           <Col lg={6} className='order-2'>
             <h2>Our Mission</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus eveniet, praesentium consectetur, temporibus assumenda eius maiores possimus explicabo quos officiis dolorum quod? Vitae harum delectus porro perspiciatis architecto ipsum sed.
-            Suscipit architecto rem voluptatibus quibusdam provident. Error excepturi sunt perspiciatis earum accusantium, cum blanditiis eius similique vero pariatur. Ea debitis explicabo accusamus molestiae ullam unde sunt provident saepe voluptatum animi?
-            Et nulla saepe quis esse ad ut, ea quod earum illum labore sint dolor velit reiciendis voluptatum, nihil quia corrupti, explicabo sit ex rem suscipit! Mollitia voluptatibus iste ab ex.
-            Iure autem molestiae perferendis hic nesciunt id eos voluptas deserunt necessitatibus est eum, eaque labore aspernatur reprehenderit itaque totam adipisci vel. Fugit voluptates culpa debitis. Autem cupiditate ipsum suscipit natus?</p>
+            <p>We aim to provide you with the best services at the most affordable price that reduces your mental, physical and financial burden. We bring the garage to you with all the necessary equipment and toolkits to save you from the physical burden of taking the car to the garage. Our professionals arrive at your designated location for service and fix your tyre problem to get you back on the journey faster. We aim to make your journey safe, convenient and memorable for you. A sudden tyre problem also burdens your pocket but we take care of your finances and offer you the best affordable services at an affordable price.</p>
           </Col>
           <Col lg={6} className='order-1 d-flex justify-content-center'>
             <img src={"images/img-10.jpg"} alt="Mission" className="img-fluid rounded" />
