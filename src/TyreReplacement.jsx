@@ -29,6 +29,7 @@ const TyreReplacement = () => {
         scardOne="Ensure your safety"
         scardTwo="Serve by best professionals"
         scardThree="Serve at your desired location"
+        ctaText="Call us to get your car tyres replaced with new ones using our exceptional tyre replacement service. We service you at your directed location, recommend the best tyres for your journey and serve you beyond the limit of time and place."
      /> 
     </>
   )
