@@ -14,20 +14,22 @@ const PartWornTyre = () => {
         imgFive="/images/img-11.jpg"
         // Text
         pageTitle="Part Worn"
-        headingOne="heading one goes here"
-        headingTwo="heading two goes here"
-        headingThree="heading three goes here"
-        headingFour="heading four goes here"
-        headingFive="heading five goes here"
-        paraOne="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit fermentum justo. Vestibulum feugiat vehicula elit, at congue orci venenatis nec. Morbi hendrerit mauris vel arcu hendrerit, nec tristique purus auctor. Nullam euismod nunc nec dictum tempus. Integer malesuada felis vel justo aliquet, a tincidunt arcu vulputate. Quisque suscipit, ligula eu pharetra scelerisque, tortor ligula aliquam felis, sit amet fringilla odio lectus nec nunc. Ut auctor velit sit amet tortor efficitur, vel tincidunt purus pellentesque. Nunc quis odio sit amet velit ullamcorper rhoncus. Vivamus nec purus in elit hendrerit tincidunt. Proin a urna vel sapien vestibulum feugiat. Curabitur nec justo et justo tincidunt tincidunt. Integer in ultricies erat. Vestibulum ac eros eu turpis convallis bibendum ut non quam."
-        paraTwo="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus eveniet, praesentium consectetur, temporibus assumenda eius maiores possimus explicabo quos officiis dolorum quod? Vitae harum delectus porro perspiciatis architecto ipsum sed.
-        Suscipit architecto rem voluptatibus quibusdam provident. Error excepturi sunt perspiciatis earum accusantium, cum blanditiis eius similique vero pariatur. Ea debitis explicabo accusamus molestiae ullam unde sunt provident saepe voluptatum animi?
-        Et nulla saepe quis esse ad ut, ea quod earum illum labore sint dolor velit reiciendis voluptatum, nihil quia corrupti, explicabo sit ex rem suscipit! Mollitia voluptatibus iste ab ex."
-        paraThree="Lorem ipsumi dolor sit amet, consectetur adipiscing elit. Sed blandit fermentum justo. Vestibulum feugiat vehicula elit, at congue orci venenatis nec. Morbi hendrerit mauris vel arcu hendrerit, nec tristique purus auctor. Nullam euismod nunc nec dictum tempus. Integer malesuada felis vel justo aliquet, a tincidunt arcu vulputate."
-        paraFour="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit fermentum justo. Vestibulum feugiat vehicula elit, at congue orci venenatis nec. Morbi hendrerit mauris vel arcu hendrerit, nec tristique purus auctor. Nullam euismod nunc nec dictum tempus. Integer malesuada felis vel justo aliquet, a tincidunt arcu vulputate."
-        paraFive="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus eveniet, praesentium consectetur, temporibus assumenda eius maiores possimus explicabo quos officiis dolorum quod? Vitae harum delectus porro perspiciatis architecto ipsum sed.
-        Suscipit architecto rem voluptatibus quibusdam provident. Error excepturi sunt perspiciatis earum accusantium, cum blanditiis eius similique vero pariatur. Ea debitis explicabo accusamus molestiae ullam unde sunt provident saepe voluptatum animi?
-        Et nulla saepe quis esse ad ut, ea quod earum illum labore sint dolor velit reiciendis voluptatum, nihil quia corrupti, explicabo sit ex rem suscipit! Mollitia voluptatibus iste ab ex. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, mollitia."
+        headingOne="Experience our part-worn tyres service"
+        headingThree="Manage emergencies with part worn tyres near me"
+        headingTwo="Inexpensive used tyres near me"
+        headingFour="Quick fix your tyre with part-worn tyres service"
+        headingFive="Immediate recovery with second-hand tyre near me"
+        paraOne="If your tyres get weak and damaged, it will trouble you. A weak and damaged tyre causes problems for you that disrupt your daily work routine, make you arrive late at the office, and disrupt your work schedule. Pro Tyre Fitters is a platform that handles all your tyre-related issues and offers the best solutions to help you move freely. We design a part-worn tyres service that replaces your old and damaged tyre with a new one to make your journey safer."
+        paraThree="You need a part worn tyres near me in case of an emergency replacement, puncture or tyre failure. We understand that weak tyres are a hassle for you, which leads to unexpected stress and a burden on your pocket. Part worn tyres are the best option for you in case of emergency tyre replacement when you don't have enough budget for new tyres. These tyres meet your needs and help you resume your journey faster. That reduces your safety concerns and makes your tea easier."
+        paraTwo="A sudden tyre problem that can't be fixed right now. You're looking at used tyres near me that temporarily fill your tyre needs. We provide you with the best-worn tyres, which our professionals have already tested. Our professionals check the safety standards of the tyre and then recommend the usage. They recommend the best tyres for your travel based on your vehicle and travel requirements. These tyres ensure your safety and protect you from accidents and unexpected incidents of the car getting stuck."
+        paraFour="We know that getting the car to the garage is not easy, so we bring you garage services to ease your worries. We provide you with the best services with trained professionals. Our professionals are available 24/7 to serve you regardless of time and place. They serve you at the place you are directed, no matter where you are stuck or what the time is. Our experts respond quickly and provide the best services to solve your tyre problem and resume your journey."
+        paraFive="Second-hand tyres near me give you the service you need at the place you want. Our professionals are always ready to serve you regardless of location; your comfort is important to us. Frequently, tyre-related issues arise on the side of the road. They also serve you at your office to save your work schedule from disruption. They also serve you at home to maintain comfort and save you time, energy, and money. We offer you the best services at your location at an affordable price."
+        scardparaOne="Our well-trained professionals manage tyre emergencies wherever you need them and offer you the best possible solution as a permanent solution that resumes the journey."
+        scardparaTwo="We offer the best quality tyres based on your travel and vehicle needs. Our professionals test them to meet travel safety standards before making a recommendation."
+        scardparaThree="We provide you with experts who are available 24/7 to serve you regardless of time and place. They arrive at your location quickly with a complete toolkit to fix the problem."
+        scardOne="Handle emergency"
+        scardTwo="Finest part worn tyres"
+        scardThree="24/7 available anywhere, anytime"
      /> 
     </>
   )
