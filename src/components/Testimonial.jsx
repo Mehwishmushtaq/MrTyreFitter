@@ -16,11 +16,11 @@ const Testimonial = () => {
             <div className="row text-center justify-content-center">
                 <div className="col-md-11 col-lg-9 col-xl-7 mb-2">
                     <div className="section-title">
-                        <h2 className="sec-title">The Heading Goes Here</h2>
+                        <h2 className="sec-title">Testimonials</h2>
                     </div>
                 </div>
             </div>
-            <div className='para-width mx-auto'><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus eveniet, praesentium consectetur, temporibus assumenda.</p></div>
+            <div className='para-width mx-auto'><p>These are our Monthly Top Clients and their reviews about our service</p></div>
         </div>
         </MDBCol>
       </MDBRow>
@@ -35,13 +35,10 @@ const Testimonial = () => {
               height="150"
             />
           </div>
-          <h5 className="mb-3">Maria Smantha</h5>
-          <h6 className="text-success mb-3">Web Developer</h6>
+          <h5 className="mb-3">Emma Davis</h5>
           <p className="px-xl-3">
             <MDBIcon fas icon="quote-left" className="pe-2" />
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos
-            id officiis hic tenetur quae quaerat ad velit ab hic tenetur.
-          </p>
+            The serviceman is well trained in his job, came on my one call and solved the problem immediately. Highly trusted.</p>
           <MDBTypography
             listUnStyled
             className="d-flex justify-content-center mb-0"
@@ -77,13 +74,9 @@ const Testimonial = () => {
               height="150"
             />
           </div>
-          <h5 className="mb-3">Lisa Cudrow</h5>
-          <h6 className="text-success mb-3">Graphic Designer</h6>
+          <h5 className="mb-3">Maria Evans</h5>
           <p className="px-xl-3">
-            <MDBIcon fas icon="quote-left" className="pe-2" />
-            Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis
-            suscipit laboriosam, nisi ut aliquid commodi.
-          </p>
+            <MDBIcon fas icon="quote-left" className="pe-2" />Best tyre services ever; they guided me properly, listened, and followed every instruction. Excellent service. </p>
           <MDBTypography
             listUnStyled
             className="d-flex justify-content-center mb-0"
@@ -115,12 +108,8 @@ const Testimonial = () => {
             />
           </div>
           <h5 className="mb-3">John Smith</h5>
-          <h6 className="text-success mb-3">Marketing Specialist</h6>
           <p className="px-xl-3">
-            <MDBIcon fas icon="quote-left" className="pe-2" />
-            At vero eos et accusamus et iusto odio dignissimos ducimus qui
-            blanditiis praesentium voluptatum deleniti atque corrupti.
-          </p>
+            <MDBIcon fas icon="quote-left" className="pe-2" />My car was stuck on the road, and the experts helped me out of the problem and fixed the problem quickly. Good job.</p>
           <MDBTypography
             listUnStyled
             className="d-flex justify-content-center mb-0"
