@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import { Row, Col } from 'react-bootstrap';
+import { Row, Col, Container } from 'react-bootstrap';
 import HowSection from './components/HowSection';
 import Guarantee from './components/Guarantee';
 import DualBanners from './components/DualBanners';
@@ -30,7 +30,8 @@ const ServicePage = ({pageTitle, ...otherProps}) => {
         scardparaThree,
         scardOne,
         scardTwo,
-        scardThree
+        scardThree,
+        ctaText
      } = otherProps;
 
   return (
@@ -138,6 +139,9 @@ const ServicePage = ({pageTitle, ...otherProps}) => {
     </div>
     {/* How it works */}
     <HowSection/>
+    <Container>
+        <p>{ctaText}</p>
+    </Container>
     <Newsletter/>
     </>
   )
