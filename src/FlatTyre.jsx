@@ -38,6 +38,7 @@ const FlatTyre = () => {
         scardOne="24/7 availability "
         scardTwo="Manage the emergencies "
         scardThree="Manage the emergencies"
+        ctaText="Call us today to solve your flat tyre problem; we offer you the best service at the most affordable price. Our professionals arrive at your desired location with a complete toolkit to serve you beyond the limits of time and space"
      /> 
     </>
   )
