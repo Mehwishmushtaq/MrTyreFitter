@@ -27,7 +27,7 @@ const WhyChooseUs = () => {
 
                     <Row>
                         <Col className="text-center mb-4">
-                            <h2 className='mt-3' style={{fontSize:'40px'}}>
+                            <h3 className='mt-5' style={{fontSize:'60px'}}>
                                 <strong>
                                     <span style={{ color: '#18bd9d' }}>100%</span>
                                     <br />
@@ -36,7 +36,7 @@ const WhyChooseUs = () => {
                                     Guarantee
                                 </strong>
 
-                            </h2>
+                            </h3>
                         </Col>
                         {features.map((feature, index) => (
                             <Col key={index} md="6" lg="3" className="mb-4">
