@@ -10,6 +10,7 @@ import HowSection from './components/HowSection';
 import Newsletter from './components/Newsletter';
 import SingleBanner from './components/SingleBanner';
 import DualBanners from './components/DualBanners';
+import CTA from './components/CTA';
 
 const Home = () => {
     
@@ -97,6 +98,9 @@ const Home = () => {
      
       <HowSection/>
       <Testimonial/>
+      <CTA
+      ctaText="Share your tyre-related issues with our experts. Call us today to tackle your tyre problem and solve it with the best possible solution. Our professionals reach your location no matter where you are, and when you need help, they help you at your home, workplace and roadside. " 
+      />
       <Newsletter/>
     </>
     
