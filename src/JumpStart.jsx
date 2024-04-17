@@ -14,20 +14,37 @@ const JumpStart = () => {
         imgFive="/images/img-11.jpg"
         // Text
         pageTitle="Jumpstart"
-        headingOne="heading one goes here"
-        headingTwo="heading two goes here"
-        headingThree="heading three goes here"
-        headingFour="heading four goes here"
-        headingFive="heading five goes here"
-        paraOne="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit fermentum justo. Vestibulum feugiat vehicula elit, at congue orci venenatis nec. Morbi hendrerit mauris vel arcu hendrerit, nec tristique purus auctor. Nullam euismod nunc nec dictum tempus. Integer malesuada felis vel justo aliquet, a tincidunt arcu vulputate. Quisque suscipit, ligula eu pharetra scelerisque, tortor ligula aliquam felis, sit amet fringilla odio lectus nec nunc. Ut auctor velit sit amet tortor efficitur, vel tincidunt purus pellentesque. Nunc quis odio sit amet velit ullamcorper rhoncus. Vivamus nec purus in elit hendrerit tincidunt. Proin a urna vel sapien vestibulum feugiat. Curabitur nec justo et justo tincidunt tincidunt. Integer in ultricies erat. Vestibulum ac eros eu turpis convallis bibendum ut non quam."
-        paraTwo="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus eveniet, praesentium consectetur, temporibus assumenda eius maiores possimus explicabo quos officiis dolorum quod? Vitae harum delectus porro perspiciatis architecto ipsum sed.
-        Suscipit architecto rem voluptatibus quibusdam provident. Error excepturi sunt perspiciatis earum accusantium, cum blanditiis eius similique vero pariatur. Ea debitis explicabo accusamus molestiae ullam unde sunt provident saepe voluptatum animi?
-        Et nulla saepe quis esse ad ut, ea quod earum illum labore sint dolor velit reiciendis voluptatum, nihil quia corrupti, explicabo sit ex rem suscipit! Mollitia voluptatibus iste ab ex."
-        paraThree="Lorem ipsumi dolor sit amet, consectetur adipiscing elit. Sed blandit fermentum justo. Vestibulum feugiat vehicula elit, at congue orci venenatis nec. Morbi hendrerit mauris vel arcu hendrerit, nec tristique purus auctor. Nullam euismod nunc nec dictum tempus. Integer malesuada felis vel justo aliquet, a tincidunt arcu vulputate."
-        paraFour="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit fermentum justo. Vestibulum feugiat vehicula elit, at congue orci venenatis nec. Morbi hendrerit mauris vel arcu hendrerit, nec tristique purus auctor. Nullam euismod nunc nec dictum tempus. Integer malesuada felis vel justo aliquet, a tincidunt arcu vulputate."
-        paraFive="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus eveniet, praesentium consectetur, temporibus assumenda eius maiores possimus explicabo quos officiis dolorum quod? Vitae harum delectus porro perspiciatis architecto ipsum sed.
-        Suscipit architecto rem voluptatibus quibusdam provident. Error excepturi sunt perspiciatis earum accusantium, cum blanditiis eius similique vero pariatur. Ea debitis explicabo accusamus molestiae ullam unde sunt provident saepe voluptatum animi?
-        Et nulla saepe quis esse ad ut, ea quod earum illum labore sint dolor velit reiciendis voluptatum, nihil quia corrupti, explicabo sit ex rem suscipit! Mollitia voluptatibus iste ab ex. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, mollitia."
+        headingOne="Rescue your vehicle's battery with jumpstart service"
+        headingTwo="Expeditious jumpstart car service "
+        headingThree="Quick fix with jumpstart service near me "
+        headingFour="Superlative jumpstart car battery charger "
+        headingFive="Jumpstart service at your desired location"
+        paraOne="A weak and depleted battery can stall your vehicle anywhere without alarm, and sudden stops during the journey can cause unexpected stress. We know that a depleted battery slows down your vehicle's performance and leads to late arrival at your destination. Pro Tyre Fitters is a platform that takes care of its customers' needs and offers you a jumpstart service to solve your car battery problem. We provide you with the best professionals who provide you with the services to overcome this situation and resume your journey. 
+        "
+        paraTwo="A sudden stop in the car causes you mental and financial stress, and it also brings physical stress when you take the car to the garage. We understand your burden, and to reduce your stress, we offer you the best garage services with well-trained professionals at your location. Our professionals arrive at your location with a complete tool kit and the necessary equipment to provide jumpstart car service. They arrive quickly at your one call.
+        "
+        paraThree="Most of the time, the car battery creates problems at the roadside, which leads to a panic situation for you. All you need is a jumpstart service near me that will provide you with the best service at a very affordable price. One of the causes of battery depletion is extreme weather conditions, such as extreme heat and cold. Other causes are battery ageing and leaving interior lights, headlights or any electrical component on. Our professionals arrive on the spot to save you and your vehicle from stress.
+        "
+        paraFour="Our professionals are highly trained in their work; they know all vehicle-related problems and possible solutions. They arrive at your location, diagnose the cause of the problem, and resolve it with the best solution. A great way out of the situation is to jumpstart a car battery charger that charges your damaged and depleted battery. They also protect the battery from dying and provide enough power to restart the engine. You can carry it while travelling to protect against the unexpected incident.
+        "
+        paraFive="Your safety and comfort are our priority; we offer you service at your designated location. Our professionals reach the spot without time and place restrictions; they are ready 24/7 to solve your problem, even in the middle of the night and in extreme weather. They can even serve you at your home doorstep to save you the physical stress of going to the garage and even serve you at the workplace to save you from disrupting your work schedule. That can also serve you on the side of the road.
+        "
+        scardparaOne="Our professionals are available 24/7 to handle battery-related emergencies, arriving at the spot with a complete toolkit to save you, regardless of time and place.
+
+        "
+        scardparaTwo="We aim to ensure your safety and that of your vehicle while travelling, so we always take care of your vehicle and ensure that it is safely prepared for your travel.
+
+        "
+        scardparaThree="We serve you at your designated location, be it your home, workplace or roadside. Our professionals will arrive to resolve your issue and help you resume your travels.
+
+
+        "
+        scardOne="24/7 available to handle emergencies"
+        scardTwo="Prioritise your safety         "
+        scardThree="Serve you at your designated location"
+
+        ctaText="Call us today to get jumpstart service and save your battery from further damage. Our professionals guide you completely and provide you with a jumpstart car battery charger that will help you in the future. They reach your location and solve your problem immediately.
+        "
      /> 
     </>
   )
