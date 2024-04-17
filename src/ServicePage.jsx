@@ -24,7 +24,13 @@ const ServicePage = ({pageTitle, ...otherProps}) => {
         imgTwo,
         imgThree,
         imgFour,
-        imgFive
+        imgFive,
+        scardparaOne,
+        scardparaTwo,
+        scardparaThree,
+        scardOne,
+        scardTwo,
+        scardThree
      } = otherProps;
 
   return (
@@ -79,8 +85,8 @@ const ServicePage = ({pageTitle, ...otherProps}) => {
                     <img src={imgTwo} alt="Mission" className="img-fluid rounded" />
 
                     <div className="overlay">
-                        <h5>Something Heading</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+                        <h5>{scardOne}</h5>
+                        <p>{scardparaOne}</p>
                     </div>
                 </div>
             </div>
@@ -90,8 +96,8 @@ const ServicePage = ({pageTitle, ...otherProps}) => {
                     <img src={imgThree} alt="Mission" className="img-fluid rounded" />
 
                     <div className="overlay">
-                        <h5>Something Heading</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+                        <h5>{scardTwo}</h5>
+                        <p>{scardparaTwo}</p>
                     </div>
                 </div>
             </div>
@@ -101,8 +107,8 @@ const ServicePage = ({pageTitle, ...otherProps}) => {
                     <img src={imgFour} alt="Mission" className="img-fluid rounded" />
 
                     <div className="overlay">
-                        <h5>Something Heading</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+                        <h5>{scardThree}</h5>
+                        <p>{scardparaThree}</p>
                     </div>
                 </div>
             </div>
