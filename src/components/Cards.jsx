@@ -38,10 +38,11 @@ const Cards = () => {
 
   // Example data for cards
   const cardData = [
-    { title: "Card title 1", text: "Some quick example text 1", image: "images/img-11.jpg" },
-    { title: "Card title 2", text: "Some quick example text 2", image: "images/img-11.jpg" },
-    { title: "Card title 3", text: "Some quick example text 3", image: "images/img-11.jpg" },
-    { title: "Card title 4", text: "Some quick example text 4", image: "images/img-11.jpg" },
+    { title: "Mobile tyre fitting", text: "Ensure the safety of your journey with mobile tyre fitting.", image: "images/img-11.jpg", path: "/services/mobile-tyre-fitting" },
+    { title: "Mobile Tyre Repair", text: "Get your tyres repaired with a mobile tyre repair service.", image: "images/img-11.jpg", path: "/services/mobile-tyre-repair" },
+    { title: "Tyre replacement", text: "Replace the weak and damaged tyre with a new one.", image: "images/img-11.jpg", path: "/services/tyre-replacement" },
+    { title: "Flat tyres", text: "Protect your tyres from the problem of tyre getting flat.", image: "images/img-11.jpg", path: "/services/flat-tyre" },
+    { title: "Burst tyre", text: "Ensure your travel from the incident of a burst tyre.", image: "images/img-11.jpg", path: "/services/burst-tyre" },
   ];
 
   return (
@@ -54,13 +55,7 @@ const Cards = () => {
                 <div className="img-wrapper">
                   <img src={card.image} alt="card" />
                 </div>
-                {/* Boxes
-                <div className='card-boxes'>
-                  <div>1</div>
-                  <div>2</div>
-                  <div>3</div>
-                </div> */}
-                {/* Boxes */}
+                
                 <div className="card-body">
                   <h5 className="card-title">{card.title}</h5>
                   <p className="card-text">{card.text}</p>
