@@ -39,6 +39,7 @@ const BurstTyre = () => {
         scardOne="Amazing services  "
         scardTwo="24/7 available "
         scardThree="Serve you Anywhere, anytime"
+        ctaText="Call us today to recover your vehicle from a burst tyre service incident; our professional will serve you beyond your expectations, arrive at your location with the best tool kit, diagnose the cause of the problem, and resolve it with the best possible solution. They ensure that you and your vehicle are safer throughout the journey. Contact us today for the service!"
      /> 
     </>
   )
