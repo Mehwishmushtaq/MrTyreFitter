@@ -30,6 +30,7 @@ const PartWornTyre = () => {
         scardOne="Handle emergency"
         scardTwo="Finest part worn tyres"
         scardThree="24/7 available anywhere, anytime"
+        ctaText="Call us today for a part-worn service offering the best alternative to new tyres. It quickly solves your weak and damaged tyre problem and gives you a clean and smooth ride. Our professionals test the tyre before recommending it to you. Contact us today for part-worn tyre service at your directed location."
      /> 
     </>
   )
