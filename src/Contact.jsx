@@ -22,7 +22,7 @@ function ContactPage() {
                         </div>
                     </div>
                 </Row>
-                <div className='para-width mx-auto mt-5'>
+                <div className='para-width mx-auto mt-3'>
                     <ul>
                         <li>Your safety comes first to us.</li>
                         <li>Our professionals are always available to assist you.</li>
