@@ -13,18 +13,24 @@ function ContactPage() {
                 <h1>Contact Us</h1>
                 <h5><Link to="/" className="linkStyle"><i class="fa-solid fa-house"></i> Home </Link> | Contact</h5>
             </header>
-            
+
             <div className='mt-4'>
-            <Row className="text-center justify-content-center">
-                <div className="col-md-11 col-lg-9 col-xl-7 mb-2">
-                    <div className="section-title">
-                        <h2 className="sec-title">The Heading Goes Here</h2>
+                <Row className="text-center justify-content-center">
+                    <div className="col-md-11 col-lg-9 col-xl-7 mb-2">
+                        <div className="section-title">
+                            <h2 className="sec-title">We serve you regardless of time and place.</h2>
+                        </div>
                     </div>
-                </div>
-            </Row>
-            <div className='para-width mx-auto'><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit fermentum justo. Vestibulum feugiat vehicula elit, at congue orci venenatis nec. Morbi hendrerit mauris vel arcu hendrerit, nec tristique purus auctor. Nullam euismod nunc nec dictum tempus. Integer malesuada felis vel justo aliquet, a tincidunt arcu vulputate. Quisque suscipit, ligula eu pharetra scelerisque, tortor ligula aliquam felis, sit amet fringilla odio lectus nec nunc. Ut auctor velit sit amet tortor efficitur, vel tincidunt purus pellentesque. Nunc quis odio sit amet velit ullamcorper rhoncus. Vivamus nec purus in elit hendrerit tincidunt. Proin a urna vel sapien vestibulum feugiat. Curabitur nec justo et justo tincidunt tincidunt. Integer in ultricies erat. Vestibulum ac eros eu turpis convallis bibendum ut non quam.</p></div>
-            </div>
-    
+                </Row>
+                <div className='para-width mx-auto mt-5'>
+                    <ul>
+                        <li>Your safety comes first to us.</li>
+                        <li>Our professionals are always available to assist you.</li>
+                        <li>Call us today to solve your tyre problems.</li>
+                        <li>Our professionals are ready 24/7 to solve your tyre problem and help you get back on your journey.</li>
+                    </ul>
+                </div>            </div>
+
             <Container className="py-5">
                 <Row>
                     <Col lg={6}>
@@ -54,13 +60,13 @@ function ContactPage() {
                 </Row>
                 <Row>
                     <Col md={12} className='mt-5'>
-                    <div className='row text-center justify-content-center'>
-                        <div className="col-md-11 col-lg-9 col-xl-7 mb-2">
-                            <div className="section-title">
-                                <h2 className="sec-title">Our Location</h2>
+                        <div className='row text-center justify-content-center'>
+                            <div className="col-md-11 col-lg-9 col-xl-7 mb-2">
+                                <div className="section-title">
+                                    <h2 className="sec-title">Our Location</h2>
+                                </div>
                             </div>
                         </div>
-                    </div>
                         <div style={{ width: '100%', height: '300px', border: '1px solid #ddd' }}>
                             <iframe
                                 title="Google Map"
@@ -76,7 +82,7 @@ function ContactPage() {
                 </Row>
             </Container>
             {/* ContactUS Bar */}
-            <ContactUsBar/>
+            <ContactUsBar />
             {/* ContactUS Bar */}
         </div>
 
