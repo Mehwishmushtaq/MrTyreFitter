@@ -1,17 +1,18 @@
 import React from 'react'
 import ServicePage from './ServicePage'
 
+
 const MobileTyreFitting = () => {
   return (
     <>
       <ServicePage
         // Images
         mergedHeaderStyle="bannerStyle"
-        imgOne="/images/img-11.jpg"
-        imgTwo="/images/img-11.jpg"
-        imgThree="/images/img-11.jpg"
-        imgFour="/images/img-11.jpg"
-        imgFive="/images/img-11.jpg"
+        imgOne="/images/mtf1.png"
+        imgTwo="/images/mtf2 (1).png"
+        imgThree="/images/mtf2 (2).png"
+        imgFour="/images/mtf2 (3).png"
+        imgFive="/images/mtf3.png"
         // Text
         pageTitle="Mobile Tyre Fitting"
         headingOne="Exceptional Mobile Tyre Fitting service "
@@ -35,7 +36,6 @@ const MobileTyreFitting = () => {
         scardOne="Qualified experts manage emergencies"
         scardTwo="Offer you the service anywhere, anytime"
         scardThree="Highly affordable"
-        ctaText="Call us today for a fantastic Mobile Tyre Fitting service that will make your commute safer. Our professionals are ready to serve you 24/7, regardless of time and place."
       />
     </>
   )
