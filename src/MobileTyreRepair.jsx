@@ -7,11 +7,11 @@ const MobileTyreRepair = () => {
      <ServicePage
         // Images
         mergedHeaderStyle="bannerStyle"
-        imgOne="/images/img-11.jpg"
-        imgTwo="/images/img-11.jpg"
-        imgThree="/images/img-11.jpg"
-        imgFour="/images/img-11.jpg"
-        imgFive="/images/img-11.jpg"
+        imgOne="/images/mtr1.png"
+        imgTwo="/images/mtr2(1).png"
+        imgThree="/images/mtr2(2).png"
+        imgFour="/images/mtr2(3).png"
+        imgFive="/images/mtr3.png"
         // Text
         pageTitle="Mobile Tyre Repair"
         headingOne="Quick fix the tyre with Mobile Tyre Repair "
@@ -41,7 +41,6 @@ const MobileTyreRepair = () => {
         scardOne="Immediate recovery"
         scardTwo="Well-trained professionals "
         scardThree="Serve at your location"
-       ctaText="Contact our customer care officer for mobile tyre repair service; they will guide you immediately and send the best professionals to your location with a complete tool kit to solve your tyre-related problem. We provide you with the best affordable service that reduces your financial burden. Our experts serve you beyond the boundaries of time and space."
      />
     </>
   )
