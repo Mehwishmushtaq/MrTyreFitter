@@ -713,6 +713,10 @@ footer {
 @media (max-width: 575px) {
     .hero__section {
         margin-bottom: 230px;
+        padding: 5px !important;
+    }
+    .mobile-margin{
+        margin-top: -8rem !important;
     }
 }
 
@@ -860,15 +864,14 @@ footer {
 
 .hero__section {
     position: relative;
-    background-image: url('../images/mob-tyre-1.webp');
-    height: 100vh;
-    width: 100%;
+    background-image: url('../images/home/bg.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 20px;
 }
 
 .hero-form {
@@ -999,4 +1002,33 @@ footer {
 
 .tyre-icons {
     width: 38px;
+}
+
+.img-fix{
+    height: 50vh;
+    width: 80%;
+}
+
+@media(max-width: 991px){
+    .img-fix{
+        width: 50%;
+    }
+}
+
+@media(max-width: 768px){
+    .img-fix{
+        width: 55%;
+    }
+}
+
+@media(max-width: 525px){
+    .img-fix{
+        width: 80%;
+    }
+}
+
+@media(max-width: 525px){
+    .img-fix{
+        width: 100%;
+    }
 }
