@@ -20,7 +20,7 @@ export default function WithContactForm() {
         <h5><Link to="/" className="linkStyle"><i class="fa-solid fa-house"></i> Home </Link> | Faq</h5>
       </header>
       <MDBContainer style={{ maxWidth: '1000px' }}>
-        {/* <h2 className='text-center' style={{fontSize:'50px'}}><strong>Frequently Asked Question</strong></h2> */}
+        <h3 className='text-center mt-5' style={{ fontSize: '10rem' }}><strong>Frequently Asked Question</strong></h3>
         <section className="mt-5">
           <MDBRow>
             <MDBCol lg="6" md="12" className="mb-4">
@@ -46,13 +46,6 @@ export default function WithContactForm() {
                   <p>Yes, we provide mobile tyre fitting service at your home. Our professionals arrive at your location with a complete tool kit.
                   </p>
                 </p>
-                <p className="mb-1">
-                  Second part of the answer with more details.
-                </p>
-                <p>
-                  Final part of the answer full of detais and Lorem ipsum dolor
-                  sit amet consectetur adipisicing elit.
-                </p>
               </div>
 
               <div>
@@ -64,13 +57,7 @@ export default function WithContactForm() {
                 <p className="mb-1">
                   <p>Yes, we recommend the best tyres according to your vehicle to make your journey easier.</p>
                 </p>
-                <p className="mb-1">
-                  Second part of the answer with more details.
-                </p>
-                <p>
-                  Final part of the answer full of detais and Lorem ipsum dolor
-                  sit amet consectetur adipisicing elit.
-                </p>
+
               </div>
 
               <div>
@@ -80,12 +67,16 @@ export default function WithContactForm() {
                 <p className="mb-1">
                   <p>Our professionals are good at service; it takes 30 minutes to change your old tyre to a new one.</p>
                 </p>
+              </div>
+
+              <div>
                 <p className="mb-1">
-                  Second part of the answer with more details.
+                  <strong>How do I protect my tyres from damage?</strong>
                 </p>
-                <p>
-                  Final part of the answer full of detais and Lorem ipsum dolor
-                  sit amet consectetur adipisicing elit.
+                <p className="mb-1">
+                  <p>Regular maintenance, maintaining tyre pressure and avoiding bad driving habits can protect your tyres from damage.
+
+                  </p>
                 </p>
               </div>
             </MDBCol>
