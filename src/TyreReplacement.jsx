@@ -6,11 +6,11 @@ const TyreReplacement = () => {
     <>
      <ServicePage
         mergedHeaderStyle="bannerStyle"
-        imgOne="/images/img-11.jpg"
-        imgTwo="/images/img-11.jpg"
-        imgThree="/images/img-11.jpg"
-        imgFour="/images/img-11.jpg"
-        imgFive="/images/img-11.jpg"
+        imgOne="/images/tr1.png"
+        imgTwo="/images/tr2(1).png"
+        imgThree="/images/tr2(2).png"
+        imgFour="/images/tr2(3).png"
+        imgFive="/images/tr3.png"
         // Text
         pageTitle="Tyre Replacement"
         headingOne="24/7 Mobile Tyre Replacement service"
