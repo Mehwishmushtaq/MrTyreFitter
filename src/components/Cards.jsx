@@ -38,11 +38,11 @@ const Cards = () => {
 
   // Example data for cards
   const cardData = [
-    { title: "Mobile tyre fitting", text: "Ensure the safety of your journey with mobile tyre fitting.", image: "images/img-11.jpg", path: "/services/mobile-tyre-fitting" },
-    { title: "Mobile Tyre Repair", text: "Get your tyres repaired with a mobile tyre repair service.", image: "images/img-11.jpg", path: "/services/mobile-tyre-repair" },
-    { title: "Tyre replacement", text: "Replace the weak and damaged tyre with a new one.", image: "images/img-11.jpg", path: "/services/tyre-replacement" },
-    { title: "Flat tyres", text: "Protect your tyres from the problem of tyre getting flat.", image: "images/img-11.jpg", path: "/services/flat-tyre" },
-    { title: "Burst tyre", text: "Ensure your travel from the incident of a burst tyre.", image: "images/img-11.jpg", path: "/services/burst-tyre" },
+    { title: "Mobile tyre fitting", text: "Ensure the safety of your journey with mobile tyre fitting.", image: "/images/Mobile tyre fitting.png", path: "/services/mobile-tyre-fitting" },
+    { title: "Mobile Tyre Repair", text: "Get your tyres repaired with a mobile tyre repair service.", image: "/images/Mobile Tyre Repair.png", path: "/services/mobile-tyre-repair" },
+    { title: "Tyre replacement", text: "Replace the weak and damaged tyre with a new one.", image: "/images/Tyre replacement.png", path: "/services/tyre-replacement" },
+    { title: "Flat tyres", text: "Protect your tyres from the problem of tyre getting flat.", image: "/images/Flat tyres.png", path: "/services/flat-tyre" },
+    { title: "Burst tyre", text: "Ensure your travel from the incident of a burst tyre.", image: "/images/Burst tyre.png", path: "/services/burst-tyre" },
   ];
 
   return (
@@ -53,14 +53,14 @@ const Cards = () => {
             <div key={index} className={`carousel-item ${index === 0 ? 'active' : ''}`}>
               <div className="card">
                 <div className="img-wrapper">
-                  <img src={card.image} alt="card" />
+                  <img src={card.image} alt="card" style={{height: '40vh'}}/>
                 </div>
                 
                 <div className="card-body">
                   <h5 className="card-title">{card.title}</h5>
                   <p className="card-text">{card.text}</p>
                 
-                  <Link to="/services/mobile-tyre-fitting">
+                  <Link to={card.path}>
                    <Button variant="success mt-3 px-4">Learn More</Button>
                   </Link>
                 </div>
