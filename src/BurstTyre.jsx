@@ -7,11 +7,11 @@ const BurstTyre = () => {
      <ServicePage
         // Images
         mergedHeaderStyle="bannerStyle"
-        imgOne="/images/img-11.jpg"
-        imgTwo="/images/img-11.jpg"
-        imgThree="/images/img-11.jpg"
-        imgFour="/images/img-11.jpg"
-        imgFive="/images/img-11.jpg"
+        imgOne="/images/bursttyre/Immediately resolve your tyre burst issue.png"
+        imgTwo="/images/bursttyre/Amazing services.png"
+        imgThree="/images/bursttyre/24-7available.png"
+        imgFour="/images/bursttyre/Serve you Anywhere, anytime.png"
+        imgFive="/images/bursttyre/Ensure your travel with  burst tyre service.png"
         // Text
         pageTitle="Burst Tyre"
         headingOne="24/7 Emergency burst tyre service "
