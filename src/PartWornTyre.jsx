@@ -7,11 +7,11 @@ const PartWornTyre = () => {
      <ServicePage
         // Images
         mergedHeaderStyle="bannerStyle"
-        imgOne="/images/img-11.jpg"
-        imgTwo="/images/img-11.jpg"
-        imgThree="/images/img-11.jpg"
-        imgFour="/images/img-11.jpg"
-        imgFive="/images/img-11.jpg"
+        imgOne="/images/pwt1.png"
+        imgTwo="/images/pwt2(1).png"
+        imgThree="/images/pwt2(2).png"
+        imgFour="/images/pwt2(3).png"
+        imgFive="/images/pwt3.png"
         // Text
         pageTitle="Part Worn"
         headingOne="Experience our part-worn tyres service"
