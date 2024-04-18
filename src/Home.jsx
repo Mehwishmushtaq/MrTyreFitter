@@ -106,9 +106,6 @@ const Home = () => {
                 </Col>
             </Row>
         </Container>
-
-     <SingleBanner/>
-     
       <HowSection/>
       <Testimonial/>
       <CTA
