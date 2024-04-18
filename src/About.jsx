@@ -4,13 +4,16 @@ import { Link } from 'react-router-dom';
 // import Cards from './components/Cards';
 // import FormSelect from './components/FormSelect';
 import Newsletter from './components/Newsletter';
+import About1 from './assets/images/about1.png'
+import About2 from './assets/images/about2.png'
+import BG from './assets/images/about-bg.png'
 
 function About() {
 
   return (
     <div>
       {/* Banner Section */}
-      <header className='headerStyle'>
+      <header className='headerStyle' style={{ backgroundImage: `url(${BG})` }}>
         <h1>About Us</h1>
         <h5><Link to="/" className="linkStyle"><i class="fa-solid fa-house"></i> Home </Link> | About</h5>
       </header>
@@ -74,7 +77,7 @@ function About() {
             <p>We are available 24/7 to serve you beyond your expectations. Our experts serve you at your designated location to save you from the physical stress of taking the car to the garage. They immediately reach the spot, control the situation, reduce your stress and solve the problem quickly. They serve you at home to keep you stress-free, fix tyre problems at the office to save your work schedule from disruption, and save you on the roadside. Our experts save you time, energy and money by providing excellent services at your desired location.</p>
           </Col>
           <Col lg={6} className='order-small-1 d-flex justify-content-center'>
-            <img src={"images/img-11.jpg"} alt="Mission" className="img-fluid rounded" />
+            <img src={About1} alt="Mission" className="img-fluid rounded" />
           </Col>
         </Row>
 
@@ -87,7 +90,7 @@ function About() {
             <p>We aim to be a part of your journey and provide impeccable service that ensures your journey is smooth and easy. Our professionals are ready to handle any tyre-related problem, from flat to burst tyres; they tackle all issues efficiently. They are always prepared to help you no matter the time. They reach the spot even in the middle of the night and in bad weather. They always come with a complete tool kit and essential tyre accessories. They provide a service that helps you resume your journey to your destination and make it more convenient.</p>
           </Col>
           <Col lg={6} className='order-1 d-flex justify-content-center'>
-            <img src={"images/img-11.jpg"} alt="Mission" className="img-fluid rounded" />
+            <img src={About2} alt="Mission" className="img-fluid rounded" />
           </Col>
         </Row>
 
