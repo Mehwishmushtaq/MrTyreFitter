@@ -57,7 +57,7 @@ const ServicePage = ({pageTitle, ...otherProps}) => {
     <div className='container'>
         <Row style={{ marginTop: '4rem' }}>
             <Col lg={6}>
-                <img src={imgOne} alt="Mission" className="img-fluid rounded" />
+                <img src={imgOne} alt="Mission" className="img-fluid rounded img-fix" />
             </Col>
             <Col lg={6}>
                 <h2 className='text-success'>{headingTwo}</h2>
@@ -75,9 +75,9 @@ const ServicePage = ({pageTitle, ...otherProps}) => {
         </div>
         <div className="row">
             {/* 1 */}
-            <div className="col-md-4" >
+            <div className="col-md-4">
                 <div className="parent-container my-2">
-                    <img src={imgTwo} alt="Mission" className="img-fluid rounded" />
+                    <img src={imgTwo} alt="Mission" className="img-fluid rounded" style={{height: '50vh'}} />
 
                     <div className="overlay">
                         <h5>{scardOne}</h5>
@@ -88,7 +88,7 @@ const ServicePage = ({pageTitle, ...otherProps}) => {
             {/* 2 */}
             <div className="col-md-4">
                 <div className="parent-container my-2">
-                    <img src={imgThree} alt="Mission" className="img-fluid rounded" />
+                    <img src={imgThree} alt="Mission" className="img-fluid rounded" style={{height: '50vh'}}/>
 
                     <div className="overlay">
                         <h5>{scardTwo}</h5>
@@ -99,7 +99,7 @@ const ServicePage = ({pageTitle, ...otherProps}) => {
             {/* 3 */}
             <div className="col-md-4">
                 <div className="parent-container my-2">
-                    <img src={imgFour} alt="Mission" className="img-fluid rounded" />
+                    <img src={imgFour} alt="Mission" className="img-fluid rounded" style={{height: '50vh'}}/>
 
                     <div className="overlay">
                         <h5>{scardThree}</h5>
