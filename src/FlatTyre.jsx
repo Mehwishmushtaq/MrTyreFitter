@@ -7,11 +7,11 @@ const FlatTyre = () => {
       <ServicePage
         // Images
         mergedHeaderStyle="bannerStyle"
-        imgOne="/images/img-11.jpg"
-        imgTwo="/images/img-11.jpg"
-        imgThree="/images/img-11.jpg"
-        imgFour="/images/img-11.jpg"
-        imgFive="/images/img-11.jpg"
+        imgOne="/images/flattyre/24-7 Flat tyre call out service.png"
+        imgTwo="/images/flattyre/24-7 availability.png"
+        imgThree="/images/flattyre/Manage the emergencies.png"
+        imgFour="/images/flattyre/Rescue your tyre with a Flat tyre service.png"
+        imgFive="/images/flattyre/Rescue your travel with Flat tyre repair near me.png"
         // Text
         pageTitle="Flat Tyre"
         headingOne="Rescue your tyre with a Flat tyre service "
@@ -37,7 +37,7 @@ const FlatTyre = () => {
         "
         scardOne="24/7 availability "
         scardTwo="Manage the emergencies "
-        scardThree="Manage the emergencies"
+        scardThree="Rescue your tyre with a Flat tyre service"
         ctaText="Call us today to solve your flat tyre problem; we offer you the best service at the most affordable price. Our professionals arrive at your desired location with a complete toolkit to serve you beyond the limits of time and space"
      /> 
     </>
