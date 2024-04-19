@@ -6,7 +6,7 @@ const JumpStart = () => {
     <>
      <ServicePage
         // Images
-        mergedHeaderStyle="bannerStyle"
+        mergedHeaderStyle="js"
         imgOne="/images/jumpstart/Expeditious jumpstart car service.png"
         imgTwo="/images/jumpstart/24-7 available to handle emergencies.png"
         imgThree="/images/jumpstart/Prioritise your safety.png"
@@ -21,7 +21,7 @@ const JumpStart = () => {
         headingFive="Jumpstart service at your desired location"
         paraOne="A weak and depleted battery can stall your vehicle anywhere without alarm, and sudden stops during the journey can cause unexpected stress. We know that a depleted battery slows down your vehicle's performance and leads to late arrival at your destination. Pro Tyre Fitters is a platform that takes care of its customers' needs and offers you a jumpstart service to solve your car battery problem. We provide you with the best professionals who provide you with the services to overcome this situation and resume your journey. 
         "
-        paraTwo="A sudden stop in the car causes you mental and financial stress, and it also brings physical stress when you take the car to the garage. We understand your burden, and to reduce your stress, we offer you the best garage services with well-trained professionals at your location. Our professionals arrive at your location with a complete tool kit and the necessary equipment to provide jumpstart car service. They arrive quickly at your one call.
+        paraTwo="A sudden stop in the car causes you mental and financial stress, and it also brings physical stress when you take the car to the garage. We understand your burden, and to reduce your stress, we offer you the best garage services with well-trained professionals at your location. Our professionals arrive at your location with a complete toolkit and the necessary equipment to provide jumpstart car service. They arrive quickly at your one call.
         "
         paraThree="Most of the time, the car battery creates problems at the roadside, which leads to a panic situation for you. All you need is a jumpstart service near me that will provide you with the best service at a very affordable price. One of the causes of battery depletion is extreme weather conditions, such as extreme heat and cold. Other causes are battery ageing and leaving interior lights, headlights or any electrical component on. Our professionals arrive on the spot to save you and your vehicle from stress.
         "

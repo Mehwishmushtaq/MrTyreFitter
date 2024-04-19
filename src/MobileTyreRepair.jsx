@@ -6,7 +6,7 @@ const MobileTyreRepair = () => {
     <>
      <ServicePage
         // Images
-        mergedHeaderStyle="bannerStyle"
+        mergedHeaderStyle="mtr"
         imgOne="/images/mtr1.png"
         imgTwo="/images/mtr2(1).png"
         imgThree="/images/mtr2(2).png"
@@ -29,7 +29,7 @@ const MobileTyreRepair = () => {
         paraFour="Mobile Tyre Repair London takes you beyond your imagination and ensures your journey is safe. Our top priority is to ensure your safety; our experts ensure your safety first, then find the root cause of the problem and provide you with a quick solution. They arrive at your location with a complete tool kit and necessary equipment. Problems related to tyres mainly occur on the side of the road, causing panic and fear for you. Our experts answer your one call, guide you immediately, and send help as soon as possible.
 
         "
-        paraFive="We care about your comfort and busy schedule; we know that a stranded vehicle disrupts your daily routine. 24-hour tyre repair near me service provides you with the best professional at your home who can solve your tyre-related problem quickly and save you time and energy. Our experts also serve you at your workplace, making it easy to recover the car without going to the garage. We serve you regardless of time and weather. We are at your service 24/7 to make your journey safe.
+        paraFive="We care about your comfort and busy schedule; we know that a stranded vehicle disrupts your daily routine. 24-hour tyre repair near me service provides you with the best professional at your home who can solve your tyre-related problem quickly and save your time and energy. Our experts also serve you at your workplace, making it easy to recover the car without going to the garage. We serve you regardless of time and weather. We are at your service 24/7 to make your journey safe.
         "
         scardparaOne="We offer you the best mobile tyre repair service that restores your damaged tyre quickly and saves you from the hassle of taking the vehicle to the garage."
         scardparaTwo="We provide you with professionals who are experts in the service and know all the problems, their solutions, required toolkits and necessary items for the service.
@@ -41,7 +41,7 @@ const MobileTyreRepair = () => {
         scardOne="Immediate recovery"
         scardTwo="Well-trained professionals "
         scardThree="Serve at your location"
-        ctaText="Contact our customer care officer for mobile tyre repair service; they will guide you immediately and send the best professionals to your location with a complete tool kit to solve your tyre-related problem. We provide you with the best affordable service that reduces your financial burden."
+        ctaText="Contact our customer care officer for mobile tyre repair service; they will guide you immediately and send the best professionals to your location with a complete toolkit to solve your tyre-related problem. We provide you with the best affordable service that reduces your financial burden."
      />
     </>
   )

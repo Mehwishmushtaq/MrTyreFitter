@@ -5,7 +5,7 @@ const TyreReplacement = () => {
   return (
     <>
      <ServicePage
-        mergedHeaderStyle="bannerStyle"
+        mergedHeaderStyle="tr"
         imgOne="/images/tr1.png"
         imgTwo="/images/tr2(1).png"
         imgThree="/images/tr2(2).png"

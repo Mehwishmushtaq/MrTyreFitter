@@ -25,7 +25,7 @@ function ContactPage() {
                 <div className='para-width mx-auto mt-3'>
                     <ul>
                         <li>Your safety comes first to us.</li>
-                        <li>Our professionals are always available to assist you.</li>
+                        <li>Our expert are always available to assist you.</li>
                         <li>Our professionals are ready 24/7 to solve your tyre problem and help you get back on your journey.</li>
                     </ul>
                 </div>            
@@ -35,7 +35,7 @@ function ContactPage() {
                 <Row>
                     <Col lg={6}>
                         <h1>Contact Us</h1>
-                        <p>Call us today to solve your tyre problems.? Fill out the form below:</p>
+                        <p>Call us today to solve your tyre problems. Fill out the form below:</p>
                         <Form>
                             <Form.Group controlId="formName">
                                 <Form.Label>Name</Form.Label>

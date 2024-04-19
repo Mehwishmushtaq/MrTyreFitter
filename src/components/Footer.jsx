@@ -11,7 +11,7 @@ const Footer = () => {
                {/* 1 */}
                <div className="col-md-3 my-2">
                 <Link to="/" className="navbar-brand p-0">
-                    <h2 className="m-0">Mr. Tyre Fitter</h2>
+                    <h2 className="m-0">Pro Tyre Fitters</h2>
                 </Link>
                 {/* Icons */}
                 <p className='mt-4'>Pro Tyre Fitters is a platform that covers all tyre-related issues and provides the best possible solutions with trained professionals wherever you need them.</p>

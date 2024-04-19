@@ -6,7 +6,7 @@ const BurstTyre = () => {
     <>
      <ServicePage
         // Images
-        mergedHeaderStyle="bannerStyle"
+        mergedHeaderStyle="bt"
         imgOne="/images/bursttyre/Immediately resolve your tyre burst issue.png"
         imgTwo="/images/bursttyre/Amazing services.png"
         imgThree="/images/bursttyre/24-7available.png"
@@ -19,7 +19,7 @@ const BurstTyre = () => {
         headingThree="Highly trained Professionals deal with tyre blowouts "
         headingFour="Tyre blowout service at your directed location "
         headingFive="Ensure your travel with  burst tyre service"
-        paraOne="A burst tyre is one of the most dreaded occurrences that every driver faces once in a lifetime. Burst incidents mostly happen on roadsides, damaging vehicles and causing accidents. Pro Tyre Fitters is a platform that takes care of the passenger; we design the service to cover the tyre burst incident quickly, manage the situation, ensure your safety and provide the best solution to get you to your destination. The site helps you to start your journey again. Our goal is to make your journey smooth and safe.
+        paraOne="A burst tyre is one of the most dreaded occurrences that every driver faces once in a lifetime. Burst incidents mostly happen on roadsides, damaging vehicles and causing accidents. Pro Tyre Fitters is a platform that takes care of the passenger; we design the service to cover the tyre burst incident quickly, manage the situation, ensure your safety and provide the best solution to get you to your destination. Our professionals help you resume your travel to your destination and make it smooth and safe.
         "
         paraTwo="A tyre burst will bring physical, mental and emotional stress and cause damage to you and your vehicle. This incident can be caused by overloading the vehicle, driving at high speed and driving with bad tyres. It's not easy to handle situations alone; you can't take the car to the garage, that's why we bring the garage to you with all the facilities. Our customer care officer thoroughly guides you on ensuring your safety, and professionals provide burst tyre service beyond your expectations that helps you resume your journey.
         "
@@ -39,7 +39,7 @@ const BurstTyre = () => {
         scardOne="Amazing services  "
         scardTwo="24/7 available "
         scardThree="Serve you Anywhere, anytime"
-        ctaText="Call us today to recover your vehicle from a burst tyre service incident; our professional will serve you beyond your expectations, arrive at your location with the best tool kit, diagnose the cause of the problem, and resolve it with the best possible solution. They ensure that you and your vehicle are safer throughout the journey."
+        ctaText="Call us today to recover your vehicle from a burst tyre service incident; our professional will serve you beyond your expectations, arrive at your location with the best toolkit, diagnose the cause of the problem, and resolve it with the best possible solution. They ensure that you and your vehicle are safer throughout the journey."
      /> 
     </>
   )

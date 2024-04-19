@@ -43,7 +43,7 @@ export default function WithContactForm() {
                   <strong>Do you offer mobile tyre fitting at my home?</strong>
                 </p>
                 <p className="mb-1">
-                  <p>Yes, we provide mobile tyre fitting service at your home. Our professionals arrive at your location with a complete tool kit.
+                  <p>Yes, we provide mobile tyre fitting service at your home. Our professionals arrive at your location with a complete toolkit.
                   </p>
                 </p>
               </div>

@@ -6,7 +6,7 @@ const MobileBreakdown = () => {
     <>
      <ServicePage
         // Images
-        mergedHeaderStyle="bannerStyle"
+        mergedHeaderStyle="mb"
         imgOne="/images/mb1.png"
         imgTwo="/images/mb2(1).png"
         imgThree="/images/mb2(2).png"

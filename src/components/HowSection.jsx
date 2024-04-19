@@ -9,7 +9,11 @@ const HowSection = () => {
                 <div className="section-title">
                     <h2 className="sec-title">How Tyre works</h2>
                 </div>
+                
             </Col>
+            <p>
+                Pro Tyre Fitters take care of their customers' vehicle tyres. Our experts maintain your vehicle for your journey and efficiently solve all tyre-related issues. We offer you the best services at your location at an affordable price. Our professionals solve your problem beyond the limits of time and space. They arrive with all the necessary tools to fix your tyre problem and resume your journey to your destination.
+                </p>
         </Row>
 
       <div className="row justify-content-around">

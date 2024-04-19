@@ -6,7 +6,7 @@ const FlatTyre = () => {
     <>
       <ServicePage
         // Images
-        mergedHeaderStyle="bannerStyle"
+        mergedHeaderStyle="ft"
         imgOne="/images/flattyre/24-7 Flat tyre call out service.png"
         imgTwo="/images/flattyre/24-7 availability.png"
         imgThree="/images/flattyre/Manage the emergencies.png"
@@ -17,8 +17,8 @@ const FlatTyre = () => {
         headingOne="Rescue your tyre with a Flat tyre service "
         headingTwo="24/7 Flat tyre call out service"
         headingThree="Immediately recover your tyre with Flat tyre repair "
-        headingFour="Flat tyre what to do unexpectedly"
-        headingFive="Rescue your travel with Flat tyre repair near me"
+        headingFour="The unexpected flat tyre event"
+        headingFive="your travel with Flat tyre repair near me"
         paraOne="A deflated tyre is a problem for you while travelling, causing you to stop your journey towards the destination. A sudden loss of air from a tyre can cause the wheel to become unbalanced, leading to an unfortunate incident such as an accident. The situation also exposes you and your vehicle to unexpected risk and damage. Pro Tyre Fitters is a platform that covers all tyre problems; we provide you with service for your flat tyre that solves the problem as soon as possible. We aim to make your journey smooth.
         "
         paraTwo="A sudden loss of control of the vehicle creates panic for you. Tyre wear and tear due to air leaks, punctures, tyre damage, lack of maintenance, uneven tyre pressure, valve failure and extreme hot and cold weather. These reasons can cause a flat tyre problem anywhere unexpectedly. You cannot handle the situation without help; you always need an assistant, and you need a flat tyre call out of the situation to solve your problem effectively. Our expert will guide you and assist you in managing and resolving the issue."
