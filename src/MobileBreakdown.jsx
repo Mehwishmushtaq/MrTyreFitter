@@ -7,11 +7,11 @@ const MobileBreakdown = () => {
      <ServicePage
         // Images
         mergedHeaderStyle="bannerStyle"
-        imgOne="/images/img-11.jpg"
-        imgTwo="/images/img-11.jpg"
-        imgThree="/images/img-11.jpg"
-        imgFour="/images/img-11.jpg"
-        imgFive="/images/img-11.jpg"
+        imgOne="/images/mb1.png"
+        imgTwo="/images/mb2(1).png"
+        imgThree="/images/mb2(2).png"
+        imgFour="/images/mb2(3).png"
+        imgFive="/images/mb3.png"
         // Text
         pageTitle="Mobile Breakdown"
         headingOne="Breakdown recovery service anywhere, anytime"
