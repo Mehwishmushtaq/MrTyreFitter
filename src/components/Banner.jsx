@@ -11,7 +11,7 @@ const Banner = () => {
           <div className="col-lg-6">
             <h2 className="text-white"><b>24-hour mobile tyre fitting for emergency</b></h2>
             <div>
-              <p className="text-white">Our 24-hour mobile tyre fitting services serve you beyond your expectations. They reach your location in the middle of the night or bad weather. Our experts come with a complete toolkit to save you from physical and mental stress. We provide services to you at your desired location, home, office space or roadside. Most tyre-related problems occur on the side of the road, exposing you to unexpected stresses and incidents. They serve you at the roadside, at home, and even at your workplace to save time.</p>
+              <p className="text-white">Our 24-hour mobile tyre fitting service serves you beyond your expectations. They reach your location in the middle of the night or bad weather. Our experts come with a complete toolkit to save you from physical and mental stress. We provide services to you at your desired location. Most tyre-related problems occur on the side of the road, exposing you to unexpected stress and incidents. They serve you at the roadside, at home, and even at your workplace to save time.</p>
             </div>
             {/* Banner Icons Box */}
             <div className="pc-bi-box">

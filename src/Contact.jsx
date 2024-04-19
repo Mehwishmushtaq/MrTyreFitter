@@ -26,16 +26,16 @@ function ContactPage() {
                     <ul>
                         <li>Your safety comes first to us.</li>
                         <li>Our professionals are always available to assist you.</li>
-                        <li>Call us today to solve your tyre problems.</li>
                         <li>Our professionals are ready 24/7 to solve your tyre problem and help you get back on your journey.</li>
                     </ul>
-                </div>            </div>
+                </div>            
+                </div>
 
             <Container className="py-5">
                 <Row>
                     <Col lg={6}>
                         <h1>Contact Us</h1>
-                        <p>Have a question or want to get in touch? Fill out the form below:</p>
+                        <p>Call us today to solve your tyre problems.? Fill out the form below:</p>
                         <Form>
                             <Form.Group controlId="formName">
                                 <Form.Label>Name</Form.Label>

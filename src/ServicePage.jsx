@@ -137,8 +137,6 @@ const ServicePage = ({pageTitle, ...otherProps}) => {
             </Col>
         </Row>
     </div>
-    {/* How it works */}
-    <HowSection/>
     <Container>
         <p>{ctaText}</p>
     </Container>

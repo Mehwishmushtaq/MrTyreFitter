@@ -14,20 +14,7 @@ const Footer = () => {
                     <h2 className="m-0">Mr. Tyre Fitter</h2>
                 </Link>
                 {/* Icons */}
-                <div className='d-flex align-items-center gap-3'>
-                    <i class="fa-solid fa-location-dot"></i>
-                    <p className='mt-3'>some pseudo company address <br /> will go here</p>
-                </div>
-                
-                <div className='d-flex align-items-center gap-3'>
-                    <i class="fa-solid fa-phone"></i>
-                    <p className='mt-3'>+44 0123456789 <br /> Mon-Fri 8:00 to 19:00</p>
-                </div>
-                
-                <div className='d-flex align-items-center gap-3'>
-                    <i class="fa-solid fa-envelope"></i>
-                    <p className='mt-3'>something@email.com</p>
-                </div>
+                <p className='mt-4'>Pro Tyre Fitters is a platform that covers all tyre-related issues and provides the best possible solutions with trained professionals wherever you need them.</p>
 
                </div>
                {/* 2 */}
@@ -59,7 +46,6 @@ const Footer = () => {
                 <h5>Subscribe the Newsletter for discount</h5>
                 <form action="#" method="post">
                 <div className="form-group">
-                    <label>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</label>
                     <input type="text" className="form-control my-2" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Subscribe"/>
                     <button className='btn btn-success'>Subscribe</button>
                 </div>

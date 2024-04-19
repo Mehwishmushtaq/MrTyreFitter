@@ -9,7 +9,6 @@ const HowSection = () => {
                 <div className="section-title">
                     <h2 className="sec-title">How it works</h2>
                 </div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ipsum recusandae distinctio reiciendis, eaque a?</p>
             </Col>
         </Row>
 
