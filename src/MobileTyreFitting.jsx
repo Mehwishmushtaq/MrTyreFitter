@@ -36,6 +36,7 @@ const MobileTyreFitting = () => {
         scardOne="Qualified experts manage emergencies"
         scardTwo="Offer you the service anywhere, anytime"
         scardThree="Highly affordable"
+        ctaText="Call us today for a fantastic Mobile Tyre Fitting service that will make your commute safer. Our professionals are ready to serve you 24/7, regardless of time and place."
       />
     </>
   )
