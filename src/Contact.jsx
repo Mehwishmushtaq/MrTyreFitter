@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Container, Row, Col, Form, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import ContactUsBar from './components/ContactUsBar';
@@ -6,6 +6,27 @@ import BG from './assets/images/contact-bg.png'
 import Contact1 from './assets/images/contact1.png'
 
 function ContactPage() {
+    let isLoading = false;
+
+    const API = "http://hn.algolia.com/api/v1/search?query=html";
+    const fetchApiData = async (url) => {
+        try {
+        const res = await fetch(url);
+        const data = await res.json();
+        console.log(data);
+        // isLoading = false;
+        } catch (error) {
+        console.log(error);
+        }
+    }
+    if (isLoading) {
+        return <h1>Loading...</h1>
+    }
+    // Use Effect Hook
+    useEffect(() => {
+        fetchApiData(API)
+    }, [])
+
     return (
         <div>
             {/* Banner Section */}

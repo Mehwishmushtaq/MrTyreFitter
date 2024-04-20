@@ -17,10 +17,10 @@ const Banner = () => {
             <div className="pc-bi-box">
               {/* Icons */}
               <div className="pc-home-banner-icon d-flex gap-2 align-items-center">
-                <div><i className="fa-solid fa-phone fa-2xl"></i></div>
+                <div><i class="fa-solid fa-envelope fa-2xl"></i></div>
                 <div>
-                  <span className="d-block text-white">For Booking Rides</span>
-                  <h5 className="tc-text-color">+44 7883 846758</h5>
+                  <span className="d-block text-white">For Email Enquiry</span>
+                  <h5 className="tc-text-color">Email@email.com</h5>
                   <span className="d-block text-white">We are present 24/7</span>
                 </div>
               </div>
@@ -49,21 +49,21 @@ const Banner = () => {
                   <h2 className="tc-text-color">
                     1,000
                   </h2>
-                  <span className="d-block text-white">Heading 1</span>
+                  <span className="d-block text-white">Customer</span>
                 </div>
                 {/* 2 */}
                 <div>
                   <h2 className="tc-text-color">
                     1,000
                   </h2>
-                  <span className="d-block text-white">Heading 2</span>
+                  <span className="d-block text-white">Customer</span>
                 </div>
                 {/* 3 */}
                 <div>
                   <h2 className="tc-text-color">
                     1,000
                   </h2>
-                  <span className="d-block text-white">Heading 3</span>
+                  <span className="d-block text-white">Customer</span>
                 </div>
                 {/* END */}
               </div>

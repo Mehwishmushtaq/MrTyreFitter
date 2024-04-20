@@ -42,12 +42,7 @@ const Cards = () => {
     { title: "Mobile Tyre Repair", text: "Get your tyres repaired with a mobile tyre repair service.", image: "/images/Mobile Tyre Repair.png", path: "/services/mobile-tyre-repair" },
     { title: "Tyre replacement", text: "Replace the weak and damaged tyre with a new one.", image: "/images/Tyre replacement.png", path: "/services/tyre-replacement" },
     { title: "Flat tyres", text: "Protect your tyres from the problem of tyre getting flat.", image: "/images/Flat tyres.png", path: "/services/flat-tyre" },
-    { title: "Burst tyre", text: "Ensure your travel from the incident of a burst tyre.", image: "/images/Burst tyre.png", path: "/services/burst-tyre" },
-    { title: "Burst tyre", text: "Ensure your travel from the incident of a burst tyre.", image: "/images/Burst tyre.png", path: "/services/burst-tyre" },
-    { title: "Burst tyre", text: "Ensure your travel from the incident of a burst tyre.", image: "/images/Burst tyre.png", path: "/services/burst-tyre" },
-    { title: "Burst tyre", text: "Ensure your travel from the incident of a burst tyre.", image: "/images/Burst tyre.png", path: "/services/burst-tyre" },
-    { title: "Burst tyre", text: "Ensure your travel from the incident of a burst tyre.", image: "/images/Burst tyre.png", path: "/services/burst-tyre" },
-  ];
+    ];
 
   return (
     <>
