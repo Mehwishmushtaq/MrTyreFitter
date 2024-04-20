@@ -7,7 +7,7 @@ const HowSection = () => {
       <Row className="text-center justify-content-center">
             <Col className="col-md-11 col-lg-9 col-xl-7 mb-2">
                 <div className="section-title">
-                    <h2 className="sec-title">How Tyre works</h2>
+                    <h2 className="sec-title">How it works</h2>
                 </div>
                 
             </Col>
