@@ -122,7 +122,6 @@ const ServicePage = ({pageTitle, ...otherProps}) => {
             </div>
         <div className='para-width mx-auto'><p>{paraFour}</p></div>
     </div>
-    <DualBanners/>
     <Guarantee/>
     
     {/* Image and text */}
