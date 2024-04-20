@@ -7,7 +7,7 @@ const MobileTyreFitting = () => {
     <>
       <ServicePage
         // Images
-        mergedHeaderStyle="mtr"
+        mergedHeaderStyle="mtf"
         imgOne="/images/mtf1.png"
         imgTwo="/images/mtf2 (1).png"
         imgThree="/images/mtf2 (2).png"

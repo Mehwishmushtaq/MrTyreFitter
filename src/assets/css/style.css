@@ -759,15 +759,15 @@ footer {
     padding-bottom: 8rem;
     height: 70vh;
 }
-.mtf{background-image: url('/images/banners/Mobile tyre fitting.png');}.mtr{
-    background-image: url('/images/banners/tyre replacement.png');}.tr{
-    background-image: url('/images/banners/Tyre repair.png');}.ft{
-    background-image: url('/images/banners/Flat tyre.png');}.mb{
-    background-image: url('/images/banners/Breakdown recovery .png');}
-    .bt{background-image: url('/images/banners/Breakdown recovery .png');}
-    .pwt{background-image: url('/images/banners/Part worn tyres.png');}
-    .js{background-image: url('/images/banners/Jumpstart (2).png');}
-    .lwr{background-image: url('/images/banners/Locking wheel nuts removal .png');}
+.mtf{background-image: url('../images/banners/Mobile tyre fitting.png');}
+.mtr{background-image: url('../images/banners/tyre replacement.png');}
+.tr{background-image: url('../images/banners/Tyre repair.png');}
+.ft{background-image: url('../images/banners/Flat tyre.png');}
+.mb{background-image: url('../images/banners/Breakdown recovery .png');}
+.bt{background-image: url('../images/banners/Breakdown recovery .png');}
+.pwt{background-image: url('../images/banners/Part worn tyres.png');}
+.js{background-image: url('../images/banners/Jumpstart (2).png');}
+.lwr{background-image: url('../images/banners/Locking wheel nuts removal .png');}
 @media (max-width: 991px) {
     .headerStyle,
     .bannerStyle, .mtf, .mtr, .tr, .ft, .mb, .bt, .pwt, .js, .lwr {
