@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
+import logo from '../assets/images/logo2.png';
 
 const Footer = () => {
   return (
@@ -8,13 +9,14 @@ const Footer = () => {
         <div className=' container mt-4 bg-dark'>
             {/* columns */}
             <section className='row text-white'>
-               {/* 1 */}
                <div className="col-md-3 my-2">
-                <Link to="/" className="navbar-brand p-0">
+                {/* <Link to="/" className="navbar-brand p-0">
                     <h2 className="m-0">Pro Tyre Fitters</h2>
                 </Link>
-                {/* Icons */}
-                <p className='mt-4'>Pro Tyre Fitters is a platform that covers all tyre-related issues and provides the best possible solutions with trained professionals wherever you need them.</p>
+                <p className='mt-4'>Pro Tyre Fitters is a platform that covers all tyre-related issues and provides the best possible solutions with trained professionals wherever you need them.</p> */}
+                <Link to="/" className="p-0 m-0">
+                <div className="ts-logo-footer container p-0 m-0"><img src={logo} alt="logo" /></div>
+                </Link>
 
                </div>
                {/* 2 */}

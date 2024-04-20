@@ -11,13 +11,38 @@ import six from '../assets/images/6.png';
 
 function Navbar() {
   const [isNavCollapsed, setIsNavCollapsed] = useState(true);
+  const [scrollBackground, setScrollBackground] = useState(false); // State to track scroll background color
+  const [showTopHeader, setShowTopHeader] = useState(true); // State to track if Topheader should be displayed
+  const [navMarginTop, setNavMarginTop] = useState(0); // State to control margin-top for nav
   const location = useLocation();
 
   const handleNavCollapse = () => setIsNavCollapsed(!isNavCollapsed);
 
   useEffect(() => {
     window.scrollTo(0, 0); // Scroll to the top when the route changes
+
+    // Add scroll event listener
+    window.addEventListener('scroll', handleScroll);
+
+    // Remove the event listener on component unmount
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
   }, [location.pathname]); // Listen for changes to the pathname
+
+  // Function to handle scroll event
+  const handleScroll = () => {
+    const scrollThreshold = 50;
+    if (window.scrollY > scrollThreshold) {
+      setScrollBackground(true);
+      setShowTopHeader(false);
+      setNavMarginTop(-50);
+    } else {
+      setScrollBackground(false);
+      setShowTopHeader(true);
+      setNavMarginTop(0);
+    }
+  };
 
   const screenWidth = window.innerWidth;
 
@@ -28,7 +53,7 @@ function Navbar() {
       <Helmet>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
       </Helmet>
-        <Topheader/>
+      <Topheader/>
 
         <div className="container-fluid main-nav-bar p-0">
           <nav className="navbar navbar-expand-lg navbar-light bg-dark px-4 px-lg-5 py-2 py-lg-0">
@@ -74,10 +99,17 @@ function Navbar() {
     return (
       <>
 
-    <Topheader/>
+{showTopHeader && <Topheader/>}
 
       <div className="container-fluid main-nav-bar p-0">
-      <nav className="navbar navbar-expand-lg navbar-light py-0" style={{ backgroundColor: 'rgba(0, 0, 0, 0.705)', padding: '0.5rem 2rem' }}>
+      <nav
+            className="navbar navbar-expand-lg navbar-light py-0"
+            style={{
+              backgroundColor: scrollBackground ? 'rgb(8, 8, 8)' : 'rgb(70,69,69)',
+              padding: '0.5rem 2rem',
+              marginTop: `${navMarginTop}px`
+            }}
+          >
           <div className="container">
             <div className="d-flex justify-content-between w-100">
               <div className="d-flex align-items-center">

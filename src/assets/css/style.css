@@ -957,6 +957,10 @@ footer {
     margin-top: 15px;
 }
 
+.ts-logo-footer img{
+    width: 75%;
+}
+
 @media (max-width: 768px) {
     .ts-logo-container {
         display: flex;
