@@ -412,15 +412,20 @@ body {
     color: var(--bs-success);
 }
 
-.pc-home-banner,
-.newsletter {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/banners/Mobile tyre fitting.png');
+.pc-home-banner{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/Subscribe To Our News Letter.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
-.newsletter{background-image: url('../images/banners/Mobile tyre fitting.png');}
+.newsletter{
+    background-image: url('/images/Subscribe To Our News Letter.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 250px;
+}
 
 .pc-home-banner-icon i {
     color: #fff;
