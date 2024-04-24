@@ -51,8 +51,8 @@ const Cards = () => {
           {cardData.map((card, index) => (
             <div key={index} className={`carousel-item ${index === 0 ? 'active' : ''}`}>
               <div className="card">
-                <div className="img-wrapper">
-                  <img src={card.image} alt="card" style={{height: '40vh'}}/>
+                <div className="img-wrapper cards-image">
+                  <img src={card.image} alt="card"/>
                 </div>
                 
                 <div className="card-body">
