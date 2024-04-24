@@ -413,18 +413,18 @@ body {
 }
 
 .pc-home-banner{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/Subscribe To Our News Letter.png');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/banners/24-Hour Mobile Tyre Fitting For Emergency.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .newsletter{
-    background-image: url('/images/Subscribe To Our News Letter.png');
+    background-image: url('../images/banners/Subscribe To Our News Letter.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 250px;
+    height: 350px;
 }
 
 .pc-home-banner-icon i {
