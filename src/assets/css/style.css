@@ -906,16 +906,43 @@ footer {
     }
 }
 
+.cards-image img{
+    height: 45vh;
+}
+
 @media (max-width:768px) {
     .hero-form {
         width: 80%;
         margin-top: 30px;
+    }
+
+    .cards-image img{
+        height: 28vh !important;
+    }
+
+    .pc-home-banner{
+        height: 125vh;
+    }
+
+    .newsletter{
+        height: 210px;
     }
 }
 
 @media (max-width:369px) {
     .hero-form {
         width: 100%;
+    }
+}
+
+@media (max-width: 575px){
+    .newsletter{
+        width: 100%;
+        height: 350px;
+    }
+
+    .pc-home-banner{
+        height: 105vh;
     }
 }
 
