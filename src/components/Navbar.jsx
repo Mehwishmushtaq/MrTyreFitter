@@ -47,7 +47,7 @@ function Navbar() {
   const screenWidth = window.innerWidth;
 
   // Conditionally render the appropriate navbar based on screen width
-  if (screenWidth <= 992) {
+  if (screenWidth < 992) {
     return (
       <>
       <Helmet>
@@ -55,7 +55,7 @@ function Navbar() {
       </Helmet>
       <Topheader/>
 
-        <div className="container-fluid main-nav-bar p-0">
+        <div className="container-fluid main-nav-bar p-0 mx-auto">
           <nav className="navbar navbar-expand-lg navbar-light bg-dark px-4 px-lg-5 py-2 py-lg-0">
             <section className='ts-logo-container'>
               <Link to="/" className="p-0 m-0">
@@ -113,9 +113,6 @@ function Navbar() {
           <div className="container">
             <div className="d-flex justify-content-between w-100">
               <div className="d-flex align-items-center">
-                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                  <span className="fa fa-bars"></span>
-                </button>
                 <div className="collapse navbar-collapse" id="navbarCollapse">
                   <div className="navbar-nav ms-auto py-0">
                     <NavLink to="/" className="nav-item nav-link" activeClassName="active">Home</NavLink>

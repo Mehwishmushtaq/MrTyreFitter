@@ -1,9 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import { Row, Col, Container } from 'react-bootstrap';
-import HowSection from './components/HowSection';
-import Guarantee from './components/Guarantee';
-import DualBanners from './components/DualBanners';
+import logo from './assets/images/logo2.png';
 import Newsletter from './components/Newsletter';
 import Button from 'react-bootstrap/Button';
 
@@ -41,6 +39,10 @@ const ServicePage = ({pageTitle, ...otherProps}) => {
         <h1>{pageTitle}</h1>
         <h5><Link to="/" className="linkStyle"><i class="fa-solid fa-house"></i> Home </Link> | {pageTitle}</h5>
     </header>
+
+    <div className="small-logo">
+        <img src={logo} alt="logo" className='bannaer-logo' />
+    </div>
     
     <div className='mt-4'>
             <div className="row text-center justify-content-center">
@@ -56,13 +58,21 @@ const ServicePage = ({pageTitle, ...otherProps}) => {
     {/* Image and Text */}
     <div className='container'>
         <Row style={{ marginTop: '4rem' }}>
-            <Col lg={6}>
+            <Col lg={6} className='d-flex justify-content-center align-items-center'>
                 <img src={imgOne} alt="Mission" className="img-fluid rounded img-fix" />
             </Col>
             <Col lg={6}>
                 <h2 className='text-success'>{headingTwo}</h2>
                 <p>{paraTwo}</p>
-                <Button variant="success mt-3 px-4">Contact Us</Button>
+                <div className="d-flex justify-content-center align-items-center">
+                <Button
+                  variant="primary"
+                  type="submit"
+                  className="mt-3 btn btn-success"
+                >
+                  Contact Us
+                </Button>
+              </div>
             </Col>
         </Row>
     </div>
@@ -77,10 +87,10 @@ const ServicePage = ({pageTitle, ...otherProps}) => {
             {/* 1 */}
             <div className="col-md-4">
                 <div className="parent-container my-2">
-                    <img src={imgTwo} alt="Mission" className="img-fluid rounded" style={{height: '50vh'}} />
+                    <img src={imgTwo} alt="Mission" className="img-fluid rounded" />
 
                     <div className="overlay">
-                        <h5>{scardOne}</h5>
+                        <h4>{scardOne}</h4>
                         <p>{scardparaOne}</p>
                     </div>
                 </div>
@@ -88,10 +98,10 @@ const ServicePage = ({pageTitle, ...otherProps}) => {
             {/* 2 */}
             <div className="col-md-4">
                 <div className="parent-container my-2">
-                    <img src={imgThree} alt="Mission" className="img-fluid rounded" style={{height: '50vh'}}/>
+                    <img src={imgThree} alt="Mission" className="img-fluid rounded"/>
 
                     <div className="overlay">
-                        <h5>{scardTwo}</h5>
+                        <h4>{scardTwo}</h4>
                         <p>{scardparaTwo}</p>
                     </div>
                 </div>
@@ -99,10 +109,10 @@ const ServicePage = ({pageTitle, ...otherProps}) => {
             {/* 3 */}
             <div className="col-md-4">
                 <div className="parent-container my-2">
-                    <img src={imgFour} alt="Mission" className="img-fluid rounded" style={{height: '50vh'}}/>
+                    <img src={imgFour} alt="Mission" className="img-fluid rounded"/>
 
                     <div className="overlay">
-                        <h5>{scardThree}</h5>
+                        <h4>{scardThree}</h4>
                         <p>{scardparaThree}</p>
                     </div>
                 </div>
@@ -122,7 +132,6 @@ const ServicePage = ({pageTitle, ...otherProps}) => {
             </div>
         <div className='para-width mx-auto'><p>{paraFour}</p></div>
     </div>
-    <Guarantee/>
     
     {/* Image and text */}
     <div className='container'>

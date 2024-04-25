@@ -83,28 +83,6 @@ const Home = () => {
         </Row>
       </section>
 
-      <Container className="mt-4 brands-section">
-            <Row style={{ marginTop: '6rem' }}>
-                <Col xs={6} sm={5} md={4} lg={3} xl={2}>
-                    <div><img className='img-fluid' src={"/images/brands/jaguar.png"} alt="brand" /></div>
-                </Col>
-                <Col xs={6} sm={5} md={4} lg={3} xl={2}>
-                    <div><img className='img-fluid' src={"/images/brands/kia.png"} alt="brand" /></div>
-                </Col>
-                <Col xs={6} sm={5} md={4} lg={3} xl={2}>
-                    <div><img className='img-fluid' src={"/images/brands/dodge.png"} alt="brand" /></div>
-                </Col>
-                <Col xs={6} sm={5} md={4} lg={3} xl={2}>
-                    <div><img className='img-fluid' src={"/images/brands/toyota.png"} alt="brand" /></div>
-                </Col>
-                <Col xs={6} sm={5} md={4} lg={3} xl={2}>
-                    <div><img className='img-fluid' src={"/images/brands/hyundai.png"} alt="brand" /></div>
-                </Col>
-                <Col xs={6} sm={5} md={4} lg={3} xl={2}>
-                    <div><img className='img-fluid' src={"/images/brands/subaru.png"} alt="brand" /></div>
-                </Col>
-            </Row>
-        </Container>
       <Testimonial/>
       <HowSection/>
       <CTA

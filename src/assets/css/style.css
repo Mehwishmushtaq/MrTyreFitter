@@ -79,6 +79,30 @@ p {
     }
 }
 
+@media (max-width:425px) {
+    h1 {
+        font-size: 1.6em !important;
+    }
+    h2 {
+        font-size: 1.28em !important;
+    }
+    h3 {
+        font-size: 1.024em !important;
+    }
+    h4 {
+        font-size: 0.8192em !important;
+    }
+    h5 {
+        font-size: 0.6554em !important;
+    }
+    h6 {
+        font-size: 0.5243em !important;
+    }
+    p {
+        font-size: 0.8192em !important;
+    }
+}
+
 .bg-success,
 .btn-success {
     background-color: var(--bs-success) !important;
@@ -421,13 +445,20 @@ body {
 }
 
 .newsletter{
+    /* width: 100vw; */
+    height: 280px;
     background-image: url('../images/banners/Subscribe To Our News Letter.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 350px;
 }
 
+@media (max-width: 1024px){
+    .newsletter{
+        height: 230px;
+        /* margin-bottom: -30px; */
+    }
+}
 .pc-home-banner-icon i {
     color: #fff;
     font-size: 40px;
@@ -656,13 +687,17 @@ footer {
     align-items: center;
 }
 
-.overlay h5,
+.overlay h4,
 .overlay p {
     color: white;
 }
 
 .parent-container:hover .overlay {
     opacity: 1;
+}
+
+.parent-container img{
+    height: 54vh;
 }
 
 .img-wrapper img {
@@ -680,6 +715,10 @@ footer {
         display: block;
         margin-right: 0;
         flex: 0 0 calc(100% / 3);
+    }
+
+    .parent-container img{
+        height: 40vh;
     }
 }
 
@@ -754,6 +793,10 @@ footer {
     padding-top: 8rem;
     padding-bottom: 8rem;
     height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .bannerStyle, .mtf, .mtr, .tr, .ft, .mb, .bt, .pwt, .js, .lwr {
@@ -765,7 +808,11 @@ footer {
     text-align: center;
     padding-top: 8rem;
     padding-bottom: 8rem;
-    height: 70vh;
+    height: 69vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .mtf{background-image: url('../images/banners/Mobile tyre fitting.png');}
 .mtr{background-image: url('../images/banners/tyre replacement.png');}
@@ -878,11 +925,10 @@ footer {
     border-radius: 10px;
 }
 
-.hero__section {
-    position: relative;
+
+.hero__section{
     background-image: url('../images/home/bg.png');
-    background-size: cover;
-    background-position: center;
+    background-size: contain;
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
@@ -894,15 +940,25 @@ footer {
     width: 30%;
 }
 
+.cards-image img{
+    height: 40vh !important;
+}
+
 @media (max-width: 575px) {
     .first-section-margin {
         margin-top: -140px !important;
     }
+
 }
 
 @media (max-width: 1030px) {
     .hero-form {
-        width: 50%;
+        width: 55%;
+        font-size: small;
+    }
+    .hero__section{
+        background-size: cover;
+        height: 100vh;
     }
 }
 
@@ -912,7 +968,7 @@ footer {
 
 @media (max-width:768px) {
     .hero-form {
-        width: 80%;
+        width: 65%;
         margin-top: 30px;
     }
 
@@ -921,11 +977,41 @@ footer {
     }
 
     .pc-home-banner{
-        height: 125vh;
+        background-size: contain;
+        height: 56vh;
+    }
+
+    .map-image, .pc-bannerNumbers{
+        display: none;
+    }
+
+    .newsletter-size{
+        margin-bottom: 10px !important;
     }
 
     .newsletter{
-        height: 210px;
+        height: 180px;
+    }
+
+    .navbar-toggler{
+        margin-left: 200px!important;
+    }
+
+}
+
+@media (max-width: 610px){
+    .navbar-toggler{
+        margin-left: 0!important;
+    }
+}
+
+@media (max-width:485px) {
+    .hero-form {
+        width: 90%;
+    }
+
+    .hero__section{
+        height: 125vh;
     }
 }
 
@@ -935,14 +1021,50 @@ footer {
     }
 }
 
+
+.bannaer-logo{
+    display: none;
+}
+
 @media (max-width: 575px){
+    .newsletter-size{
+        font-size: 20px!important;
+    }
     .newsletter{
+        height: 230px;
+    }
+    .newsletter-form{
         width: 100%;
-        height: 350px;
     }
 
     .pc-home-banner{
-        height: 105vh;
+        background-size: cover;
+        height: 75vh;
+    }
+
+    .ts-logo-footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ts-logo-footer img{
+        width: 45%;
+    }
+
+    .cards-image img{
+        height: 75vh;
+    }
+
+    .headerStyle, .bannerStyle, .mtf, .mtr, .tr, .ft, .mb, .bt, .pwt, .js, .lwr{
+        /* height: 48vh!important; */
+        background-size: cover !important;
+    }
+    .bannaer-logo{
+        display: block;
+        position: absolute;
+        width: 10%;
+        bottom: 40%;
     }
 }
 
@@ -975,6 +1097,11 @@ footer {
     }
     .about-row>div {
         border-radius: 10px;
+    }
+
+    .headerStyle, .bannerStyle, .mtf, .mtr, .tr, .ft, .mb, .bt, .pwt, .js, .lwr{
+        /* height: 48vh!important; */
+        background-size: contain;
     }
 }
 
@@ -1018,6 +1145,14 @@ footer {
     .hero-form {
         margin-top: 60px;
     }
+
+    .ts-logo-footer img{
+        width: 36%;
+    }
+
+    .bannaer-logo{
+        width: 15% !important;
+    }
 }
 
 @media (max-width: 360px) {
@@ -1035,6 +1170,10 @@ footer {
     }
     .hero-form {
         margin-top: 60px;
+    }
+    .parent-container img{
+        width: 100%;
+        height: 38vh;
     }
 }
 
@@ -1077,5 +1216,24 @@ footer {
 @media(max-width: 525px){
     .img-fix{
         width: 100%;
+    }
+}
+
+/* top header */
+.top-header-icons > small{
+    margin-left: 8px;
+}
+
+@media (max-width: 1024px){
+    .top-header-icons > small{
+        font-size: 11px;
+    }
+
+    .headerStyle{
+        height: 60vh;
+    }
+
+    .bannerStyle, .mtf, .mtr, .tr, .ft, .mb, .bt, .pwt, .js, .lwr{
+        height: 60vh;
     }
 }
