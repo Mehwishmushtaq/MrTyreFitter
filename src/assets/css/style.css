@@ -1022,7 +1022,7 @@ footer {
 }
 
 
-.bannaer-logo{
+.hover-logo{
     display: none;
 }
 
@@ -1049,7 +1049,7 @@ footer {
     }
 
     .ts-logo-footer img{
-        width: 45%;
+        width: 45% !important;
     }
 
     .cards-image img{
@@ -1060,7 +1060,12 @@ footer {
         background-size: contain !important;
         margin-top: 6% !important;
     }
-    
+    .hover-logo{
+        display: block;
+        width: 18%;
+        position: absolute;
+        left: 10px;
+    }
 }
 
 .para-width {
@@ -1136,7 +1141,7 @@ footer {
         margin-top: 8px;
     }
     .hero__section {
-        margin-top: 84px !important;
+        margin-top: 55px !important;
     }
     .hero-form {
         margin-top: 60px;
@@ -1181,6 +1186,10 @@ footer {
     .headerStyle{
         margin-top: -1% !important;
         margin-bottom: -45px;
+    }
+
+    .hero__section {
+        margin-top: 55px !important;
     }
 }
 

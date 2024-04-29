@@ -1,5 +1,6 @@
 import React from 'react'
 import { Container,Row, Col } from 'react-bootstrap';
+import logo from '../assets/images/logo2.png';
 
 const Newsletter = () => {
   return (
@@ -27,6 +28,9 @@ const Newsletter = () => {
                 </div>
             </Col>
         </Row>
+        <div className="hover-logo">
+            <img src={logo} alt="logo" className="img-fluid"/>
+        </div>
     </Container>
     </section>  
     </>
