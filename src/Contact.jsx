@@ -48,9 +48,6 @@ function ContactPage() {
           | Contact
         </h5>
       </header>
-        <div className="small-logo">
-          <img src={logo} alt="logo" className='bannaer-logo' />
-        </div>
 
       <div className="mt-4">
         <Row className="text-center justify-content-center">

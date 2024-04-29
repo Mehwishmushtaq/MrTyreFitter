@@ -10,7 +10,7 @@ const Newsletter = () => {
             <Col sm={12}>
                 <div className="content">
                     <form>
-                        <h2 className="text-center newsletter-size">Subscribe To Our News Letter</h2>
+                        <h2 className="text-center newsletter-size text-white">Subscribe To Our News Letter</h2>
                         <Container>
                             <Row>
                                 <Col sm={12} md={9}>

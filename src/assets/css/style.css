@@ -1,5 +1,5 @@
 :root {
-    --bs-success: #18bd9d;
+    --bs-success: #30a18b;
 }
 
 h1 {
@@ -7,7 +7,7 @@ h1 {
 }
 
 h2 {
-    font-size: 1.6em !important;
+    font-size: 1.5em !important;
     text-transform: capitalize;
 }
 
@@ -792,7 +792,7 @@ footer {
     text-align: center;
     padding-top: 8rem;
     padding-bottom: 8rem;
-    height: 70vh;
+    height: 75vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1057,15 +1057,10 @@ footer {
     }
 
     .headerStyle, .bannerStyle, .mtf, .mtr, .tr, .ft, .mb, .bt, .pwt, .js, .lwr{
-        /* height: 48vh!important; */
-        background-size: cover !important;
+        background-size: contain !important;
+        margin-top: 6% !important;
     }
-    .bannaer-logo{
-        display: block;
-        position: absolute;
-        width: 10%;
-        bottom: 40%;
-    }
+    
 }
 
 .para-width {
@@ -1100,8 +1095,9 @@ footer {
     }
 
     .headerStyle, .bannerStyle, .mtf, .mtr, .tr, .ft, .mb, .bt, .pwt, .js, .lwr{
-        /* height: 48vh!important; */
-        background-size: contain;
+        background-size: cover;
+        height: 48vh;
+        margin-top: 55px;
     }
 }
 
@@ -1112,9 +1108,9 @@ footer {
 }
 
 .ts-logo img {
-    width: 16%;
+    width: 30%;
     height: auto;
-    margin-top: 15px;
+    margin-top: 25px;
 }
 
 .ts-logo-footer img{
@@ -1127,7 +1123,7 @@ footer {
         justify-content: space-evenly;
     }
     .ts-logo-mobile img {
-        width: 15%;
+        width: 25%;
         height: auto;
         margin-top: 0;
     }
@@ -1135,9 +1131,9 @@ footer {
 
 @media (max-width: 425px) {
     .ts-logo-mobile img {
-        width: 25%;
+        width: 35%;
         height: auto;
-        margin-top: 0;
+        margin-top: 8px;
     }
     .hero__section {
         margin-top: 84px !important;
@@ -1153,6 +1149,25 @@ footer {
     .bannaer-logo{
         width: 15% !important;
     }
+
+    .headerStyle{
+        margin-top: 10px !important;
+        margin-bottom: -30px;
+    }
+}
+
+@media(max-width:414px){
+    .headerStyle{
+        margin-top: 2% !important;
+        margin-bottom: -30px;
+    }
+}
+
+@media(max-width:390px){
+    .headerStyle{
+        margin-top: -4% !important;
+        margin-bottom: -45px;
+    }
 }
 
 @media (max-width: 360px) {
@@ -1162,9 +1177,14 @@ footer {
     .hero-form {
         margin-top: 60px;
     }
+
+    .headerStyle{
+        margin-top: -1% !important;
+        margin-bottom: -45px;
+    }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 330px) {
     .hero__section {
         margin-top: 120px !important;
     }
@@ -1174,6 +1194,10 @@ footer {
     .parent-container img{
         width: 100%;
         height: 38vh;
+    }
+    .headerStyle{
+        margin-top: -2% !important;
+        margin-bottom: -45px;
     }
 }
 
@@ -1207,15 +1231,13 @@ footer {
     }
 }
 
-@media(max-width: 525px){
-    .img-fix{
-        width: 80%;
-    }
-}
-
-@media(max-width: 525px){
+@media(max-width: 658px){
     .img-fix{
         width: 100%;
+    }
+
+    .headerStyle{
+        height: 45vh;
     }
 }
 
@@ -1227,10 +1249,6 @@ footer {
 @media (max-width: 1024px){
     .top-header-icons > small{
         font-size: 11px;
-    }
-
-    .headerStyle{
-        height: 60vh;
     }
 
     .bannerStyle, .mtf, .mtr, .tr, .ft, .mb, .bt, .pwt, .js, .lwr{

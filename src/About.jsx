@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 import Newsletter from './components/Newsletter';
 import About1 from './assets/images/about1.png'
 import About2 from './assets/images/about2.png'
-import BG from './assets/images/about-bg.png'
+import BG from './assets/images/banners/bg.png';
 import logo from './assets/images/logo2.png';
 
 function About() {
@@ -18,9 +18,6 @@ function About() {
         <h1>About Us</h1>
         <h5><Link to="/" className="linkStyle"><i class="fa-solid fa-house"></i> Home </Link> | About</h5>
       </header>
-        <div className="small-logo">
-          <img src={logo} alt="logo" className='bannaer-logo' />
-        </div>
       <div className="small-logo">
         <img src={logo} alt="logo" className='bannaer-logo' />
       </div>
@@ -37,7 +34,7 @@ function About() {
      </div>
 
       <Container className="py-5">
-        <Row style={{ marginTop: '4rem' }}>
+        <Row style={{ marginTop: '2.5rem' }}>
           <Col lg={6}>
             <h2 className='text-success'>We are your vehicle caretaker</h2>
             <p>We are available 24/7 to serve you beyond your expectations. Our experts serve you at your designated location to save you from the physical stress of taking the car to the garage. They immediately reach the spot, control the situation, reduce your stress and solve the problem quickly. They serve you at home to keep you stress-free, fix tyre problems at the office to save your work schedule from disruption, and save you on the roadside. Our experts save you time, energy and money by providing excellent services at your desired location.</p>
@@ -50,7 +47,7 @@ function About() {
         
         {/* <Cards/> */}
 
-        <Row style={{ marginTop: '4rem' }}>
+        <Row style={{ marginTop: '2.5rem' }}>
           <Col lg={6} className='order-2'>
             <h2 className='text-success'>Our commitment to serve you regardless of time and space </h2>
             <p>We aim to be a part of your journey and provide impeccable service that ensures your journey is smooth and easy. Our professionals are ready to handle any tyre-related problem, from flat to burst tyres; they tackle all issues efficiently. They are always prepared to help you no matter the time. They reach the spot even in the middle of the night and in bad weather. They always come with a complete tool kit and essential tyre accessories. They provide a service that helps you resume your journey to your destination and make it more convenient.</p>
