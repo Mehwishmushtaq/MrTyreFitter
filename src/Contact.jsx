@@ -73,7 +73,7 @@ function ContactPage() {
       <Container className="py-5">
         <Row>
           <Col lg={6}>
-            <h1>Contact Us</h1>
+            <h2 className='text-success'>Contact Us</h2>
             <p>
               Call us today to solve your tyre problems. Fill out the form
               below:
@@ -104,13 +104,15 @@ function ContactPage() {
                   placeholder="Enter your message"
                 />
               </Form.Group>
-              <Button
-                variant="primary"
-                type="submit"
-                className="mt-3 btn btn-success"
-              >
-                Submit
-              </Button>
+              <div className="d-flex justify-content-center align-items-center">
+                <Button
+                  variant="primary"
+                  type="submit"
+                  className="mt-3 btn btn-success"
+                >
+                  Submit
+                </Button>
+              </div>
             </Form>
           </Col>
           <Col

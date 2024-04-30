@@ -41,7 +41,7 @@ const Banner = () => {
           {/* 2 */}
           <div className="col-lg-6 mt-3">
             <div>
-              <img src={'images/map.png'} alt="map" className="img-fluid" />
+              <img src={'images/map.png'} alt="map" className="img-fluid map-image" />
               {/* Numbers */}
               <div className="pc-bannerNumbers">
                 {/* 1 */}

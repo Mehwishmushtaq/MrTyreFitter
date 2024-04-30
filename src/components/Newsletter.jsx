@@ -1,5 +1,6 @@
 import React from 'react'
 import { Container,Row, Col } from 'react-bootstrap';
+import logo from '../assets/images/logo2.png';
 
 const Newsletter = () => {
   return (
@@ -10,7 +11,7 @@ const Newsletter = () => {
             <Col sm={12}>
                 <div className="content">
                     <form>
-                        <h2 className="text-center">Subscribe To Our News Letter</h2>
+                        <h2 className="text-center newsletter-size text-white">Subscribe To Our News Letter</h2>
                         <Container>
                             <Row>
                                 <Col sm={12} md={9}>
@@ -18,7 +19,7 @@ const Newsletter = () => {
                                 </Col>
                                 <Col sm={12} md={3}>
                                 <div className="text-center">
-                                    <button className="btn btn-primary" type="submit">Subscribe Now</button>
+                                    <button className="btn btn-success rounded" type="submit">Subscribe Now</button>
                                 </div>
                                 </Col>
                             </Row>
@@ -27,6 +28,9 @@ const Newsletter = () => {
                 </div>
             </Col>
         </Row>
+        <div className="hover-logo">
+            <img src={logo} alt="logo" className="img-fluid"/>
+        </div>
     </Container>
     </section>  
     </>
