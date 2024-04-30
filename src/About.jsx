@@ -18,8 +18,8 @@ function About() {
         <h1>About Us</h1>
         <h5><Link to="/" className="linkStyle"><i class="fa-solid fa-house"></i> Home </Link> | About</h5>
       </header>
-      <div className="small-logo">
-        <img src={logo} alt="logo" className='bannaer-logo' />
+      <div className="hover-logo">
+          <img src={logo} alt="logo" className="img-fluid"/>
       </div>
       {/* Main Content */}
       <div className='mt-4'>
