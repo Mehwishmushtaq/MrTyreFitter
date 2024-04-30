@@ -7,7 +7,6 @@ import Newsletter from './components/Newsletter';
 import About1 from './assets/images/about1.png'
 import About2 from './assets/images/about2.png'
 import BG from './assets/images/banners/bg.png';
-import logo from './assets/images/logo2.png';
 
 function About() {
 
@@ -18,9 +17,6 @@ function About() {
         <h1>About Us</h1>
         <h5><Link to="/" className="linkStyle"><i class="fa-solid fa-house"></i> Home </Link> | About</h5>
       </header>
-      <div className="hover-logo">
-          <img src={logo} alt="logo" className="img-fluid"/>
-      </div>
       {/* Main Content */}
       <div className='mt-4'>
         <Row className="text-center justify-content-center">
