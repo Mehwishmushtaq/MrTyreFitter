@@ -39,10 +39,6 @@ const ServicePage = ({pageTitle, ...otherProps}) => {
         <h1>{pageTitle}</h1>
         <h5><Link to="/" className="linkStyle"><i class="fa-solid fa-house"></i> Home </Link> | {pageTitle}</h5>
     </header>
-
-    <div className="small-logo">
-        <img src={logo} alt="logo" className='bannaer-logo' />
-    </div>
     
     <div className='mt-4'>
             <div className="row text-center justify-content-center">
