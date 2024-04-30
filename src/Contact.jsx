@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 import ContactUsBar from "./components/ContactUsBar";
 import BG from "./assets/images/contact-bg.png";
 import Contact1 from "./assets/images/contact1.png";
-import logo from './assets/images/logo2.png';
 
 function ContactPage() {
   const [data, setData] = useState({});
@@ -74,7 +73,7 @@ function ContactPage() {
       <Container className="py-5">
         <Row>
           <Col lg={6}>
-            <h2 className='text-success'>Contact Us</h2>
+            <h1>Contact Us</h1>
             <p>
               Call us today to solve your tyre problems. Fill out the form
               below:
@@ -105,15 +104,13 @@ function ContactPage() {
                   placeholder="Enter your message"
                 />
               </Form.Group>
-              <div className="d-flex justify-content-center align-items-center">
-                <Button
-                  variant="primary"
-                  type="submit"
-                  className="mt-3 btn btn-success"
-                >
-                  Submit
-                </Button>
-              </div>
+              <Button
+                variant="primary"
+                type="submit"
+                className="mt-3 btn btn-success"
+              >
+                Submit
+              </Button>
             </Form>
           </Col>
           <Col

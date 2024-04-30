@@ -1,5 +1,5 @@
 :root {
-    --bs-success: #30a18b;
+    --bs-success: #18bd9d;
 }
 
 h1 {
@@ -7,7 +7,7 @@ h1 {
 }
 
 h2 {
-    font-size: 1.5em !important;
+    font-size: 1.6em !important;
     text-transform: capitalize;
 }
 
@@ -76,30 +76,6 @@ p {
     }
     p {
         font-size: .8em !important
-    }
-}
-
-@media (max-width:425px) {
-    h1 {
-        font-size: 1.6em !important;
-    }
-    h2 {
-        font-size: 1.28em !important;
-    }
-    h3 {
-        font-size: 1.024em !important;
-    }
-    h4 {
-        font-size: 0.8192em !important;
-    }
-    h5 {
-        font-size: 0.6554em !important;
-    }
-    h6 {
-        font-size: 0.5243em !important;
-    }
-    p {
-        font-size: 0.8192em !important;
     }
 }
 
@@ -445,20 +421,13 @@ body {
 }
 
 .newsletter{
-    /* width: 100vw; */
-    height: 280px;
     background-image: url('../images/banners/Subscribe To Our News Letter.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    height: 350px;
 }
 
-@media (max-width: 1024px){
-    .newsletter{
-        height: 230px;
-        /* margin-bottom: -30px; */
-    }
-}
 .pc-home-banner-icon i {
     color: #fff;
     font-size: 40px;
@@ -687,17 +656,13 @@ footer {
     align-items: center;
 }
 
-.overlay h4,
+.overlay h5,
 .overlay p {
     color: white;
 }
 
 .parent-container:hover .overlay {
     opacity: 1;
-}
-
-.parent-container img{
-    height: 54vh;
 }
 
 .img-wrapper img {
@@ -715,10 +680,6 @@ footer {
         display: block;
         margin-right: 0;
         flex: 0 0 calc(100% / 3);
-    }
-
-    .parent-container img{
-        height: 40vh;
     }
 }
 
@@ -792,11 +753,7 @@ footer {
     text-align: center;
     padding-top: 8rem;
     padding-bottom: 8rem;
-    height: 75vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    height: 70vh;
 }
 
 .bannerStyle, .mtf, .mtr, .tr, .ft, .mb, .bt, .pwt, .js, .lwr {
@@ -808,11 +765,7 @@ footer {
     text-align: center;
     padding-top: 8rem;
     padding-bottom: 8rem;
-    height: 69vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    height: 70vh;
 }
 .mtf{background-image: url('../images/banners/Mobile tyre fitting.png');}
 .mtr{background-image: url('../images/banners/tyre replacement.png');}
@@ -925,10 +878,11 @@ footer {
     border-radius: 10px;
 }
 
-
-.hero__section{
+.hero__section {
+    position: relative;
     background-image: url('../images/home/bg.png');
-    background-size: contain;
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
@@ -940,25 +894,15 @@ footer {
     width: 30%;
 }
 
-.cards-image img{
-    height: 40vh !important;
-}
-
 @media (max-width: 575px) {
     .first-section-margin {
         margin-top: -140px !important;
     }
-
 }
 
 @media (max-width: 1030px) {
     .hero-form {
-        width: 55%;
-        font-size: small;
-    }
-    .hero__section{
-        background-size: cover;
-        height: 100vh;
+        width: 50%;
     }
 }
 
@@ -968,7 +912,7 @@ footer {
 
 @media (max-width:768px) {
     .hero-form {
-        width: 65%;
+        width: 80%;
         margin-top: 30px;
     }
 
@@ -977,41 +921,11 @@ footer {
     }
 
     .pc-home-banner{
-        background-size: contain;
-        height: 56vh;
-    }
-
-    .map-image, .pc-bannerNumbers{
-        display: none;
-    }
-
-    .newsletter-size{
-        margin-bottom: 10px !important;
+        height: 125vh;
     }
 
     .newsletter{
-        height: 180px;
-    }
-
-    .navbar-toggler{
-        margin-left: 200px!important;
-    }
-
-}
-
-@media (max-width: 610px){
-    .navbar-toggler{
-        margin-left: 0!important;
-    }
-}
-
-@media (max-width:485px) {
-    .hero-form {
-        width: 90%;
-    }
-
-    .hero__section{
-        height: 125vh;
+        height: 210px;
     }
 }
 
@@ -1021,50 +935,14 @@ footer {
     }
 }
 
-
-.hover-logo{
-    display: none;
-}
-
 @media (max-width: 575px){
-    .newsletter-size{
-        font-size: 20px!important;
-    }
     .newsletter{
-        height: 230px;
-    }
-    .newsletter-form{
         width: 100%;
+        height: 350px;
     }
 
     .pc-home-banner{
-        background-size: cover;
-        height: 75vh;
-    }
-
-    .ts-logo-footer{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .ts-logo-footer img{
-        width: 45% !important;
-    }
-
-    .cards-image img{
-        height: 75vh;
-    }
-
-    .headerStyle, .bannerStyle, .mtf, .mtr, .tr, .ft, .mb, .bt, .pwt, .js, .lwr{
-        background-size: contain !important;
-        margin-top: 6% !important;
-    }
-    .hover-logo{
-        display: block;
-        width: 18%;
-        position: absolute;
-        left: 10px;
+        height: 105vh;
     }
 }
 
@@ -1098,12 +976,6 @@ footer {
     .about-row>div {
         border-radius: 10px;
     }
-
-    .headerStyle, .bannerStyle, .mtf, .mtr, .tr, .ft, .mb, .bt, .pwt, .js, .lwr{
-        background-size: cover;
-        height: 48vh;
-        margin-top: 55px;
-    }
 }
 
 .ts-logo {
@@ -1113,9 +985,9 @@ footer {
 }
 
 .ts-logo img {
-    width: 30%;
+    width: 16%;
     height: auto;
-    margin-top: 25px;
+    margin-top: 15px;
 }
 
 .ts-logo-footer img{
@@ -1128,7 +1000,7 @@ footer {
         justify-content: space-evenly;
     }
     .ts-logo-mobile img {
-        width: 25%;
+        width: 15%;
         height: auto;
         margin-top: 0;
     }
@@ -1136,42 +1008,15 @@ footer {
 
 @media (max-width: 425px) {
     .ts-logo-mobile img {
-        width: 35%;
+        width: 25%;
         height: auto;
-        margin-top: 8px;
+        margin-top: 0;
     }
     .hero__section {
-        margin-top: 55px !important;
+        margin-top: 84px !important;
     }
     .hero-form {
         margin-top: 60px;
-    }
-
-    .ts-logo-footer img{
-        width: 36%;
-    }
-
-    .bannaer-logo{
-        width: 15% !important;
-    }
-
-    .headerStyle{
-        margin-top: 10px !important;
-        margin-bottom: -30px;
-    }
-}
-
-@media(max-width:414px){
-    .headerStyle{
-        margin-top: 2% !important;
-        margin-bottom: -30px;
-    }
-}
-
-@media(max-width:390px){
-    .headerStyle{
-        margin-top: -4% !important;
-        margin-bottom: -45px;
     }
 }
 
@@ -1182,31 +1027,14 @@ footer {
     .hero-form {
         margin-top: 60px;
     }
-
-    .headerStyle{
-        margin-top: -1% !important;
-        margin-bottom: -45px;
-    }
-
-    .hero__section {
-        margin-top: 55px !important;
-    }
 }
 
-@media (max-width: 330px) {
+@media (max-width: 320px) {
     .hero__section {
         margin-top: 120px !important;
     }
     .hero-form {
         margin-top: 60px;
-    }
-    .parent-container img{
-        width: 100%;
-        height: 38vh;
-    }
-    .headerStyle{
-        margin-top: -2% !important;
-        margin-bottom: -45px;
     }
 }
 
@@ -1240,27 +1068,14 @@ footer {
     }
 }
 
-@media(max-width: 658px){
+@media(max-width: 525px){
+    .img-fix{
+        width: 80%;
+    }
+}
+
+@media(max-width: 525px){
     .img-fix{
         width: 100%;
-    }
-
-    .headerStyle{
-        height: 45vh;
-    }
-}
-
-/* top header */
-.top-header-icons > small{
-    margin-left: 8px;
-}
-
-@media (max-width: 1024px){
-    .top-header-icons > small{
-        font-size: 11px;
-    }
-
-    .bannerStyle, .mtf, .mtr, .tr, .ft, .mb, .bt, .pwt, .js, .lwr{
-        height: 60vh;
     }
 }

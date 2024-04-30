@@ -9,7 +9,6 @@ import {
   MDBTextArea,
 } from "mdb-react-ui-kit";
 import { Link } from "react-router-dom";
-import logo from './assets/images/logo2.png';
 
 export default function WithContactForm() {
   return (
@@ -20,19 +19,14 @@ export default function WithContactForm() {
         <h1>Faq Page</h1>
         <h5><Link to="/" className="linkStyle"><i class="fa-solid fa-house"></i> Home </Link> | Faq</h5>
       </header>
-
-      <div className="small-logo">
-        <img src={logo} alt="logo" className='bannaer-logo' />
-      </div>
-
       <MDBContainer style={{ maxWidth: '1000px' }}>
-        <h3 className='text-center mt-5' style={{ fontSize: '10rem' }}><strong className='text-success'>Frequently Asked Question</strong></h3>
+        <h3 className='text-center mt-5' style={{ fontSize: '10rem' }}><strong>Frequently Asked Question</strong></h3>
         <section className="mt-5">
           <MDBRow>
             <MDBCol lg="6" md="12" className="mb-4">
               <div>
                 <p className="mb-1">
-                  <strong className='text-success'>How often do I need car tyre maintenance?</strong>
+                  <strong>How often do I need car tyre maintenance?</strong>
                 </p>
                 <p className="mb-1">
                   <p>You need to check the health of your tyres once a month.</p>
@@ -46,7 +40,7 @@ export default function WithContactForm() {
 
               <div>
                 <p className="mb-1">
-                  <strong className='text-success'>Do you offer mobile tyre fitting at my home?</strong>
+                  <strong>Do you offer mobile tyre fitting at my home?</strong>
                 </p>
                 <p className="mb-1">
                   <p>Yes, we provide mobile tyre fitting service at your home. Our professionals arrive at your location with a complete toolkit.
@@ -56,7 +50,7 @@ export default function WithContactForm() {
 
               <div>
                 <p className="mb-1">
-                  <strong className='text-success'>
+                  <strong>
                     Can you recommend the best tyres for my vehicle?
                   </strong>
                 </p>
@@ -68,7 +62,7 @@ export default function WithContactForm() {
 
               <div>
                 <p className="mb-1">
-                  <strong className='text-success'>How long does it take you to replace a tyre?</strong>
+                  <strong>How long does it take you to replace a tyre?</strong>
                 </p>
                 <p className="mb-1">
                   <p>Our professionals are good at service; it takes 30 minutes to change your old tyre to a new one.</p>
@@ -77,7 +71,7 @@ export default function WithContactForm() {
 
               <div>
                 <p className="mb-1">
-                  <strong className='text-success'>How do I protect my tyres from damage?</strong>
+                  <strong>How do I protect my tyres from damage?</strong>
                 </p>
                 <p className="mb-1">
                   <p>Regular maintenance, maintaining tyre pressure and avoiding bad driving habits can protect your tyres from damage.
@@ -88,7 +82,7 @@ export default function WithContactForm() {
             </MDBCol>
             <MDBCol lg="6" md="12" className="text-center mb-3">
               <p>
-                <span class="fw-bold" className='text-success'>
+                <span class="fw-bold">
                   Still have any questions? Contact us to get your answer!
                 </span>
               </p>
