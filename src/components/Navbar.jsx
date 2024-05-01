@@ -55,7 +55,7 @@ function Navbar() {
       </Helmet>
       <Topheader/>
 
-        <div className="container-fluid main-nav-bar p-0 mx-auto">
+        <div className="container-fluid main-nav-bar p-0 mx-auto mobile-navbar">
           <nav className="navbar navbar-expand-lg navbar-light bg-dark px-4 px-lg-5 py-2 py-lg-0">
             <section className='ts-logo-container'>
               <Link to="/" className="p-0 m-0">
@@ -110,7 +110,7 @@ function Navbar() {
               marginTop: `${navMarginTop}px`
             }}
           >
-          <div className="container">
+          <div className="container desktop-navbar">
             <div className="d-flex justify-content-between w-100">
               <div className="d-flex align-items-center">
                 <div className="collapse navbar-collapse" id="navbarCollapse">

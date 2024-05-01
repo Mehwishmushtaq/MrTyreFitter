@@ -818,14 +818,14 @@ footer {
     align-items: center;
 }
 .mtf{background-image: url('../images/banners/Mobile tyre fitting.png');}
-.mtr{background-image: url('../images/banners/tyre replacement.png');}
-.tr{background-image: url('../images/banners/Tyre repair.png');}
+.mtr{background-image: url('../images/banners/Tyre repair.png');}
+.tr{background-image: url('../images/banners/tyre replacement.png');}
 .ft{background-image: url('../images/banners/Flat tyre.png');}
-.mb{background-image: url('../images/banners/Breakdown recovery .png');}
-.bt{background-image: url('../images/banners/Breakdown recovery .png');}
+.mb{background-image: url('../images/banners/Breakdown recovery.png');}
+.bt{background-image: url('../images/banners/bursttyre.png');}
 .pwt{background-image: url('../images/banners/Part worn tyres.png');}
 .js{background-image: url('../images/banners/Jumpstart (2).png');}
-.lwr{background-image: url('../images/banners/Locking wheel nuts removal .png');}
+.lwr{background-image: url('../images/banners/lockingwheel.png');}
 @media (max-width: 991px) {
     .headerStyle,
     .bannerStyle, .mtf, .mtr, .tr, .ft, .mb, .bt, .pwt, .js, .lwr {
@@ -1214,6 +1214,15 @@ footer {
     .hero__section {
         margin-top: 55px !important;
     }
+
+    .hover-logo{
+        display: block;
+        width: 18%;
+        position: absolute;
+        left: 10px;
+        margin-top: -10px;
+    }
+
 }
 
 @media (max-width: 330px) {
@@ -1230,6 +1239,10 @@ footer {
     .headerStyle{
         margin-top: -2% !important;
         margin-bottom: -45px;
+    }
+
+    .bannerStyle, .mtf, .mtr, .tr, .ft, .mb, .bt, .pwt, .js, .lwr{
+        margin-top: -45px;
     }
 }
 
@@ -1251,9 +1264,21 @@ footer {
     width: 75%;
 }
 
+.mobile-navbar{
+    display: none;
+}
+
+.desktop-navbar{
+    display: block;
+}
+
 @media(max-width: 991px){
-    .img-fix{
-        width: 50%;
+    .desktop-navbar{
+        display: none;
+    }
+
+    .mobile-navbar{
+        display: block;
     }
 }
 

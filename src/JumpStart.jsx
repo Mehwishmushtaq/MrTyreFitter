@@ -8,7 +8,7 @@ const JumpStart = () => {
         // Images
         mergedHeaderStyle="js"
         imgOne="/images/jumpstart/Expeditious jumpstart car service.png"
-        imgTwo="/images/jumpstart/24-7 available to handle emergencies.png"
+        imgTwo="/images/jumpstart/emergencies.png"
         imgThree="/images/jumpstart/Prioritise your safety.png"
         imgFour="/images/jumpstart/Serve you at your designated location.png"
         imgFive="/images/jumpstart/Jumpstart service at your desired location.png"
