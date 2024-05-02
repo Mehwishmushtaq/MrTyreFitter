@@ -8,7 +8,7 @@ const FlatTyre = () => {
         // Images
         mergedHeaderStyle="ft"
         imgOne="/images/flattyre/24-7 Flat tyre call out service.png"
-        imgTwo="/images/flattyre/Rescue your tyre with a Flat tyre service.png"
+        imgTwo="/images/flattyre/247 service.png"
         imgThree="/images/flattyre/Manage the emergencies.png"
         imgFour="/images/flattyre/Rescue your tyre with a Flat tyre service.png"
         imgFive="/images/flattyre/Rescue your travel with Flat tyre repair near me.png"

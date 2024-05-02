@@ -8,14 +8,9 @@ const BurstTyre = () => {
         // Images
         mergedHeaderStyle="bt"
         imgOne="/images/bursttyre/Immediately resolve your tyre burst issue.png"
-        // imgTwo="/images/bursttyre/Amazing services.png"
-        // imgThree="/images/bursttyre/24-7available.png"
-        // imgFour="/images/bursttyre/Serve you Anywhere, anytime.png"
-        // Images are in use for resize purpose
-        imgTwo="/images/tr2(1).png"
-        imgThree="/images/tr2(2).png"
-        imgFour="/images/tr2(3).png"
-        imgFive="/images/bursttyre/Ensure your travel with  burst tyre service.png"
+        imgTwo="/images/bursttyre/Amazing services.png"
+        imgThree="/images/bursttyre/24-7available.png"
+        imgFour="/images/bursttyre/Serve you Anywhere, anytime.png"
         // Text
         pageTitle="Burst Tyre"
         headingOne="24/7 Emergency burst tyre service "
