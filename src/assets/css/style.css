@@ -77,6 +77,10 @@ p {
     p {
         font-size: .8em !important
     }
+
+    .hero-form{
+        display: none;
+    }
 }
 
 @media (max-width:425px) {
@@ -721,7 +725,7 @@ footer {
     } */
 
     .overlay{
-        font-size: 10px;
+        font-size: 12px;
     }
 }
 
@@ -941,6 +945,7 @@ footer {
 
 .hero-form {
     width: 30%;
+    border-radius: 10px;
 }
 
 .cards-image img{
@@ -951,7 +956,25 @@ footer {
     .first-section-margin {
         margin-top: -140px !important;
     }
+    .parent-container{
+        text-align: center;
+    }
 
+    .overlay{
+        width: 90%;
+        position: absolute;
+        top: 0;
+        left: 5%;
+    }
+}
+
+@media(max-width:477px){
+    .overlay{
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
 }
 
 @media (max-width: 1030px) {
