@@ -81,6 +81,7 @@ p {
     .hero-form{
         display: none;
     }
+
 }
 
 @media (max-width:425px) {
@@ -767,8 +768,13 @@ footer {
 
 @media (max-width: 575px) {
     .hero__section {
-        margin-bottom: 230px;
-        padding: 5px !important;
+        background-size: contain !important;
+        margin-bottom: -16rem;
+    }
+
+    .img-fluid{
+        width: 80% !important;
+        height: 40vh;
     }
     .mobile-margin{
         margin-top: -8rem !important;
@@ -935,17 +941,18 @@ footer {
 
 .hero__section{
     background-image: url('../images/home/bg.png');
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     padding: 20px;
 }
 
 .hero-form {
     width: 30%;
     border-radius: 10px;
+}
+
+.top-header-icons small{
+    font-size: 12px;
 }
 
 .cards-image img{
@@ -974,6 +981,16 @@ footer {
         position: absolute;
         top: 0;
         left: 0;
+    }
+
+    .hero__section {
+        background-size: contain !important;
+        margin-bottom: -30rem;
+    }
+
+    .img-fluid{
+        width: 100% !important;
+        height: 40vh;
     }
 }
 
@@ -1234,6 +1251,10 @@ footer {
         margin-bottom: -45px;
     }
 
+    .img-fluid{
+        height: 30vh !important;
+    }
+
     .hero__section {
         margin-top: 55px !important;
     }
@@ -1250,7 +1271,12 @@ footer {
 
 @media (max-width: 330px) {
     .hero__section {
-        margin-top: 120px !important;
+        margin-top: 55px !important;
+        margin-bottom: -32rem;
+    }
+
+    .img-fluid{
+        height: 28vh !important;
     }
     .hero-form {
         margin-top: 60px;
