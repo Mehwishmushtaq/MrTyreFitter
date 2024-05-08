@@ -1226,6 +1226,17 @@ footer {
     }
 }
 
+@media (max-width: 429px){
+    .hero__section {
+        margin-top: 55px !important;
+        margin-bottom: -45rem !important;
+    }
+
+    .img-fluid{
+        height: 28vh !important;
+    }
+}
+
 @media (max-width: 391px){
     .hero__section {
         margin-top: 55px !important;
