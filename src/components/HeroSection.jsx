@@ -9,7 +9,7 @@ function HeroSection() {
   return (
     <div className="hero__section">
 
-      <Container className="hero-form bg-white p-4">
+<Container className="hero-form bg-white p-4">
         <h4 className='text-center'><b>Tyre Search</b></h4>
         <Row className='mt-4'>
           <Col sm={4}>
@@ -39,7 +39,7 @@ function HeroSection() {
             </Form.Select>
           </Col>
         </Row>
-        <div className='d-flex justify-content-center mt-5'>
+        <div className='d-flex justify-content-center mt-5 hero-form-img'>
           <img src={img1} alt="tyre" />
         </div>
         

@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import logo from '../assets/images/logo2.png';
 
 const Banner = () => {
   return (
@@ -73,6 +74,9 @@ const Banner = () => {
           {/* End */}
         </div>
       </div>
+        <div className="hover-logo">
+            <img src={logo} alt="logo"/>
+        </div>
     </section> 
     </>
   )

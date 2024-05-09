@@ -29,7 +29,7 @@ const Newsletter = () => {
             </Col>
         </Row>
         <div className="hover-logo">
-            <img src={logo} alt="logo" className="img-fluid"/>
+            <img src={logo} alt="logo"/>
         </div>
     </Container>
     </section>  
