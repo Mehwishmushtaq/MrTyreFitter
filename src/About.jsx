@@ -54,7 +54,7 @@ function About() {
           </Col>
         </Row>
 
-        <Row className="mt-5">
+        <Row className="mt-3">
           <Col lg={6}>
             <h2 className='text-success'>Why Choose Us?</h2>
             <ul>
