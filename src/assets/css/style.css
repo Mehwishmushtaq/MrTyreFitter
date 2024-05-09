@@ -78,10 +78,6 @@ p {
         font-size: .8em !important
     }
 
-    .hero-form{
-        display: none;
-    }
-
 }
 
 @media (max-width:425px) {
@@ -766,20 +762,6 @@ footer {
     align-items: center;
 }
 
-@media (max-width: 575px) {
-    .hero__section {
-        background-size: contain !important;
-        margin-bottom: -16rem;
-    }
-
-    .img-fluid{
-        width: 80% !important;
-        height: 40vh;
-    }
-    .mobile-margin{
-        margin-top: -8rem !important;
-    }
-}
 
 .clipped {
     clip-path: polygon(50% 0, 100% 0, 100% 100%, 0% 100%);
@@ -983,7 +965,7 @@ footer {
         left: 0;
     }
 
-    .hero__section {
+    /* .hero__section {
         background-size: contain !important;
         margin-bottom: -30rem;
     }
@@ -991,7 +973,7 @@ footer {
     .img-fluid{
         width: 100% !important;
         height: 40vh;
-    }
+    } */
 }
 
 @media (max-width: 1030px) {
@@ -1050,11 +1032,12 @@ footer {
 
 @media (max-width:485px) {
     .hero-form {
+        margin-top: 10px;
         width: 90%;
     }
 
     .hero__section{
-        height: 125vh;
+        height: 98vh;
     }
 }
 
@@ -1065,11 +1048,25 @@ footer {
 }
 
 
-.hover-logo{
+.hover-logo img{
     display: none;
 }
 
+
 @media (max-width: 575px){
+    .hero__section{
+        padding: 8px;
+    }
+    
+    .hero-form-img {
+        display: none !important;
+        margin-bottom: 55px;
+    }
+
+    .hero-form{
+        width: 90% !important;
+    }
+    
     .newsletter-size{
         font-size: 20px!important;
     }
@@ -1078,6 +1075,13 @@ footer {
     }
     .newsletter-form{
         width: 100%;
+    }
+    
+    .hover-logo img{
+        display: block;
+        position: absolute;
+        left: 10px;
+        width: 18% !important;
     }
 
     .pc-home-banner{
@@ -1108,12 +1112,6 @@ footer {
         margin-bottom: -30px;
     }
 
-    .hover-logo{
-        display: block;
-        width: 18%;
-        position: absolute;
-        left: 10px;
-    }
 }
 
 .para-width {
@@ -1187,6 +1185,19 @@ footer {
     }
 }
 
+@media(max-width: 429px){
+    .headerStyle, .bannerStyle, .mtf, .mtr, .tr, .ft, .mb, .bt, .pwt, .js, .lwr{
+        margin-top: -82px;
+        margin-bottom: -8rem;
+    }
+}
+
+@media(max-width: 428px){
+    .hero__section{
+        height: 71vh;
+    }
+}
+
 @media (max-width: 425px) {
     .ts-logo-mobile img {
         width: 35%;
@@ -1195,9 +1206,6 @@ footer {
     }
     .hero__section {
         margin-top: 55px !important;
-    }
-    .hero-form {
-        margin-top: 60px;
     }
 
     .ts-logo-footer img{
@@ -1217,6 +1225,15 @@ footer {
         margin-top: -28px;
         margin-bottom: -70px;
     }
+
+    .hero-form {
+        margin-top: 10px;
+        width: 95% !important;
+    }
+
+    .hero__section{
+        height: 95vh;
+    }
 }
 
 @media(max-width:414px){
@@ -1226,25 +1243,18 @@ footer {
     }
 }
 
-@media (max-width: 429px){
+@media(max-width: 391px){
     .hero__section {
-        margin-top: 55px !important;
-        margin-bottom: -45rem !important;
+        height: 73vh !important;
     }
 
-    .img-fluid{
-        height: 28vh !important;
-    }
-}
-
-@media (max-width: 391px){
-    .hero__section {
-        margin-top: 55px !important;
-        margin-bottom: -40rem !important;
+    .pc-home-banner{
+        height: 62vh !important;
     }
 
-    .img-fluid{
-        height: 28vh !important;
+    .headerStyle, .bannerStyle, .mtf, .mtr, .tr, .ft, .mb, .bt, .pwt, .js, .lwr{
+        margin-top: -64px;
+        margin-bottom: -8rem;
     }
 }
 
@@ -1258,14 +1268,23 @@ footer {
         margin-top: -44px;
         margin-bottom: -100px;
     }
+
+    .hover-logo img{
+        display: block;
+        position: absolute;
+        left: 5px;
+        margin-top: -18px !important;
+        width: 20% !important;
+    }
 }
 
 @media (max-width: 360px) {
     .hero__section {
         margin-top: 75px !important;
+        height: 90vh;
     }
     .hero-form {
-        margin-top: 60px;
+        margin-top: 10px;
     }
 
     .headerStyle{
@@ -1273,36 +1292,13 @@ footer {
         margin-bottom: -45px;
     }
 
-    .img-fluid{
-        height: 30vh !important;
-    }
-
     .hero__section {
         margin-top: 55px !important;
-    }
-
-    .hover-logo{
-        display: block;
-        width: 18%;
-        position: absolute;
-        left: 10px;
-        margin-top: -10px;
     }
 
 }
 
 @media (max-width: 330px) {
-    .hero__section {
-        margin-top: 55px !important;
-        margin-bottom: -32rem;
-    }
-
-    .img-fluid{
-        height: 28vh !important;
-    }
-    .hero-form {
-        margin-top: 60px;
-    }
     .parent-container img{
         width: 100%;
         height: 38vh;
