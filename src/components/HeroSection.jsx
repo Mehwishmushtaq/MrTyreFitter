@@ -9,7 +9,13 @@ function HeroSection() {
   return (
     <div className="hero__section">
 
-<Container className="hero-form bg-white p-4">
+      <section className='row'>
+        <div className='col-md-12 col-lg-6 text-white'>
+          <h1>Pro Tyre FItters</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut magnam quis corporis omnis eligendi soluta. Quae cum perferendis aspernatur quos.</p>
+        </div>
+        <div className='col-md-12 col-lg-6'>
+        <Container className="hero-form-new bg-white p-4">
         <h4 className='text-center'><b>Tyre Search</b></h4>
         <Row className='mt-4'>
           <Col sm={4}>
@@ -57,6 +63,8 @@ function HeroSection() {
         
         <Button variant="success mt-3 px-4 w-100">Search for tyre</Button>
       </Container>
+        </div>
+      </section>
       
     </div>
 
