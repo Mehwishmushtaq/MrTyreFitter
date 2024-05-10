@@ -1,8 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import { Row, Col, Container } from 'react-bootstrap';
-import logo from './assets/images/logo2.png';
-import Newsletter from './components/Newsletter';
 import Button from 'react-bootstrap/Button';
 
 const ServicePage = ({pageTitle, ...otherProps}) => {
@@ -144,7 +142,6 @@ const ServicePage = ({pageTitle, ...otherProps}) => {
     <Container>
         <p>{ctaText}</p>
     </Container>
-    <Newsletter/>
     </>
   )
 }

@@ -1,9 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-// import Cards from './components/Cards';
-// import FormSelect from './components/FormSelect';
-import Newsletter from './components/Newsletter';
 import About1 from './assets/images/about1.png';
 import About2 from './assets/images/about2.png';
 import About3 from './assets/images/about3.png';
@@ -81,7 +78,6 @@ function About() {
 
         </Row>
       </Container>
-      <Newsletter/>
     </div>
   );
 }

@@ -5,7 +5,7 @@ const Banner = () => {
   return (
     <>
          {/* Banner */}
-    <section className="pc-home-banner p-3 my-3">
+    <section className="pc-home-banner p-3 mt-3">
       <div className="container mx-auto py-3">
         <div className="row">
           {/* 1 */}

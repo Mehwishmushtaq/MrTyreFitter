@@ -6,7 +6,6 @@ import Cards from './components/Cards';
 import Testimonial from './components/Testimonial';
 import Banner from './components/Banner';
 import HowSection from './components/HowSection';
-import Newsletter from './components/Newsletter';
 import CTA from './components/CTA';
 import imgOne from './assets/images/home/Experience our excellent mobile tyre fitting in London.png'
 import imgTwo from './assets/images/home/Simplify your journey with Mobile tyre fitting.png'
@@ -68,8 +67,6 @@ const Home = () => {
      </div>
      
      <section className='container'><Cards/></section>
-     
-     <Banner/>
 
      <section className='container'>
         <Row className='mt-5'>
@@ -88,7 +85,7 @@ const Home = () => {
       <CTA
       ctaText="Share your tyre-related issues with our experts. Our professionals reach your location no matter where you are, and when you need help, they help you at your home, workplace and roadside. Call us today to tackle your tyre problem and solve it with the best possible solution." 
       />
-      <Newsletter/>
+      <Banner/>
     </>
     
   )

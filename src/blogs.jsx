@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import { Link } from 'react-router-dom'; 
-import Newsletter from './components/Newsletter';
 
 const blogPosts = [
   {
@@ -112,7 +111,6 @@ function BlogPage() {
           </Row>
         ))}
       </Container>
-      <Newsletter/>
     </div>
   );
 }
