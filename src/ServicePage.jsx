@@ -86,6 +86,7 @@ const ServicePage = ({pageTitle, ...otherProps}) => {
                     <div className="overlay">
                         <h4>{scardOne}</h4>
                         <p>{scardparaOne}</p>
+                        <div className='d-flex justify-content-center'> <Link className="btn btn-success" to='/contact'><small>Contact Us</small></Link> </div>
                     </div>
                 </div>
             </div>
@@ -97,6 +98,7 @@ const ServicePage = ({pageTitle, ...otherProps}) => {
                     <div className="overlay">
                         <h4>{scardTwo}</h4>
                         <p>{scardparaTwo}</p>
+                        <div className='d-flex justify-content-center'> <Link className="btn btn-success" to='/contact'><small>Contact Us</small></Link> </div>
                     </div>
                 </div>
             </div>
@@ -108,6 +110,7 @@ const ServicePage = ({pageTitle, ...otherProps}) => {
                     <div className="overlay">
                         <h4>{scardThree}</h4>
                         <p>{scardparaThree}</p>
+                        <div className='d-flex justify-content-center'> <Link className="btn btn-success" to='/contact'><small>Contact Us</small></Link> </div>
                     </div>
                 </div>
             </div>
