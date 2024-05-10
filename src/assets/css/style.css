@@ -676,21 +676,19 @@ footer {
     top: 0;
     left: 0;
     height: 100%;
-    background-color: var(--bs-success);
+    background-color: #30a18ab7;
     padding: 20px;
     box-sizing: border-box;
     opacity: 0;
-    transition: opacity 0.8s ease-in-out;
+    transition: opacity 0.8s ease-in;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.overlay h4,
-.overlay p {
-    color: white;
-}
+.overlay h4{color: black;}
+.overlay p {color: white;}
 
 .parent-container:hover .overlay {
     opacity: 1;
