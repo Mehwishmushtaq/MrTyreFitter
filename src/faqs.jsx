@@ -20,11 +20,7 @@ export default function WithContactForm() {
         <h1>Faq Page</h1>
         <h5><Link to="/" className="linkStyle"><i class="fa-solid fa-house"></i> Home </Link> | Faq</h5>
       </header>
-
-      <div className="small-logo">
-        <img src={logo} alt="logo" className='bannaer-logo' />
-      </div>
-
+      
       <MDBContainer style={{ maxWidth: '1000px' }}>
         <h3 className='text-center mt-5' style={{ fontSize: '10rem' }}><strong className='text-success'>Frequently Asked Question</strong></h3>
         <section className="mt-5">

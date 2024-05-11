@@ -11,8 +11,8 @@ function HeroSection() {
 
       <section className='row'>
         <div className='col-md-12 col-lg-6 text-white'>
-          <h1>Pro Tyre FItters</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut magnam quis corporis omnis eligendi soluta. Quae cum perferendis aspernatur quos.</p>
+          <h1>Pro Tyre Fitters</h1>
+          <p>Welcome to ProTyreFitters - Your Premier Destination for Expert Tire Services. Quality, Precision, and Excellence Every Step of the Way!</p>
         </div>
         <div className='col-md-12 col-lg-6'>
         <Container className="hero-form-new bg-white p-4">
