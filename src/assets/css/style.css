@@ -232,18 +232,11 @@ body {
     background-color: var(--bs-success) !important;
 }
 
-.hero__section {
-    margin-top: 142px !important;
-}
-
 @media (max-width: 991px) {
     .main-nav-bar {
         position: fixed;
         top: 0;
         z-index: 999;
-    }
-    .hero__section {
-        margin-top: 50px !important;
     }
 }
 
@@ -711,52 +704,6 @@ footer {
     border-top-right-radius: 10px;
 }
 
-@media screen and (min-width: 768px) {
-    .carousel-inner {
-        display: flex;
-    }
-    .carousel-item {
-        display: block;
-        margin-right: 0;
-        flex: 0 0 calc(100% / 3);
-    }
-
-    /* .parent-container img{
-        height: 40vh;
-    } */
-
-    .overlay{
-        font-size: 12px;
-    }
-}
-
-.carousel-inner {
-    padding: 1em;
-}
-
-.card {
-    margin: 0 1.6em;
-    border-radius: 10px;
-    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
-    font-size: 0.9em;
-}
-
-.carousel-control-prev,
-.carousel-control-next {
-    width: 6vh;
-    height: 6vh;
-    background-color: #e1e1e1;
-    border-radius: 50%;
-    top: 50%;
-    transform: translateY(-50%);
-    opacity: 0.5;
-}
-
-.carousel-control-prev:hover,
-.carousel-control-next:hover {
-    opacity: 0.8;
-}
-
 .headline,
 .headline span,
 .headline h1 {
@@ -924,19 +871,6 @@ footer {
     border-radius: 10px;
 }
 
-
-.hero__section{
-    background-image: url('../images/home/bg.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding: 20px;
-}
-
-.hero-form {
-    width: 30%;
-    border-radius: 10px;
-}
-
 .top-header-icons small{
     font-size: 12px;
 }
@@ -968,26 +902,12 @@ footer {
         top: 0;
         left: 0;
     }
-
-    /* .hero__section {
-        background-size: contain !important;
-        margin-bottom: -30rem;
-    }
-
-    .img-fluid{
-        width: 100% !important;
-        height: 40vh;
-    } */
 }
 
 @media (max-width: 1030px) {
     .hero-form {
         width: 55%;
         font-size: small;
-    }
-    .hero__section{
-        background-size: cover;
-        height: 100vh;
     }
 }
 
@@ -1039,10 +959,6 @@ footer {
         margin-top: 10px;
         width: 90%;
     }
-
-    .hero__section{
-        height: 98vh;
-    }
 }
 
 @media (max-width:369px) {
@@ -1058,19 +974,6 @@ footer {
 
 
 @media (max-width: 575px){
-    .hero__section{
-        padding: 8px;
-    }
-    
-    .hero-form-img {
-        display: none !important;
-        margin-bottom: 55px;
-    }
-
-    .hero-form{
-        width: 90% !important;
-    }
-    
     .newsletter-size{
         font-size: 20px!important;
     }
@@ -1194,6 +1097,9 @@ footer {
     .hero-form-img{
         display: none !important;
     }
+    .overlay{
+        font-size: 12px;
+    }
 }
 
 @media(max-width: 429px){
@@ -1203,20 +1109,11 @@ footer {
     }
 }
 
-@media(max-width: 428px){
-    .hero__section{
-        height: 82vh;
-    }
-}
-
 @media (max-width: 425px) {
     .ts-logo-mobile img {
         width: 35%;
         height: auto;
         margin-top: 8px;
-    }
-    .hero__section {
-        margin-top: 55px !important;
     }
 
     .ts-logo-footer img{
@@ -1236,15 +1133,6 @@ footer {
         margin-top: -28px;
         margin-bottom: -70px;
     }
-
-    .hero-form {
-        margin-top: 10px;
-        width: 95% !important;
-    }
-
-    .hero__section{
-        height: 95vh;
-    }
 }
 
 @media(max-width:414px){
@@ -1255,10 +1143,6 @@ footer {
 }
 
 @media(max-width: 391px){
-    .hero__section {
-        height: 82vh !important;
-    }
-
     .pc-home-banner{
         height: 62vh !important;
     }
@@ -1290,23 +1174,10 @@ footer {
 }
 
 @media (max-width: 360px) {
-    .hero__section {
-        margin-top: 75px !important;
-        height: 90vh;
-    }
-    .hero-form {
-        margin-top: 10px;
-    }
-
     .headerStyle{
         margin-top: -1% !important;
         margin-bottom: -45px;
     }
-
-    .hero__section {
-        margin-top: 55px !important;
-    }
-
 }
 
 @media (max-width: 330px) {
@@ -1384,8 +1255,41 @@ footer {
         height: 60vh;
     }
 }
+/* New Hero Section Carousel */
+.home-carousel img{
+    height: 90vh;
+  }
 
-.hero-form-new{
-    width: 90%;
-    border-radius: 10px;
-}
+  .hero__section{
+    margin-top: 110px;
+  }
+
+  @media(max-width: 1024px){
+    .hero__section{
+        margin-top: 122px;
+    }
+  }
+
+  @media(max-width: 768px){
+    .hero__section{
+        margin-top: 0;
+    }
+    .home-carousel img{
+        height: 75vh;
+      }
+  }
+
+  @media(max-width: 575px){
+    .hero__section{
+        margin-top: 50px;
+    }
+    .home-carousel img{
+        height: 50vh;
+      }
+  }
+
+  @media(max-width: 429px){
+    .home-carousel img{
+        height: 35vh;
+      }
+  }

@@ -1,6 +1,6 @@
 
 import React from 'react';
-import Hero from './components/HeroSection';
+import CarouselPage from './components/CarouselPage';
 import { Container, Row, Col } from 'react-bootstrap';
 import Cards from './components/Cards';
 import Testimonial from './components/Testimonial';
@@ -16,8 +16,7 @@ const Home = () => {
     
   return (
     <>
-
-     <Hero/>
+    <CarouselPage/>
 
      <section className='container'>
         <Row className='mt-5 mobile-margin'>

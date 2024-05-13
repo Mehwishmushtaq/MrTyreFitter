@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import $ from 'jquery';
 import Button from 'react-bootstrap/Button';
 import { Link } from 'react-router-dom';
+import styles from './Cards.module.css';
 
 const Cards = () => {
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -46,18 +47,18 @@ const Cards = () => {
 
   return (
     <>
-      <div id="carouselExampleControls" className="carousel">
-        <div className="carousel-inner">
+      <div id="carouselExampleControls" className={`carousel ${styles.carousel}`}>
+        <div className={`carousel-inner ${styles['carousel-inner']}`}>
           {cardData.map((card, index) => (
-            <div key={index} className={`carousel-item ${index === 0 ? 'active' : ''}`}>
-              <div className="card">
-                <div className="img-wrapper cards-image">
+            <div key={index} className={`carousel-item ${index === 0 ? 'active' : ''} ${styles['carousel-item']}`}>
+              <div className={`card ${styles.card}`}>
+                <div className={`img-wrapper cards-image ${styles['img-wrapper']}`}>
                   <img src={card.image} alt="card"/>
                 </div>
                 
-                <div className="card-body">
-                  <h5 className="card-title">{card.title}</h5>
-                  <p className="card-text">{card.text}</p>
+                <div className={`card-body ${styles['card-body']}`}>
+                  <h5 className={`card-title ${styles['card-title']}`}>{card.title}</h5>
+                  <p className={`card-text ${styles['card-text']}`}>{card.text}</p>
                 
                   <Link to={card.path}>
                    <Button variant="success mt-3 px-4">Learn More</Button>
@@ -68,7 +69,7 @@ const Cards = () => {
           ))}
         </div>
         <button
-          className="carousel-control-prev bg-success"
+          className={`carousel-control-prev bg-success ${styles['carousel-control-prev']}`}
           type="button"
           data-bs-target="#carouselExampleControls"
           data-bs-slide="prev"
@@ -77,7 +78,7 @@ const Cards = () => {
           <span className="visually-hidden">Previous</span>
         </button>
         <button
-          className="carousel-control-next bg-success "
+          className={`carousel-control-next bg-success ${styles['carousel-control-next']}`}
           type="button"
           data-bs-target="#carouselExampleControls"
           data-bs-slide="next"
